@@ -1,0 +1,38 @@
+{
+    "fighterBrain": {
+        "checkpoints": [
+            {
+                "steps": 49937,
+                "file_path": "results\\ppo\\fighterBrain\\fighterBrain-49937.onnx",
+                "reward": -1.6030511879481566,
+                "creation_time": 1621847192.3371089,
+                "auxillary_file_paths": [
+                    "results\\ppo\\fighterBrain\\fighterBrain-49937.pt"
+                ]
+            },
+            {
+                "steps": 60856,
+                "file_path": "results\\ppo\\fighterBrain\\fighterBrain-60856.onnx",
+                "reward": -1.2926537722635727,
+                "creation_time": 1621847500.105917,
+                "auxillary_file_paths": [
+                    "results\\ppo\\fighterBrain\\fighterBrain-60856.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 60856,
+            "file_path": "results\\ppo\\fighterBrain.onnx",
+            "reward": -1.2926537722635727,
+            "creation_time": 1621847500.105917,
+            "auxillary_file_paths": [
+                "results\\ppo\\fighterBrain\\fighterBrain-60856.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1+cpu"
+    }
+}
