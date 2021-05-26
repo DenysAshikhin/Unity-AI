@@ -1,0 +1,43 @@
+Mono path[0] = 'C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Managed'
+Mono config path = 'C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   27.21.14.6627
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.772 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.813100 ms
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+failed to get 100ns ticks
+Loss: -1
+
+GRPC Exception: Status(StatusCode=Unknown, Detail="Stream removed"). Disconnecting from tSetting up 1 worker threads for Enlighten.
+  Thread -> id: bac -> priority: 1 
+iority: 1 

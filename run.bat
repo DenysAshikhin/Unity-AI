@@ -1,1 +1,1 @@
-mlagents-learn ml_agents\config\fighterSAC.yaml --run-id=sac1 --env=completed_build\Spacy.exe --num-env=2 --no-graphics --force
+mlagents-learn ml_agents\config\fighterSAC.yaml --run-id=buffer1 --env=completed_build\Spacy.exe --num-env=2 --time-scale=7.5
