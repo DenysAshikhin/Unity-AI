@@ -2,22 +2,22 @@
     "fighterBrain": {
         "checkpoints": [
             {
-                "steps": 1628,
-                "file_path": "results\\sac1\\fighterBrain\\fighterBrain-1628.onnx",
+                "steps": 9893,
+                "file_path": "results\\sac1\\fighterBrain\\fighterBrain-9893.onnx",
                 "reward": null,
-                "creation_time": 1621883283.8988566,
+                "creation_time": 1621900440.3118057,
                 "auxillary_file_paths": [
-                    "results\\sac1\\fighterBrain\\fighterBrain-1628.pt"
+                    "results\\sac1\\fighterBrain\\fighterBrain-9893.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 1628,
+            "steps": 9893,
             "file_path": "results\\sac1\\fighterBrain.onnx",
             "reward": null,
-            "creation_time": 1621883283.8988566,
+            "creation_time": 1621900440.3118057,
             "auxillary_file_paths": [
-                "results\\sac1\\fighterBrain\\fighterBrain-1628.pt"
+                "results\\sac1\\fighterBrain\\fighterBrain-9893.pt"
             ]
         }
     },

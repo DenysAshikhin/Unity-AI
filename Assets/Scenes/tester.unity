@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 493079306}
   - component: {fileID: 493079305}
   - component: {fileID: 493079307}
+  - component: {fileID: 493079308}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Ship
@@ -488,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BrainParameters:
     VectorObservationSize: 10
-    NumStackedVectorObservations: 32
+    NumStackedVectorObservations: 4
     VectorActionSize: 02000000020000000200000002000000020000000200000002000000
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
@@ -498,6 +499,22 @@ MonoBehaviour:
   m_BehaviorName: fighterBrain
   TeamId: 0
   m_UseChildSensors: 1
+--- !u!114 &493079308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493079299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b6042bc9a5d4aa58d931eae49442e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
