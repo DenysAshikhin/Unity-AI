@@ -9,14 +9,14 @@ NullGfxDevice:
     Renderer: Null Device
     Vendor:   Unity Technologies
 Begin MonoManager ReloadAssembly
-- Completed reload, in  3.647 seconds
+- Completed reload, in  0.484 seconds
 ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported.
 ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
 ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-UnloadTime: 1.245900 ms
+UnloadTime: 1.118600 ms
 Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
 Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
 Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
@@ -35,7 +35,15 @@ Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI
 Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
 Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
 Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
-VICTORY: 0.626
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.192
 
 Loss: -1
 
@@ -45,7 +53,11 @@ Loss: -1
 
 Loss: -1
 
-VICTORY: 0.496
+Loss: -1
+
+Loss: -1
+
+Loss: -1
 
 Loss: -1
 
@@ -53,11 +65,25 @@ Loss: -1
 
 Loss: -1
 
-VICTORY: 0.66
+Loss: -1
 
 Loss: -1
 
-GRPC Exception: Status(StatusCode=Unknown, Detail="Stream removed"). Disconnecting from trainer.
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.668
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Unable to save timers to file C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data\ML-Agents\Timers\spacy_timers.json
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 29e0 -> priority: 1 
+  Thread -> id: 11e4 -> priority: 1 
