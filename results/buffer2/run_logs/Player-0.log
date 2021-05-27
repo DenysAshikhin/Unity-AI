@@ -1,0 +1,524 @@
+Mono path[0] = 'C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Managed'
+Mono config path = 'C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.791 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 3.346900 ms
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+failed to get 100ns ticks
+Loss: -1
+
+VICTORY: 0.211
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.311
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.338
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.357
+
+Loss: -1
+
+VICTORY: 0.411
+
+Loss: -1
+
+VICTORY: 0.247
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.784
+
+Loss: -1
+
+VICTORY: 0.373
+
+VICTORY: 0.08
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.704
+
+VICTORY: 0.233
+
+Loss: -1
+
+VICTORY: 0.432
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.177
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.126
+
+VICTORY: 0.183
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.819
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.553
+
+Loss: -1
+
+VICTORY: 0.882
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.183
+
+VICTORY: 0.142
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.159
+
+Loss: -1
+
+VICTORY: 0.875
+
+Loss: -1
+
+VICTORY: 0.58
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.97
+
+VICTORY: 0.152
+
+VICTORY: 0.516
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.282
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.147
+
+VICTORY: 0.39
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.959
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.326
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.082
+
+VICTORY: 0.14
+
+Loss: -1
+
+VICTORY: 0.09
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.999
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.257
+
+Loss: -1
+
+VICTORY: 0.136
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.249
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.132
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.113
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.41
+
+Loss: -1
+
+VICTORY: 0.134
+
+Loss: -1
+
+VICTORY: 0.181
+
+VICTORY: 0.567
+
+VICTORY: 0.085
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.22
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.14
+
+Loss: -1
+
+VICTORY: 0.097
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.077
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.11
+
+VICTORY: 0.403
+
+Loss: -1
+
+VICTORY: 0.504
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.097
+
+VICTORY: 0.726
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.815
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.637
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.15
+
+Loss: -1
+
+VICTORY: 0.081
+
+VICTORY: 0.949
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.599
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.097
+
+VICTORY: 0.503
+
