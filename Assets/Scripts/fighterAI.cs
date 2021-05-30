@@ -30,6 +30,7 @@ public class fighterAI : Agent
     [SerializeField] private GameObject target;
 
     private Rigidbody2D rigidBody;
+    private float lastStep = 0f;
 
 
     void Start()
@@ -71,15 +72,6 @@ public class fighterAI : Agent
             float[] temp = { tempTran.localPosition.x / xLength, tempTran.localPosition.y / yLength, tempRigid.velocity.x / maxVel, tempRigid.velocity.y / maxVel, (transform.rotation.z % 360f) / 360f };
             bufferSensor.AppendObservation(temp);
         }
-
-
-    }
-
-    void onStart()
-    {
-
-
-
     }
 
 
@@ -94,16 +86,34 @@ public class fighterAI : Agent
 
         // Vector3 tempR = gameObject.GetComponent<ExampleShipControl>().startingRotate;
         // gameObject.transform.eulerAngles = new Vector3(tempR.x, tempR.y, tempR.z);
+        randomSpawns();
+    }
 
+    private void randomSpawns()
+    {
         float xlen = xLength - 0.5f;
         float ylen = yLength - 0.5f;
-        gameObject.transform.localPosition = new Vector3(Random.Range(-xlen, xlen), Random.Range(-ylen, ylen), 0);
-        target.GetComponent<Transform>().localPosition = new Vector3(Random.Range(-xlen, xlen), Random.Range(-ylen, ylen), 0);
 
+
+        float tempX = Random.Range(-xlen, xlen);
+        float tempY = Random.Range(-ylen, ylen);
+
+        target.GetComponent<Transform>().localPosition = new Vector3(tempX, tempY, 0);
+
+        if (Mathf.Abs(tempX) < 0.25)
+        {
+            tempX *= 3;
+        }
+
+        if (Mathf.Abs(tempY) < 0.25)
+        {
+            tempY *= 3;
+        }
+
+        gameObject.transform.localPosition = new Vector3(-tempX, -tempY, 0);
 
         gameObject.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         gameObject.GetComponent<Rigidbody2D>().angularVelocity = 0;
-
     }
 
     public override void Heuristic(in ActionBuffers actionsOut)
@@ -196,9 +206,13 @@ public class fighterAI : Agent
     public void killed()
     {
 
-        Debug.Log("VICTORY: " + (1f - ((float)StepCount / (float)MaxStep)).ToString());
-        AddReward(1f - (((float)StepCount / (float)MaxStep)));
-        EndEpisode();
+        if (lastStep == 0)
+            lastStep = StepCount;
+        Debug.Log("Added Score: " + (1f - ((float)lastStep / (float)MaxStep)).ToString());
+        AddReward(1f - (((float)lastStep / (float)MaxStep)));
+        Debug.Log("Cumulative Score: " + (GetCumulativeReward()).ToString());
+        lastStep = (float)StepCount;
+        randomSpawns();
     }
 
     void onTriggerEnter2D(Collider2D col)

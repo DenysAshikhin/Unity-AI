@@ -1,0 +1,79 @@
+behaviors:
+  fighterBrain:
+    trainer_type: ppo
+
+    hyperparameters:
+      # Hyperparameters common to PPO and SAC
+      batch_size: 128
+      buffer_size: 16384
+      learning_rate: 2.0e-4
+      learning_rate_schedule: constant
+
+      # PPO-specific hyperparameters
+      # Replaces the "PPO-specific hyperparameters" section above
+      beta: 1.0e-4
+      epsilon: 0.2
+      lambd: 0.97
+      num_epoch: 5
+
+    network_settings:
+      vis_encode_type: simple
+      normalize: false
+      hidden_units: 256
+      num_layers: 8
+      use_recurrent: true
+      # memory
+      memory:
+        sequence_length: 4
+        memory_size: 128
+
+    # Trainer configurations common to all trainers
+    max_steps: 500000000
+    time_horizon: 128
+    summary_freq: 10000
+    keep_checkpoints: 5
+    checkpoint_interval: 50000
+    threaded: true
+    init_path: null
+
+    reward_signals:
+      # environment reward (default)
+      extrinsic:
+        strength: 0.85
+        gamma: 0.99
+        
+      # curiosity module
+      curiosity:
+        strength: 0.05
+        gamma: 0.995
+        encoding_size: 128
+        learning_rate: 3.0e-4
+      
+      #RND Instric Reward
+      rnd:
+        strength: 0.1
+        gamma: 0.995
+        encoding_size: 128
+        learning_rate: 6.0e-4
+        network_settings:
+          vis_encode_type: simple
+          normalize: false
+          hidden_units: 256
+          num_layers: 8
+          use_recurrent: true
+          # memory
+          memory:
+            sequence_length: 4
+            memory_size: 128
+        
+       
+
+      # GAIL
+      #gail:
+      #  strength: 0.01
+      #  gamma: 0.99
+      #  encoding_size: 128
+      #  #demo_path: Project/Assets/ML-Agents/Examples/Pyramids/Demos/ExpertPyramid.demo
+      #  learning_rate: 3.0e-4
+      #  use_actions: false
+      #  use_vail: false
