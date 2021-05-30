@@ -1,0 +1,6057 @@
+Mono path[0] = 'C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Managed'
+Mono config path = 'C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; threaded=0
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Completed reload, in  3.603 seconds
+ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported.
+ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+UnloadTime: 0.946800 ms
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+failed to get 100ns ticks
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+Started
+
+VICTORY: 0.987
+
+VICTORY: 0.767
+
+Loss: -3.242152
+
+VICTORY: 0.495
+
+Loss: -2.694915
+
+VICTORY: 0.384
+
+VICTORY: 0.347
+
+VICTORY: 0.313
+
+Loss: -2.312336
+
+Loss: -2.308901
+
+VICTORY: 0.092
+
+Loss: -6.464481
+
+VICTORY: 0.291
+
+Loss: -4.076923
+
+VICTORY: 0.916
+
+VICTORY: 0.862
+
+Loss: -3.159827
+
+Loss: -3.118644
+
+VICTORY: 0.724
+
+VICTORY: 0.422
+
+Loss: -2.062699
+
+Loss: -8.692307
+
+VICTORY: 0.319
+
+Loss: -2.980198
+
+VICTORY: 0.697
+
+Loss: -6.319149
+
+VICTORY: 0.492
+
+VICTORY: 0.442
+
+VICTORY: 0.361
+
+VICTORY: 0.505
+
+Loss: -4.067485
+
+VICTORY: 0.159
+
+Loss: -8.518797
+
+VICTORY: 0.722
+
+VICTORY: 0.774
+
+VICTORY: 0.93
+
+VICTORY: 0.716
+
+VICTORY: 0.927
+
+VICTORY: 0.225
+
+VICTORY: 0.659
+
+VICTORY: 0.616
+
+VICTORY: 0.262
+
+Loss: -3.105263
+
+Loss: -3.493766
+
+VICTORY: 0.185
+
+Loss: -2.20048
+
+Loss: -4.311258
+
+Loss: -2.086957
+
+Loss: -4.731343
+
+VICTORY: 0.372
+
+Loss: -3.237136
+
+Loss: -2.557632
+
+Loss: -4.90625
+
+Loss: -2.175088
+
+Loss: -2.945525
+
+Loss: -2.305483
+
+VICTORY: 0.506
+
+Loss: -7.493506
+
+Loss: -2.003009
+
+Loss: -2.074114
+
+VICTORY: 0.73
+
+Loss: -2.733102
+
+VICTORY: 0.723
+
+Loss: -2.215067
+
+Loss: -3.331002
+
+Loss: -2.136364
+
+VICTORY: 0.407
+
+VICTORY: 0.56
+
+VICTORY: 0.57
+
+VICTORY: 0.385
+
+VICTORY: 0.481
+
+VICTORY: 0.591
+
+VICTORY: 0.565
+
+Loss: -4.134796
+
+Loss: -5.048583
+
+Loss: -20.23077
+
+Loss: -2.004016
+
+Loss: -5.166667
+
+Loss: -3.518892
+
+Loss: -4.355705
+
+Loss: -4.816794
+
+VICTORY: 0.184
+
+VICTORY: 0.834
+
+VICTORY: 0.943
+
+VICTORY: 0.752
+
+Loss: -21.40816
+
+VICTORY: 0.888
+
+VICTORY: 0.088
+
+VICTORY: 0.646
+
+VICTORY: 0.266
+
+Loss: -2.919386
+
+Loss: -2.131222
+
+Loss: -4.731343
+
+VICTORY: 0.63
+
+VICTORY: 0.682
+
+VICTORY: 0.157
+
+VICTORY: 0.815
+
+VICTORY: 0.051
+
+VICTORY: 0.994
+
+VICTORY: 0.541
+
+Loss: -2.150748
+
+Loss: -6.586592
+
+VICTORY: 0.925
+
+VICTORY: 0.1
+
+VICTORY: 0.6
+
+VICTORY: 0.542
+
+Loss: -3.57732
+
+VICTORY: 0.452
+
+Loss: -5.784689
+
+VICTORY: 0.475
+
+Loss: -8.692307
+
+VICTORY: 0.839
+
+VICTORY: 0.543
+
+VICTORY: 0.214
+
+VICTORY: 0.746
+
+Loss: -5.807693
+
+VICTORY: 0.829
+
+VICTORY: 0.225
+
+VICTORY: 0.453
+
+Loss: -5.385965
+
+VICTORY: 0.085
+
+VICTORY: 0.109
+
+VICTORY: 0.618
+
+VICTORY: 0.47
+
+VICTORY: 0.699
+
+VICTORY: 0.73
+
+Loss: -2.129944
+
+Loss: -3.906977
+
+VICTORY: 0.944
+
+Loss: -4.289474
+
+Loss: -4.030303
+
+Loss: -3.457002
+
+Loss: -3.227171
+
+VICTORY: 0.212
+
+Loss: -2.5625
+
+Loss: -8.518797
+
+Loss: -2.310616
+
+Loss: -2.481482
+
+VICTORY: 0.628
+
+Loss: -6.494505
+
+VICTORY: 0.912
+
+VICTORY: 0.471
+
+VICTORY: 0.436
+
+VICTORY: 0.19
+
+Loss: -2.367989
+
+VICTORY: 0.167
+
+VICTORY: 0.835
+
+VICTORY: 0.47
+
+Loss: -3.192982
+
+VICTORY: 0.685
+
+VICTORY: 0.919
+
+Loss: -10.34579
+
+Loss: -5.694836
+
+Loss: -6.291005
+
+Loss: -9.474576
+
+Loss: -2.28041
+
+VICTORY: 0.704
+
+VICTORY: 0.861
+
+VICTORY: 0.914
+
+Loss: -5.201681
+
+VICTORY: 0.976
+
+Loss: -3.923977
+
+Loss: -8.692307
+
+Loss: -10.90099
+
+VICTORY: 0.371
+
+Loss: -3.557545
+
+Loss: -2.362398
+
+Loss: -5.608295
+
+Loss: -2.904762
+
+Loss: -4.134796
+
+VICTORY: 0.894
+
+Loss: -3.222222
+
+Loss: -2.533742
+
+VICTORY: 0.566
+
+VICTORY: 0.18
+
+VICTORY: 0.222
+
+VICTORY: 0.655
+
+VICTORY: 0.101
+
+Loss: -3.028398
+
+Loss: -2.046025
+
+VICTORY: 0.765
+
+Loss: -2.37931
+
+VICTORY: 0.754
+
+Loss: -5.464286
+
+Loss: -5.716981
+
+Loss: -2.515152
+
+Loss: -5.132231
+
+Loss: -5.830918
+
+Loss: -4.436426
+
+VICTORY: 0.321
+
+VICTORY: 0.18
+
+VICTORY: 0.918
+
+Loss: -2.064963
+
+VICTORY: 0.985
+
+VICTORY: 0.466
+
+VICTORY: 0.681
+
+VICTORY: 0.843
+
+Loss: -13.98701
+
+VICTORY: 0.876
+
+Loss: -2.801802
+
+Loss: -2.091703
+
+Loss: -2.666667
+
+VICTORY: 0.928
+
+Loss: -2.612903
+
+VICTORY: 0.808
+
+VICTORY: 0.461
+
+Loss: -3.293578
+
+Loss: -2.293661
+
+Loss: -5.716981
+
+VICTORY: 0.902
+
+Loss: -2.694915
+
+Loss: -4.937008
+
+Loss: -2.466276
+
+Loss: -6.434783
+
+VICTORY: 0.734
+
+VICTORY: 0.158
+
+VICTORY: 0.667
+
+VICTORY: 0.643
+
+Loss: -2.218027
+
+VICTORY: 0.702
+
+VICTORY: 0.695
+
+VICTORY: 0.658
+
+Loss: -10.00901
+
+VICTORY: 0.548
+
+Loss: -2.769912
+
+Loss: -3.439024
+
+VICTORY: 0.132
+
+Loss: -2.074114
+
+VICTORY: 0.014
+
+VICTORY: 0.989
+
+VICTORY: 0.762
+
+VICTORY: 0.883
+
+VICTORY: 0.913
+
+Loss: -3.09205
+
+VICTORY: 0.594
+
+VICTORY: 0.661
+
+Loss: -10.09091
+
+VICTORY: 0.778
+
+Loss: -8.407408
+
+Loss: -8.194244
+
+Loss: -5.484305
+
+Loss: -7.622517
+
+Loss: -2.388889
+
+Loss: -5.608295
+
+VICTORY: 0.914
+
+VICTORY: 0.428
+
+VICTORY: 0.742
+
+VICTORY: 0.412
+
+Loss: -10.09091
+
+VICTORY: 0.39
+
+VICTORY: 0.103
+
+VICTORY: 0.625
+
+VICTORY: 0.85
+
+Loss: -2.424501
+
+Loss: -3.331002
+
+Loss: -2.072961
+
+Loss: -13.04819
+
+VICTORY: 0.925
+
+VICTORY: 0.884
+
+VICTORY: 0.054
+
+VICTORY: 0.787
+
+Loss: -15.92537
+
+VICTORY: 0.896
+
+VICTORY: 0.816
+
+VICTORY: 0.639
+
+Loss: -3.380952
+
+Loss: -3.463054
+
+Loss: -3.65252
+
+VICTORY: 0.512
+
+VICTORY: 0.546
+
+Loss: -6.319149
+
+Loss: -7.060606
+
+Loss: -2.157408
+
+VICTORY: 0.922
+
+Loss: -4.344481
+
+Loss: -2.776199
+
+Loss: -13.19512
+
+VICTORY: 0.46
+
+Loss: -2.801802
+
+Loss: -5.132231
+
+VICTORY: 0.657
+
+Loss: -2.36612
+
+VICTORY: 0.967
+
+VICTORY: 0.697
+
+Loss: -6.128205
+
+Loss: -2.422475
+
+Loss: -14.51351
+
+VICTORY: 0.525
+
+Loss: -11.30928
+
+VICTORY: 0.056
+
+VICTORY: 0.554
+
+Loss: -8.8125
+
+Loss: -3.638522
+
+Loss: -2.272265
+
+Loss: -8.092198
+
+VICTORY: 0.123
+
+VICTORY: 0.885
+
+Loss: -3.840909
+
+Loss: -4.717472
+
+Loss: -3.770083
+
+VICTORY: 0.98
+
+Loss: -17.12903
+
+VICTORY: 0.556
+
+Loss: -4.389831
+
+Loss: -4.311258
+
+Loss: -2.256281
+
+Loss: -3.188184
+
+VICTORY: 0.753
+
+Loss: -4.717472
+
+Loss: -2.644737
+
+Loss: -14.88889
+
+VICTORY: 0.565
+
+VICTORY: 0.752
+
+Loss: -2.459854
+
+Loss: -8.518797
+
+Loss: -2.267427
+
+Loss: -4.436426
+
+VICTORY: 0.237
+
+VICTORY: 0.66
+
+VICTORY: 0.441
+
+Loss: -3.427185
+
+Loss: -4.521127
+
+Loss: -3.816901
+
+Loss: -2.636661
+
+VICTORY: 0.187
+
+Loss: -2.996008
+
+VICTORY: 0.255
+
+Loss: -2.226994
+
+VICTORY: 0.965
+
+VICTORY: 0.78
+
+VICTORY: 0.513
+
+VICTORY: 0.583
+
+VICTORY: 0.116
+
+VICTORY: 0.501
+
+Loss: -2.36612
+
+VICTORY: 0.551
+
+VICTORY: 0.808
+
+Loss: -3.512563
+
+Loss: -2.612903
+
+VICTORY: 0.906
+
+VICTORY: 0.873
+
+VICTORY: 0.079
+
+VICTORY: 0.311
+
+VICTORY: 0.56
+
+VICTORY: 0.931
+
+Loss: -2.088139
+
+VICTORY: 0.944
+
+Loss: -2.508296
+
+Loss: -3.03252
+
+Loss: -4.003003
+
+VICTORY: 0.537
+
+Loss: -4.067485
+
+VICTORY: 0.553
+
+VICTORY: 0.724
+
+Loss: -6.617978
+
+VICTORY: 0.64
+
+VICTORY: 0.561
+
+VICTORY: 0.445
+
+VICTORY: 0.508
+
+VICTORY: 0.678
+
+VICTORY: 0.368
+
+Loss: -3.10084
+
+VICTORY: 0.336
+
+Loss: -4.215434
+
+Loss: -2.113586
+
+Loss: -3.45098
+
+Loss: -6.291005
+
+Loss: -5.854369
+
+VICTORY: 0.102
+
+VICTORY: 0.177
+
+VICTORY: 0.484
+
+Loss: -5.62963
+
+VICTORY: 0.331
+
+VICTORY: 0.507
+
+VICTORY: 0.46
+
+VICTORY: 0.868
+
+VICTORY: 0.416
+
+Loss: -9.264462
+
+VICTORY: 0.661
+
+VICTORY: 0.582
+
+VICTORY: 0.471
+
+VICTORY: 0.08
+
+Loss: -2.076426
+
+Loss: -3.617801
+
+Loss: -2.360544
+
+VICTORY: 0.928
+
+VICTORY: 0.819
+
+Loss: -4.10559
+
+VICTORY: 0.086
+
+VICTORY: 0.635
+
+Loss: -17.39344
+
+VICTORY: 0.488
+
+VICTORY: 0.797
+
+VICTORY: 0.877
+
+VICTORY: 0.472
+
+Loss: -8.936508
+
+Loss: -3.04499
+
+VICTORY: 0.19
+
+VICTORY: 0.025
+
+Loss: -8.633588
+
+VICTORY: 0.259
+
+VICTORY: 0.579
+
+Loss: -2.243781
+
+Loss: -2.626016
+
+Loss: -3.617801
+
+Loss: -11.98901
+
+VICTORY: 0.851
+
+Loss: -2.345895
+
+VICTORY: 0.701
+
+VICTORY: 0.668
+
+VICTORY: 0.937
+
+Loss: -4.194888
+
+VICTORY: 0.635
+
+Loss: -2.187649
+
+Loss: -2.101322
+
+VICTORY: 0.002
+
+Loss: -2.798561
+
+Loss: -2.20773
+
+VICTORY: 0.977
+
+VICTORY: 0.927
+
+Loss: -3.680965
+
+VICTORY: 0.945
+
+VICTORY: 0.902
+
+Loss: -13.65823
+
+VICTORY: 0.522
+
+VICTORY: 0.997
+
+VICTORY: 0.908
+
+VICTORY: 0.85
+
+VICTORY: 0.429
+
+Loss: -9.196721
+
+VICTORY: 0.895
+
+Loss: -6.154639
+
+VICTORY: 0.472
+
+Loss: -2.658375
+
+VICTORY: 0.186
+
+VICTORY: 0.78
+
+VICTORY: 0.927
+
+VICTORY: 0.946
+
+Loss: -15.92537
+
+VICTORY: 0.967
+
+Loss: -2.666667
+
+VICTORY: 0.142
+
+Loss: -2.062699
+
+VICTORY: 0.271
+
+Loss: -5.901961
+
+Loss: -2.293661
+
+Loss: -3.564103
+
+VICTORY: 0.034
+
+VICTORY: 0.096
+
+Loss: -8.936508
+
+Loss: -4.436426
+
+Loss: -3.666667
+
+VICTORY: 0.446
+
+Loss: -2.305483
+
+VICTORY: 0.557
+
+Loss: -5.065041
+
+VICTORY: 0.378
+
+Loss: -2.620746
+
+VICTORY: 0.982
+
+VICTORY: 0.579
+
+Loss: -2.6
+
+VICTORY: 0.996
+
+VICTORY: 0.827
+
+VICTORY: 0.679
+
+Loss: -2.497006
+
+Loss: -2.923077
+
+VICTORY: 0.464
+
+Loss: -2.131222
+
+VICTORY: 0.379
+
+Loss: -3.079002
+
+VICTORY: 0.99
+
+Loss: -4.773585
+
+VICTORY: 0.582
+
+VICTORY: 0.93
+
+VICTORY: 0.54
+
+VICTORY: 0.715
+
+VICTORY: 0.665
+
+Loss: -3.141328
+
+VICTORY: 0.615
+
+VICTORY: 0.657
+
+Loss: -3.421308
+
+VICTORY: 0.028
+
+VICTORY: 0.053
+
+VICTORY: 0.776
+
+VICTORY: 0.125
+
+Loss: -2.811594
+
+Loss: -2.283697
+
+VICTORY: 0.664
+
+Loss: -4.039514
+
+VICTORY: 0.734
+
+VICTORY: 0.883
+
+VICTORY: 0.387
+
+VICTORY: 0.341
+
+VICTORY: 0.957
+
+VICTORY: 0.668
+
+VICTORY: 0.451
+
+Loss: -2.236094
+
+VICTORY: 0.434
+
+Loss: -3.109705
+
+VICTORY: 0.02
+
+Loss: -2.206273
+
+VICTORY: 0.688
+
+VICTORY: 0.424
+
+VICTORY: 0.564
+
+Loss: -3.298851
+
+VICTORY: 0.305
+
+VICTORY: 0.84
+
+VICTORY: 0.359
+
+Loss: -3.985075
+
+Loss: -3.898551
+
+Loss: -6.291005
+
+VICTORY: 0.061
+
+Loss: -8.194244
+
+VICTORY: 0.043
+
+Loss: -2.508296
+
+VICTORY: 0.666
+
+VICTORY: 0.783
+
+VICTORY: 0.38
+
+VICTORY: 0.095
+
+Loss: -7.060606
+
+Loss: -2.344086
+
+Loss: -3.012072
+
+VICTORY: 0.991
+
+VICTORY: 0.763
+
+Loss: -3.994012
+
+VICTORY: 0.202
+
+VICTORY: 0.614
+
+VICTORY: 0.39
+
+Loss: -3.35849
+
+Loss: -6.681818
+
+VICTORY: 0.129
+
+Loss: -17.94915
+
+Loss: -7.578948
+
+Loss: -3.320186
+
+Loss: -2.996008
+
+VICTORY: 0.945
+
+Loss: -2.824817
+
+VICTORY: 0.072
+
+VICTORY: 0.096
+
+VICTORY: 0.163
+
+VICTORY: 0.898
+
+VICTORY: 0.665
+
+VICTORY: 0.737
+
+Loss: -2.631321
+
+Loss: -3.03252
+
+Loss: -2.461988
+
+VICTORY: 0.579
+
+Loss: -3.040816
+
+VICTORY: 0.145
+
+Loss: -3.531646
+
+Loss: -2.074114
+
+VICTORY: 0.315
+
+VICTORY: 0.427
+
+VICTORY: 0.841
+
+VICTORY: 0.441
+
+Loss: -2.322751
+
+Loss: -3.375297
+
+VICTORY: 0.612
+
+Loss: -3.493766
+
+VICTORY: 0.083
+
+Loss: -7.451613
+
+Loss: -7.21118
+
+VICTORY: 0.972
+
+VICTORY: 0.823
+
+VICTORY: 0.626
+
+VICTORY: 0.226
+
+Loss: -3.242152
+
+VICTORY: 0.163
+
+Loss: -8.751938
+
+VICTORY: 0.848
+
+Loss: -2.503759
+
+Loss: -4.436426
+
+VICTORY: 0.338
+
+VICTORY: 0.358
+
+Loss: -3.252252
+
+VICTORY: 0.772
+
+VICTORY: 0.763
+
+Loss: -2.782531
+
+Loss: -4.278688
+
+VICTORY: 0.035
+
+VICTORY: 0.384
+
+Loss: -2.35318
+
+Loss: -15.08451
+
+VICTORY: 0.263
+
+Loss: -4.058104
+
+Loss: -10.34579
+
+VICTORY: 0.098
+
+VICTORY: 0.808
+
+Loss: -10.43396
+
+VICTORY: 0.258
+
+VICTORY: 0.243
+
+VICTORY: 0.82
+
+VICTORY: 0.523
+
+Loss: -7.849315
+
+VICTORY: 0.153
+
+VICTORY: 0.993
+
+Loss: -3.631579
+
+VICTORY: 0.695
+
+VICTORY: 0.392
+
+VICTORY: 0.462
+
+VICTORY: 0.308
+
+VICTORY: 0.442
+
+VICTORY: 0.286
+
+VICTORY: 0.717
+
+Loss: -4.921568
+
+VICTORY: 0.616
+
+VICTORY: 0.214
+
+VICTORY: 0.891
+
+VICTORY: 0.53
+
+VICTORY: 0.385
+
+Loss: -15.28571
+
+Loss: -2.663893
+
+VICTORY: 0.8
+
+Loss: -2.197605
+
+Loss: -2.253133
+
+VICTORY: 0.223
+
+VICTORY: 0.501
+
+VICTORY: 0.481
+
+Loss: -5.608295
+
+VICTORY: 0.309
+
+VICTORY: 0.985
+
+Loss: -2.360544
+
+VICTORY: 0.849
+
+VICTORY: 0.194
+
+VICTORY: 0.362
+
+Loss: -2.112347
+
+Loss: -9.547009
+
+Loss: -2.855288
+
+Loss: -2.620746
+
+VICTORY: 0.847
+
+VICTORY: 0.737
+
+VICTORY: 0.07
+
+VICTORY: 0.883
+
+Loss: -3.012072
+
+VICTORY: 0.752
+
+Loss: -4.558719
+
+VICTORY: 0.96
+
+VICTORY: 0.648
+
+Loss: -2.751313
+
+VICTORY: 0.992
+
+VICTORY: 0.972
+
+VICTORY: 0.971
+
+VICTORY: 0.04
+
+VICTORY: 0.128
+
+VICTORY: 0.196
+
+VICTORY: 0.113
+
+VICTORY: 0.023
+
+Loss: -3.457002
+
+VICTORY: 0.801
+
+VICTORY: 0.783
+
+Loss: -13.82051
+
+Loss: -3.680965
+
+VICTORY: 0.669
+
+Loss: -4.424657
+
+Loss: -4.508772
+
+Loss: -13.34568
+
+VICTORY: 0.373
+
+Loss: -2.736111
+
+Loss: -7.25
+
+VICTORY: 0.003
+
+VICTORY: 0.969
+
+Loss: -4.246753
+
+Loss: -4.154574
+
+Loss: -6.813953
+
+VICTORY: 0.797
+
+Loss: -3.155172
+
+VICTORY: 0.378
+
+VICTORY: 0.232
+
+Loss: -2.453488
+
+Loss: -2.855288
+
+Loss: -9
+
+VICTORY: 0.068
+
+VICTORY: 0.706
+
+VICTORY: 0.627
+
+Loss: -2.512859
+
+VICTORY: 0.177
+
+VICTORY: 0.975
+
+VICTORY: 0.452
+
+VICTORY: 0.941
+
+VICTORY: 0.102
+
+VICTORY: 0.072
+
+VICTORY: 0.508
+
+Loss: -5.184101
+
+VICTORY: 0.042
+
+Loss: -2.466276
+
+Loss: -3.331002
+
+VICTORY: 0.798
+
+VICTORY: 0.398
+
+VICTORY: 0.265
+
+VICTORY: 0.831
+
+VICTORY: 0.642
+
+Loss: -2.176471
+
+VICTORY: 0.015
+
+VICTORY: 0.69
+
+VICTORY: 0.712
+
+VICTORY: 0.042
+
+VICTORY: 0.086
+
+VICTORY: 0.737
+
+VICTORY: 0.706
+
+VICTORY: 0.224
+
+Loss: -3.008032
+
+Loss: -3.35849
+
+Loss: -5.716981
+
+Loss: -3.73224
+
+VICTORY: 0.005
+
+VICTORY: 0.932
+
+VICTORY: 0.428
+
+VICTORY: 0.364
+
+VICTORY: 0.683
+
+Loss: -5.132231
+
+VICTORY: 0.074
+
+VICTORY: 0.632
+
+Loss: -2.449275
+
+VICTORY: 0.935
+
+VICTORY: 0.248
+
+VICTORY: 0.668
+
+VICTORY: 0.562
+
+VICTORY: 0.232
+
+VICTORY: 0.867
+
+VICTORY: 0.904
+
+Loss: -4.802281
+
+VICTORY: 0.525
+
+Loss: -2.013171
+
+VICTORY: 0.2
+
+VICTORY: 0.766
+
+VICTORY: 0.95
+
+VICTORY: 0.679
+
+VICTORY: 0.996
+
+VICTORY: 0.35
+
+Loss: -10.17431
+
+Loss: -2.351351
+
+VICTORY: 0.082
+
+VICTORY: 0.891
+
+VICTORY: 0.799
+
+VICTORY: 0.725
+
+VICTORY: 0.073
+
+Loss: -2.22399
+
+VICTORY: 0.4
+
+VICTORY: 0.503
+
+VICTORY: 0.966
+
+Loss: -5.545455
+
+VICTORY: 0.489
+
+Loss: -16.87302
+
+VICTORY: 0.131
+
+VICTORY: 0.601
+
+VICTORY: 0.087
+
+VICTORY: 0.474
+
+Loss: -6.586592
+
+Loss: -3.35849
+
+Loss: -4.636364
+
+Loss: -2.607717
+
+VICTORY: 0.746
+
+Loss: -2.116071
+
+VICTORY: 0.952
+
+VICTORY: 0.697
+
+Loss: -3.320186
+
+VICTORY: 0.061
+
+VICTORY: 0.723
+
+Loss: -2.098901
+
+VICTORY: 0.642
+
+VICTORY: 0.852
+
+VICTORY: 0.627
+
+VICTORY: 0.084
+
+VICTORY: 0.195
+
+VICTORY: 0.854
+
+VICTORY: 0.214
+
+VICTORY: 0.717
+
+VICTORY: 0.568
+
+VICTORY: 0.252
+
+Loss: -2.028807
+
+VICTORY: 0.972
+
+VICTORY: 0.839
+
+VICTORY: 0.986
+
+Loss: -2.043841
+
+VICTORY: 0.261
+
+Loss: -6.291005
+
+VICTORY: 0.326
+
+Loss: -3.463054
+
+Loss: -2.650165
+
+Loss: -14.51351
+
+Loss: -9.403361
+
+VICTORY: 0.245
+
+VICTORY: 0.27
+
+VICTORY: 0.426
+
+Loss: -5.761905
+
+Loss: -6.847953
+
+Loss: -13.82051
+
+VICTORY: 0.805
+
+Loss: -3.232143
+
+Loss: -2.203369
+
+VICTORY: 0.116
+
+Loss: -3.43309
+
+Loss: -9.77193
+
+VICTORY: 0.152
+
+VICTORY: 0.094
+
+VICTORY: 0.659
+
+Loss: -2.203369
+
+Loss: -9.849558
+
+Loss: -6.405406
+
+Loss: -5.291845
+
+VICTORY: 0.149
+
+VICTORY: 0.987
+
+VICTORY: 0.771
+
+Loss: -9.403361
+
+VICTORY: 0.695
+
+Loss: -2.872659
+
+VICTORY: 0.728
+
+VICTORY: 0.302
+
+VICTORY: 0.863
+
+VICTORY: 0.967
+
+VICTORY: 0.163
+
+VICTORY: 0.554
+
+VICTORY: 0.375
+
+Loss: -3.754821
+
+Loss: -3.710027
+
+VICTORY: 0.183
+
+VICTORY: 0.119
+
+VICTORY: 0.784
+
+VICTORY: 0.347
+
+VICTORY: 0.747
+
+Loss: -2.592357
+
+VICTORY: 0.993
+
+VICTORY: 0.514
+
+VICTORY: 0.509
+
+VICTORY: 0.059
+
+VICTORY: 0.86
+
+VICTORY: 0.813
+
+VICTORY: 0.263
+
+Loss: -12.76471
+
+VICTORY: 0.257
+
+VICTORY: 0.078
+
+VICTORY: 0.551
+
+VICTORY: 0.605
+
+VICTORY: 0.207
+
+Loss: -2.508296
+
+Loss: -4.558719
+
+Loss: -6.681818
+
+Loss: -3.824859
+
+VICTORY: 0.415
+
+Loss: -2.841621
+
+VICTORY: 0.925
+
+VICTORY: 0.536
+
+VICTORY: 0.37
+
+Loss: -3.386635
+
+VICTORY: 0.45
+
+Loss: -2.798561
+
+Loss: -3.710027
+
+Loss: -4.759398
+
+VICTORY: 0.249
+
+VICTORY: 0.784
+
+VICTORY: 0.274
+
+VICTORY: 0.675
+
+Loss: -3.105263
+
+VICTORY: 0.724
+
+VICTORY: 0.561
+
+VICTORY: 0.421
+
+Loss: -3.004008
+
+VICTORY: 0.186
+
+Loss: -3.631579
+
+VICTORY: 0.245
+
+Loss: -2.642036
+
+VICTORY: 0.335
+
+Loss: -3.631579
+
+VICTORY: 0.261
+
+Loss: -3.380952
+
+VICTORY: 0.152
+
+VICTORY: 0.855
+
+VICTORY: 0.938
+
+Loss: -2.230012
+
+Loss: -2.851852
+
+VICTORY: 0.127
+
+VICTORY: 0.91
+
+Loss: -2.964637
+
+VICTORY: 0.417
+
+Loss: -10.52381
+
+Loss: -2.41844
+
+VICTORY: 0.819
+
+VICTORY: 0.836
+
+VICTORY: 0.058
+
+Loss: -5.62963
+
+VICTORY: 0.836
+
+VICTORY: 0.585
+
+VICTORY: 0.871
+
+Loss: -2.988072
+
+Loss: -3.724796
+
+Loss: -4.968254
+
+VICTORY: 0.556
+
+VICTORY: 0.19
+
+VICTORY: 0.692
+
+Loss: -2.386963
+
+VICTORY: 0.075
+
+VICTORY: 0.291
+
+VICTORY: 0.97
+
+VICTORY: 0.907
+
+Loss: -2.388889
+
+VICTORY: 0.194
+
+VICTORY: 0.176
+
+Loss: -3.024292
+
+VICTORY: 0.478
+
+VICTORY: 0.425
+
+VICTORY: 0.673
+
+VICTORY: 0.169
+
+Loss: -2.218027
+
+Loss: -3.421308
+
+VICTORY: 0.059
+
+Loss: -3.028398
+
+VICTORY: 0.454
+
+Loss: -9.403361
+
+VICTORY: 0.382
+
+Loss: -2.002004
+
+VICTORY: 0.474
+
+VICTORY: 0.246
+
+VICTORY: 0.667
+
+Loss: -7.024096
+
+VICTORY: 0.047
+
+Loss: -2.396648
+
+Loss: -7.622517
+
+Loss: -4.533569
+
+VICTORY: 0.952
+
+VICTORY: 0.298
+
+VICTORY: 0.734
+
+VICTORY: 0.934
+
+VICTORY: 0.131
+
+Loss: -3.932551
+
+VICTORY: 0.518
+
+VICTORY: 0.421
+
+Loss: -7.622517
+
+Loss: -3.28833
+
+VICTORY: 0.255
+
+VICTORY: 0.893
+
+VICTORY: 0.989
+
+VICTORY: 0.73
+
+VICTORY: 0.315
+
+Loss: -2.267427
+
+VICTORY: 0.208
+
+Loss: -6.347594
+
+VICTORY: 0.75
+
+VICTORY: 0.005
+
+VICTORY: 0.535
+
+VICTORY: 0.958
+
+Loss: -3.35849
+
+Loss: -2.114827
+
+Loss: -4.891051
+
+VICTORY: 0.359
+
+VICTORY: 0.426
+
+VICTORY: 0.588
+
+VICTORY: 0.395
+
+VICTORY: 0.983
+
+VICTORY: 0.791
+
+VICTORY: 0.384
+
+VICTORY: 0.192
+
+VICTORY: 0.42
+
+Loss: -4.039514
+
+Loss: -6.617978
+
+VICTORY: 0.628
+
+Loss: -8.518797
+
+VICTORY: 0.387
+
+Loss: -3.304147
+
+VICTORY: 0.103
+
+Loss: -2.310616
+
+VICTORY: 0.333
+
+VICTORY: 0.246
+
+Loss: -5.830918
+
+VICTORY: 0.928
+
+VICTORY: 0.812
+
+Loss: -2.068376
+
+Loss: -2.273885
+
+VICTORY: 0.989
+
+VICTORY: 0.298
+
+VICTORY: 0.785
+
+Loss: -2.28041
+
+Loss: -3.242152
+
+VICTORY: 0.738
+
+VICTORY: 0.484
+
+VICTORY: 0.647
+
+Loss: -2.582278
+
+VICTORY: 0.1
+
+VICTORY: 0.985
+
+VICTORY: 0.331
+
+VICTORY: 0.184
+
+VICTORY: 0.246
+
+VICTORY: 0.567
+
+VICTORY: 0.088
+
+VICTORY: 0.813
+
+Loss: -2.795332
+
+VICTORY: 0.424
+
+VICTORY: 0.247
+
+Loss: -2.607717
+
+Loss: -11.6383
+
+VICTORY: 0.103
+
+Loss: -2.375516
+
+Loss: -8.462687
+
+VICTORY: 0.125
+
+VICTORY: 0.653
+
+VICTORY: 0.379
+
+Loss: -4.472222
+
+Loss: -3.123142
+
+VICTORY: 0.677
+
+Loss: -7.289308
+
+Loss: -4.058104
+
+VICTORY: 0.109
+
+VICTORY: 0.425
+
+Loss: -2.980198
+
+VICTORY: 0.257
+
+Loss: -12.36364
+
+Loss: -3.132196
+
+VICTORY: 0.445
+
+VICTORY: 0.519
+
+VICTORY: 0.654
+
+VICTORY: 0.793
+
+VICTORY: 0.679
+
+VICTORY: 0.946
+
+Loss: -2.579779
+
+Loss: -5.444445
+
+VICTORY: 0.366
+
+VICTORY: 0.039
+
+Loss: -2.153403
+
+Loss: -2.930502
+
+VICTORY: 0.947
+
+Loss: -2.567398
+
+VICTORY: 0.307
+
+VICTORY: 0.807
+
+VICTORY: 0.544
+
+VICTORY: 0.314
+
+VICTORY: 0.628
+
+Loss: -6.208333
+
+VICTORY: 0.613
+
+VICTORY: 0.509
+
+Loss: -5.310345
+
+VICTORY: 0.68
+
+Loss: -7.666667
+
+Loss: -5.149378
+
+VICTORY: 0.328
+
+VICTORY: 0.484
+
+VICTORY: 0.679
+
+VICTORY: 0.918
+
+VICTORY: 0.792
+
+Loss: -3.283105
+
+VICTORY: 0.594
+
+VICTORY: 0.182
+
+VICTORY: 0.04
+
+Loss: -2.828154
+
+VICTORY: 0.546
+
+Loss: -9.403361
+
+VICTORY: 0.805
+
+Loss: -4.649635
+
+VICTORY: 0.599
+
+Loss: -2.587301
+
+VICTORY: 0.511
+
+VICTORY: 0.552
+
+VICTORY: 0.731
+
+VICTORY: 0.939
+
+Loss: -5.329004
+
+VICTORY: 0.497
+
+Loss: -8.692307
+
+VICTORY: 0.585
+
+VICTORY: 0.515
+
+VICTORY: 0.496
+
+VICTORY: 0.947
+
+VICTORY: 0.447
+
+Loss: -6.494505
+
+Loss: -2.818182
+
+VICTORY: 0.321
+
+VICTORY: 0.304
+
+VICTORY: 0.314
+
+VICTORY: 0.876
+
+VICTORY: 0.966
+
+VICTORY: 0.399
+
+Loss: -10.80392
+
+VICTORY: 0.08
+
+Loss: -4.623188
+
+VICTORY: 0.679
+
+VICTORY: 0.06
+
+VICTORY: 0.963
+
+Loss: -4.521127
+
+VICTORY: 0.936
+
+Loss: -12.62791
+
+VICTORY: 0.47
+
+Loss: -2.736111
+
+VICTORY: 0.402
+
+VICTORY: 0.578
+
+VICTORY: 0.041
+
+VICTORY: 0.992
+
+VICTORY: 0.434
+
+VICTORY: 0.777
+
+VICTORY: 0.358
+
+Loss: -3.118644
+
+VICTORY: 0.551
+
+VICTORY: 0.748
+
+Loss: -17.66667
+
+VICTORY: 0.637
+
+Loss: -6.649717
+
+Loss: -5.694836
+
+Loss: -10.34579
+
+Loss: -6.586592
+
+VICTORY: 0.497
+
+VICTORY: 0.713
+
+Loss: -11.41667
+
+VICTORY: 0.804
+
+Loss: -8.633588
+
+Loss: -7.25
+
+VICTORY: 0.198
+
+VICTORY: 0.753
+
+VICTORY: 0.212
+
+VICTORY: 0.083
+
+VICTORY: 0.323
+
+VICTORY: 0.292
+
+Loss: -2.529052
+
+Loss: -4.846154
+
+VICTORY: 0.74
+
+Loss: -2.445087
+
+Loss: -3.597403
+
+VICTORY: 0.482
+
+VICTORY: 0.984
+
+VICTORY: 0.617
+
+Loss: -5.424779
+
+Loss: -10.25926
+
+VICTORY: 0.196
+
+Loss: -3.262444
+
+VICTORY: 0.378
+
+Loss: -2.20048
+
+VICTORY: 0.308
+
+Loss: -4.257329
+
+VICTORY: 0.673
+
+Loss: -3.439024
+
+VICTORY: 0.125
+
+VICTORY: 0.537
+
+VICTORY: 0.565
+
+VICTORY: 0.517
+
+VICTORY: 0.357
+
+VICTORY: 0.62
+
+Loss: -2.972387
+
+VICTORY: 0.698
+
+VICTORY: 0.29
+
+VICTORY: 0.803
+
+VICTORY: 0.979
+
+VICTORY: 0.319
+
+VICTORY: 0.699
+
+VICTORY: 0.97
+
+VICTORY: 0.285
+
+Loss: -11.52632
+
+VICTORY: 0.909
+
+VICTORY: 0.987
+
+Loss: -12.76471
+
+VICTORY: 0.489
+
+Loss: -4.636364
+
+Loss: -2.949318
+
+Loss: -2.420455
+
+VICTORY: 0.53
+
+Loss: -8.692307
+
+Loss: -2.364256
+
+VICTORY: 0.621
+
+VICTORY: 0.593
+
+VICTORY: 0.039
+
+VICTORY: 0.993
+
+Loss: -5.032258
+
+VICTORY: 0.354
+
+VICTORY: 0.673
+
+VICTORY: 0.798
+
+Loss: -2.183432
+
+Loss: -4.278688
+
+VICTORY: 0.275
+
+VICTORY: 0.569
+
+VICTORY: 0.991
+
+VICTORY: 0.366
+
+Loss: -3.57732
+
+VICTORY: 0.214
+
+VICTORY: 0.591
+
+Loss: -4.267974
+
+VICTORY: 0.116
+
+Loss: -5.901961
+
+VICTORY: 0.5
+
+Loss: -2.996008
+
+VICTORY: 0.612
+
+VICTORY: 0.89
+
+VICTORY: 0.757
+
+VICTORY: 0.173
+
+VICTORY: 0.467
+
+VICTORY: 0.231
+
+VICTORY: 0.528
+
+VICTORY: 0.289
+
+VICTORY: 0.971
+
+VICTORY: 0.181
+
+VICTORY: 0.703
+
+VICTORY: 0.992
+
+VICTORY: 0.283
+
+VICTORY: 0.708
+
+VICTORY: 0.84
+
+Loss: -23.22222
+
+Loss: -11.86957
+
+Loss: -2.782531
+
+VICTORY: 0.573
+
+VICTORY: 0.043
+
+VICTORY: 0.185
+
+VICTORY: 0.801
+
+VICTORY: 0.211
+
+VICTORY: 0.007
+
+Loss: -2.259446
+
+Loss: -3.325581
+
+VICTORY: 0.075
+
+VICTORY: 0.38
+
+VICTORY: 0.909
+
+VICTORY: 0.354
+
+VICTORY: 0.036
+
+Loss: -7.289308
+
+VICTORY: 0.84
+
+Loss: -3.824859
+
+VICTORY: 0.261
+
+VICTORY: 0.575
+
+Loss: -2.692047
+
+Loss: -2.636661
+
+Loss: -2.540832
+
+Loss: -2.494768
+
+VICTORY: 0.089
+
+Loss: -2.494768
+
+Loss: -3.427185
+
+VICTORY: 0.53
+
+Loss: -9.620689
+
+Loss: -2.855288
+
+VICTORY: 0.817
+
+VICTORY: 0.669
+
+VICTORY: 0.975
+
+Loss: -2.180638
+
+VICTORY: 0.226
+
+VICTORY: 0.65
+
+VICTORY: 0.275
+
+Loss: -5.504505
+
+VICTORY: 0.853
+
+VICTORY: 0.041
+
+Loss: -4.508772
+
+VICTORY: 0.365
+
+VICTORY: 0.14
+
+Loss: -2.383126
+
+VICTORY: 0.486
+
+Loss: -2.150748
+
+Loss: -4.289474
+
+VICTORY: 0.908
+
+Loss: -2.257862
+
+Loss: -2.923077
+
+VICTORY: 0.686
+
+VICTORY: 0.666
+
+VICTORY: 0.824
+
+VICTORY: 0.189
+
+VICTORY: 0.744
+
+Loss: -2.383126
+
+Loss: -2.173709
+
+VICTORY: 0.752
+
+VICTORY: 0.621
+
+VICTORY: 0.035
+
+Loss: -3.325581
+
+VICTORY: 0.545
+
+VICTORY: 0.714
+
+VICTORY: 0.852
+
+VICTORY: 0.502
+
+Loss: -2.129944
+
+Loss: -2.697793
+
+VICTORY: 0.438
+
+VICTORY: 0.804
+
+VICTORY: 0.395
+
+VICTORY: 0.825
+
+VICTORY: 0.345
+
+VICTORY: 0.041
+
+Loss: -18.24138
+
+VICTORY: 0.452
+
+VICTORY: 0.194
+
+Loss: -5.807693
+
+VICTORY: 0.104
+
+VICTORY: 0.819
+
+Loss: -2.733102
+
+Loss: -2.28041
+
+VICTORY: 0.196
+
+VICTORY: 0.95
+
+Loss: -3.087683
+
+VICTORY: 0.298
+
+Loss: -3.915452
+
+Loss: -2.49925
+
+VICTORY: 0.634
+
+VICTORY: 0.641
+
+VICTORY: 0.79
+
+VICTORY: 0.146
+
+Loss: -2.246883
+
+VICTORY: 0.714
+
+VICTORY: 0.638
+
+VICTORY: 0.775
+
+Loss: -2.257862
+
+Loss: -8.751938
+
+VICTORY: 0.249
+
+VICTORY: 0.568
+
+Loss: -7.060606
+
+VICTORY: 0.503
+
+Loss: -2.06383
+
+VICTORY: 0.859
+
+VICTORY: 0.494
+
+Loss: -10.61539
+
+VICTORY: 0.106
+
+VICTORY: 0.707
+
+VICTORY: 0.244
+
+VICTORY: 0.591
+
+VICTORY: 0.018
+
+Loss: -2.886792
+
+VICTORY: 0.886
+
+VICTORY: 0.904
+
+Loss: -3.976191
+
+VICTORY: 0.266
+
+Loss: -9
+
+VICTORY: 0.111
+
+Loss: -2.137656
+
+Loss: -2.290323
+
+VICTORY: 0.133
+
+VICTORY: 0.76
+
+VICTORY: 0.816
+
+VICTORY: 0.882
+
+VICTORY: 0.388
+
+Loss: -2.451379
+
+VICTORY: 0.778
+
+VICTORY: 0.943
+
+VICTORY: 0.219
+
+VICTORY: 0.19
+
+Loss: -2.32626
+
+Loss: -5.545455
+
+VICTORY: 0.443
+
+Loss: -2.594896
+
+VICTORY: 0.928
+
+VICTORY: 0.508
+
+Loss: -2.547988
+
+Loss: -6.025126
+
+VICTORY: 0.814
+
+Loss: -2.345895
+
+Loss: -7.493506
+
+VICTORY: 0.54
+
+Loss: -6.988024
+
+Loss: -5.56621
+
+Loss: -4.649635
+
+VICTORY: 0.405
+
+Loss: -2.587301
+
+Loss: -4.225806
+
+Loss: -6.154639
+
+VICTORY: 0.572
+
+Loss: -9.333333
+
+VICTORY: 0.04
+
+Loss: -14.69863
+
+VICTORY: 0.173
+
+Loss: -4.90625
+
+VICTORY: 0.587
+
+Loss: -2.652893
+
+VICTORY: 0.892
+
+VICTORY: 0.283
+
+VICTORY: 0.798
+
+VICTORY: 0.757
+
+VICTORY: 0.967
+
+VICTORY: 0.346
+
+VICTORY: 0.158
+
+VICTORY: 0.688
+
+VICTORY: 0.793
+
+VICTORY: 0.989
+
+VICTORY: 0.718
+
+Loss: -3.832861
+
+VICTORY: 0.152
+
+VICTORY: 0.603
+
+VICTORY: 0.827
+
+VICTORY: 0.102
+
+VICTORY: 0.469
+
+VICTORY: 0.876
+
+VICTORY: 0.895
+
+Loss: -3.994012
+
+VICTORY: 0.555
+
+Loss: -2.140251
+
+VICTORY: 0.882
+
+VICTORY: 0.173
+
+Loss: -2.510574
+
+Loss: -5.016064
+
+Loss: -4.558719
+
+Loss: -15.70588
+
+Loss: -17.39344
+
+Loss: -2.564945
+
+VICTORY: 0.018
+
+VICTORY: 0.461
+
+VICTORY: 0.864
+
+VICTORY: 0.048
+
+VICTORY: 0.244
+
+Loss: -4.508772
+
+VICTORY: 0.705
+
+Loss: -3.666667
+
+VICTORY: 0.307
+
+VICTORY: 0.853
+
+Loss: -9.403361
+
+VICTORY: 0.64
+
+Loss: -3.09205
+
+VICTORY: 0.814
+
+VICTORY: 0.295
+
+VICTORY: 0.083
+
+VICTORY: 0.379
+
+VICTORY: 0.706
+
+VICTORY: 0.778
+
+Loss: -2.748252
+
+VICTORY: 0.257
+
+VICTORY: 0.235
+
+Loss: -4.125
+
+Loss: -13.19512
+
+VICTORY: 0.98
+
+Loss: -2.218027
+
+Loss: -4.021148
+
+VICTORY: 0.686
+
+VICTORY: 0.389
+
+VICTORY: 0.695
+
+Loss: -2.071811
+
+VICTORY: 0.748
+
+VICTORY: 0.896
+
+Loss: -2.466276
+
+VICTORY: 0.417
+
+VICTORY: 0.858
+
+VICTORY: 0.029
+
+VICTORY: 0.976
+
+VICTORY: 0.045
+
+Loss: -2.148106
+
+VICTORY: 0.305
+
+Loss: -2.652893
+
+VICTORY: 0.804
+
+Loss: -7.535948
+
+Loss: -7.666667
+
+Loss: -3
+
+VICTORY: 0.623
+
+VICTORY: 0.106
+
+VICTORY: 0.298
+
+VICTORY: 0.163
+
+VICTORY: 0.648
+
+Loss: -2.215067
+
+Loss: -11.41667
+
+Loss: -7.17284
+
+Loss: -2.808318
+
+Loss: -5.694836
+
+Loss: -2.564945
+
+Loss: -2.814882
+
+VICTORY: 0.91
+
+Loss: -3.444988
+
+VICTORY: 0.083
+
+VICTORY: 0.498
+
+Loss: -3.141328
+
+VICTORY: 0.595
+
+Loss: -4.649635
+
+VICTORY: 0.994
+
+VICTORY: 0.072
+
+VICTORY: 0.728
+
+VICTORY: 0.66
+
+VICTORY: 0.957
+
+VICTORY: 0.967
+
+VICTORY: 0.687
+
+Loss: -2.273885
+
+VICTORY: 0.428
+
+Loss: -2.488095
+
+Loss: -2.32626
+
+VICTORY: 0.652
+
+VICTORY: 0.724
+
+Loss: -3.10084
+
+VICTORY: 0.625
+
+VICTORY: 0.023
+
+Loss: -8.29927
+
+VICTORY: 0.784
+
+VICTORY: 0.929
+
+VICTORY: 0.094
+
+Loss: -3.298851
+
+Loss: -2.312336
+
+VICTORY: 0.123
+
+VICTORY: 0.497
+
+VICTORY: 0.856
+
+Loss: -7.25
+
+VICTORY: 0.759
+
+VICTORY: 0.451
+
+VICTORY: 0.736
+
+Loss: -3.941176
+
+VICTORY: 0.987
+
+Loss: -3.770083
+
+Loss: -2.547988
+
+VICTORY: 0.833
+
+VICTORY: 0.138
+
+VICTORY: 0.87
+
+Loss: -2.949318
+
+VICTORY: 0.293
+
+VICTORY: 0.269
+
+VICTORY: 0.965
+
+VICTORY: 0.443
+
+VICTORY: 0.932
+
+VICTORY: 0.595
+
+Loss: -2.046025
+
+VICTORY: 0.621
+
+VICTORY: 0.826
+
+Loss: -4.378378
+
+Loss: -4.773585
+
+VICTORY: 0.357
+
+VICTORY: 0.323
+
+VICTORY: 0.178
+
+Loss: -2.328021
+
+VICTORY: 0.288
+
+VICTORY: 0.827
+
+VICTORY: 0.151
+
+VICTORY: 0.199
+
+VICTORY: 0.046
+
+VICTORY: 0.769
+
+VICTORY: 0.443
+
+VICTORY: 0.206
+
+Loss: -7.622517
+
+Loss: -2.091703
+
+Loss: -2.748252
+
+VICTORY: 0.11
+
+VICTORY: 0.123
+
+Loss: -8.692307
+
+VICTORY: 0.862
+
+Loss: -9.264462
+
+Loss: -2.256281
+
+Loss: -11
+
+VICTORY: 0.146
+
+VICTORY: 0.112
+
+VICTORY: 0.456
+
+VICTORY: 0.289
+
+VICTORY: 0.879
+
+Loss: -2.996008
+
+VICTORY: 0.483
+
+VICTORY: 0.532
+
+VICTORY: 0.157
+
+Loss: -6.434783
+
+Loss: -10.00901
+
+VICTORY: 0.188
+
+VICTORY: 0.027
+
+VICTORY: 0.255
+
+Loss: -2.424501
+
+VICTORY: 0.362
+
+VICTORY: 0.387
+
+VICTORY: 0.362
+
+VICTORY: 0.994
+
+VICTORY: 0.944
+
+VICTORY: 0.569
+
+VICTORY: 0.341
+
+VICTORY: 0.809
+
+Loss: -2.569859
+
+VICTORY: 0.245
+
+Loss: -22.2766
+
+Loss: -3.232143
+
+VICTORY: 0.61
+
+VICTORY: 0.553
+
+Loss: -3.43309
+
+VICTORY: 0.59
+
+VICTORY: 0.172
+
+VICTORY: 0.054
+
+Loss: -7.622517
+
+Loss: -7.410256
+
+Loss: -2.031992
+
+VICTORY: 0.733
+
+VICTORY: 0.482
+
+Loss: -9.928572
+
+VICTORY: 0.581
+
+VICTORY: 0.764
+
+VICTORY: 0.338
+
+VICTORY: 0.884
+
+Loss: -10.90099
+
+VICTORY: 0.739
+
+VICTORY: 0.592
+
+VICTORY: 0.566
+
+Loss: -2.592357
+
+Loss: -2.930502
+
+VICTORY: 0.517
+
+VICTORY: 0.297
+
+Loss: -4.021148
+
+VICTORY: 0.696
+
+VICTORY: 0.318
+
+VICTORY: 0.371
+
+Loss: -3.257336
+
+Loss: -8.407408
+
+Loss: -7.369427
+
+VICTORY: 0.371
+
+Loss: -7.756757
+
+VICTORY: 0.791
+
+VICTORY: 0.696
+
+Loss: -2.086957
+
+VICTORY: 0.245
+
+VICTORY: 0.01
+
+VICTORY: 0.534
+
+VICTORY: 0.922
+
+VICTORY: 0.554
+
+Loss: -4.558719
+
+VICTORY: 0.426
+
+Loss: -9.547009
+
+VICTORY: 0.166
+
+VICTORY: 0.022
+
+VICTORY: 0.678
+
+Loss: -11.75269
+
+VICTORY: 0.512
+
+VICTORY: 0.541
+
+Loss: -2.138952
+
+VICTORY: 0.247
+
+VICTORY: 0.082
+
+Loss: -7.944445
+
+Loss: -3.695418
+
+VICTORY: 0.932
+
+VICTORY: 0.299
+
+VICTORY: 0.056
+
+Loss: -5.385965
+
+Loss: -6.555555
+
+Loss: -4.460207
+
+Loss: -3.155172
+
+Loss: -5.132231
+
+VICTORY: 0.209
+
+VICTORY: 0.668
+
+VICTORY: 0.694
+
+VICTORY: 0.777
+
+Loss: -3.309469
+
+VICTORY: 0.823
+
+VICTORY: 0.261
+
+VICTORY: 0.34
+
+VICTORY: 0.458
+
+Loss: -9.264462
+
+Loss: -5.651163
+
+Loss: -5.149378
+
+VICTORY: 0.198
+
+VICTORY: 0.174
+
+VICTORY: 0.865
+
+VICTORY: 0.714
+
+Loss: -2.070664
+
+VICTORY: 0.495
+
+Loss: -2.628664
+
+VICTORY: 0.167
+
+VICTORY: 0.229
+
+VICTORY: 0.91
+
+VICTORY: 0.249
+
+Loss: -3.717391
+
+VICTORY: 0.534
+
+VICTORY: 0.839
+
+VICTORY: 0.623
+
+VICTORY: 0.221
+
+Loss: -5.366812
+
+VICTORY: 0.808
+
+VICTORY: 0.673
+
+VICTORY: 0.899
+
+VICTORY: 0.559
+
+VICTORY: 0.101
+
+VICTORY: 0.765
+
+VICTORY: 0.885
+
+VICTORY: 0.557
+
+VICTORY: 0.002
+
+VICTORY: 0.159
+
+VICTORY: 0.339
+
+Loss: -4.861004
+
+VICTORY: 0.925
+
+VICTORY: 0.324
+
+VICTORY: 0.086
+
+Loss: -3.409639
+
+Loss: -10.70874
+
+VICTORY: 0.644
+
+VICTORY: 0.971
+
+VICTORY: 0.879
+
+VICTORY: 0.209
+
+Loss: -2.119821
+
+Loss: -11.6383
+
+VICTORY: 0.26
+
+Loss: -4.703704
+
+Loss: -2.644737
+
+Loss: -3.04918
+
+Loss: -2.021451
+
+Loss: -3.132196
+
+Loss: -12.76471
+
+VICTORY: 0.492
+
+VICTORY: 0.128
+
+VICTORY: 0.856
+
+VICTORY: 0.2
+
+VICTORY: 0.048
+
+VICTORY: 0.047
+
+VICTORY: 0.52
+
+VICTORY: 0.929
+
+VICTORY: 0.504
+
+VICTORY: 0.576
+
+VICTORY: 0.019
+
+Loss: -4.448276
+
+VICTORY: 0.724
+
+VICTORY: 0.71
+
+VICTORY: 0.136
+
+VICTORY: 0.124
+
+Loss: -4.90625
+
+Loss: -4.787879
+
+VICTORY: 0.751
+
+VICTORY: 0.43
+
+VICTORY: 0.858
+
+Loss: -2.901141
+
+Loss: -7.410256
+
+VICTORY: 0.638
+
+Loss: -2.727116
+
+Loss: -8.352942
+
+VICTORY: 0.289
+
+Loss: -2.183432
+
+VICTORY: 0.601
+
+Loss: -2.785714
+
+VICTORY: 0.717
+
+Loss: -3.178649
+
+Loss: -4.144654
+
+VICTORY: 0.691
+
+VICTORY: 0.64
+
+Loss: -2.055966
+
+Loss: -3.967359
+
+VICTORY: 0.145
+
+Loss: -2.466276
+
+VICTORY: 0.986
+
+VICTORY: 0.677
+
+VICTORY: 0.729
+
+VICTORY: 0.658
+
+VICTORY: 0.991
+
+VICTORY: 0.007
+
+VICTORY: 0.893
+
+VICTORY: 0.089
+
+VICTORY: 0.732
+
+VICTORY: 0.259
+
+VICTORY: 0.986
+
+Loss: -7.329114
+
+VICTORY: 0.651
+
+VICTORY: 0.328
+
+VICTORY: 0.955
+
+Loss: -2.226994
+
+VICTORY: 0.79
+
+VICTORY: 0.939
+
+VICTORY: 0.664
+
+VICTORY: 0.876
+
+Loss: -2.199041
+
+Loss: -3.331002
+
+VICTORY: 0.248
+
+Loss: -15.70588
+
+VICTORY: 0.664
+
+Loss: -4.184713
+
+VICTORY: 0.898
+
+VICTORY: 0.698
+
+Loss: -2.574803
+
+VICTORY: 0.739
+
+VICTORY: 0.393
+
+VICTORY: 0.046
+
+Loss: -19.18182
+
+VICTORY: 0.191
+
+Loss: -3.808989
+
+Loss: -2.05042
+
+Loss: -4.584229
+
+VICTORY: 0.115
+
+VICTORY: 0.617
+
+Loss: -3.105263
+
+VICTORY: 0.203
+
+VICTORY: 0.393
+
+VICTORY: 0.496
+
+Loss: -8.246377
+
+Loss: -8.575758
+
+Loss: -23.72727
+
+VICTORY: 0.343
+
+VICTORY: 0.694
+
+Loss: -3.55102
+
+Loss: -11.75269
+
+VICTORY: 0.464
+
+Loss: -5.807693
+
+VICTORY: 0.636
+
+Loss: -2.404494
+
+Loss: -3.320186
+
+VICTORY: 0.814
+
+VICTORY: 0.793
+
+VICTORY: 0.094
+
+VICTORY: 0.718
+
+VICTORY: 0.567
+
+VICTORY: 0.719
+
+VICTORY: 0.999
+
+VICTORY: 0.412
+
+VICTORY: 0.279
+
+VICTORY: 0.73
+
+VICTORY: 0.666
+
+VICTORY: 0.926
+
+VICTORY: 0.976
+
+Loss: -3.242152
+
+Loss: -2.631321
+
+VICTORY: 0.978
+
+VICTORY: 0.458
+
+VICTORY: 0.905
+
+VICTORY: 0.297
+
+VICTORY: 0.491
+
+Loss: -2.49925
+
+VICTORY: 0.438
+
+Loss: -13.19512
+
+Loss: -2.869159
+
+VICTORY: 0.398
+
+VICTORY: 0.094
+
+VICTORY: 0.556
+
+Loss: -2.048218
+
+VICTORY: 0.1
+
+Loss: -28.77778
+
+VICTORY: 0.801
+
+VICTORY: 0.684
+
+VICTORY: 0.285
+
+VICTORY: 0.441
+
+VICTORY: 0.937
+
+Loss: -2.808318
+
+VICTORY: 0.638
+
+Loss: -2.373626
+
+VICTORY: 0.563
+
+VICTORY: 0.536
+
+Loss: -2.201923
+
+Loss: -17.12903
+
+Loss: -2.745201
+
+Loss: -3.777778
+
+VICTORY: 0.132
+
+Loss: -2.886792
+
+VICTORY: 0.523
+
+VICTORY: 0.205
+
+Loss: -3.070393
+
+VICTORY: 0.464
+
+Loss: -3.252252
+
+VICTORY: 0.587
+
+VICTORY: 0.547
+
+Loss: -5.524887
+
+Loss: -6.714286
+
+Loss: -5.901961
+
+VICTORY: 0.645
+
+VICTORY: 0.846
+
+Loss: -3.105263
+
+Loss: -2.55521
+
+Loss: -11.86957
+
+VICTORY: 0.357
+
+VICTORY: 0.876
+
+VICTORY: 0.562
+
+Loss: -6.347594
+
+Loss: -5.237288
+
+VICTORY: 0.927
+
+VICTORY: 0.531
+
+VICTORY: 0.436
+
+Loss: -5.62963
+
+VICTORY: 0.365
+
+Loss: -2.968504
+
+VICTORY: 0.089
+
+VICTORY: 0.639
+
+Loss: -3.604167
+
+VICTORY: 0.882
+
+VICTORY: 0.478
+
+Loss: -8.042253
+
+VICTORY: 0.583
+
+Loss: -8.874016
+
+Loss: -9.547009
+
+VICTORY: 0.138
+
+VICTORY: 0.319
+
+Loss: -17.12903
+
+VICTORY: 0.511
+
+Loss: -3.976191
+
+VICTORY: 0.919
+
+VICTORY: 0.147
+
+VICTORY: 0.757
+
+VICTORY: 0.14
+
+VICTORY: 0.004
+
+VICTORY: 0.47
+
+VICTORY: 0.374
+
+VICTORY: 0.124
+
+VICTORY: 0.014
+
+VICTORY: 0.007
+
+VICTORY: 0.041
+
+VICTORY: 0.42
+
+VICTORY: 0.468
+
+Loss: -8.246377
+
+Loss: -2.529052
+
+Loss: -2.020408
+
+Loss: -22.2766
+
+VICTORY: 0.551
+
+Loss: -2.230012
+
+Loss: -11.6383
+
+VICTORY: 0.704
+
+VICTORY: 0.053
+
+VICTORY: 0.118
+
+Loss: -7.802721
+
+Loss: -8.633588
+
+VICTORY: 0.019
+
+VICTORY: 0.669
+
+VICTORY: 0.364
+
+VICTORY: 0.653
+
+Loss: -2.16144
+
+VICTORY: 0.522
+
+VICTORY: 0.74
+
+VICTORY: 0.582
+
+VICTORY: 0.691
+
+VICTORY: 0.896
+
+VICTORY: 0.286
+
+Loss: -7.134969
+
+VICTORY: 0.733
+
+VICTORY: 0.634
+
+VICTORY: 0.833
+
+Loss: -13.34568
+
+VICTORY: 0.867
+
+VICTORY: 0.132
+
+VICTORY: 0.512
+
+VICTORY: 0.071
+
+Loss: -2.310616
+
+VICTORY: 0.948
+
+VICTORY: 0.246
+
+VICTORY: 0.965
+
+VICTORY: 0.521
+
+Loss: -4.731343
+
+VICTORY: 0.983
+
+VICTORY: 0.553
+
+VICTORY: 0.711
+
+VICTORY: 0.413
+
+VICTORY: 0.039
+
+VICTORY: 0.698
+
+VICTORY: 0.294
+
+VICTORY: 0.98
+
+VICTORY: 0.77
+
+VICTORY: 0.18
+
+Loss: -2.347709
+
+Loss: -2.785714
+
+VICTORY: 0.735
+
+VICTORY: 0.694
+
+Loss: -19.86792
+
+Loss: -3.673797
+
+VICTORY: 0.899
+
+VICTORY: 0.278
+
+VICTORY: 0.654
+
+Loss: -4.496503
+
+VICTORY: 0.128
+
+VICTORY: 0.517
+
+Loss: -9.620689
+
+Loss: -4.472222
+
+Loss: -5.608295
+
+VICTORY: 0.596
+
+VICTORY: 0.947
+
+Loss: -5.587156
+
+VICTORY: 0.764
+
+VICTORY: 0.379
+
+VICTORY: 0.407
+
+VICTORY: 0.85
+
+VICTORY: 0.319
+
+VICTORY: 0.634
+
+VICTORY: 0.584
+
+VICTORY: 0.652
+
+VICTORY: 0.841
+
+VICTORY: 0.443
+
+VICTORY: 0.89
+
+VICTORY: 0.794
+
+Loss: -3.197802
+
+Loss: -4.690037
+
+VICTORY: 0.978
+
+Loss: -7.622517
+
+VICTORY: 0.919
+
+Loss: -8.518797
+
+VICTORY: 0.258
+
+Loss: -3.145923
+
+VICTORY: 0.681
+
+VICTORY: 0.626
+
+VICTORY: 0.917
+
+VICTORY: 0.695
+
+VICTORY: 0.143
+
+VICTORY: 0.093
+
+Loss: -4.610108
+
+VICTORY: 0.638
+
+VICTORY: 0.789
+
+VICTORY: 0.421
+
+VICTORY: 0.264
+
+VICTORY: 0.438
+
+VICTORY: 0.397
+
+VICTORY: 0.2
+
+Loss: -3.087683
+
+VICTORY: 0.701
+
+Loss: -4.125
+
+VICTORY: 0.097
+
+Loss: -2.594896
+
+Loss: -2.022495
+
+VICTORY: 0.704
+
+Loss: -7.756757
+
+Loss: -13.82051
+
+VICTORY: 0.971
+
+VICTORY: 0.025
+
+VICTORY: 0.135
+
+VICTORY: 0.589
+
+VICTORY: 0.738
+
+VICTORY: 0.935
+
+VICTORY: 0.504
+
+Loss: -2.675042
+
+VICTORY: 0.845
+
+VICTORY: 0.112
+
+VICTORY: 0.952
+
+VICTORY: 0.526
+
+VICTORY: 0.063
+
+Loss: -2.101322
+
+VICTORY: 0.991
+
+Loss: -3.631579
+
+VICTORY: 0.973
+
+VICTORY: 0.911
+
+VICTORY: 0.864
+
+VICTORY: 0.777
+
+VICTORY: 0.991
+
+Loss: -2.355014
+
+Loss: -4.322259
+
+Loss: -2.74216
+
+VICTORY: 0.723
+
+Loss: -3.320186
+
+Loss: -12.62791
+
+VICTORY: 0.842
+
+VICTORY: 0.478
+
+VICTORY: 0.921
+
+Loss: -5.273504
+
+VICTORY: 0.18
+
+VICTORY: 0.162
+
+Loss: -2.455604
+
+VICTORY: 0.918
+
+Loss: -2.008065
+
+VICTORY: 0.491
+
+Loss: -2.631321
+
+VICTORY: 0.988
+
+VICTORY: 0.355
+
+VICTORY: 0.032
+
+VICTORY: 0.772
+
+VICTORY: 0.214
+
+VICTORY: 0.65
+
+VICTORY: 0.158
+
+Loss: -2.058201
+
+VICTORY: 0.223
+
+VICTORY: 0.15
+
+Loss: -8.518797
+
+VICTORY: 0.959
+
+VICTORY: 0.253
+
+VICTORY: 0.927
+
+Loss: -2.517451
+
+VICTORY: 0.513
+
+VICTORY: 0.765
+
+VICTORY: 0.677
+
+VICTORY: 0.48
+
+VICTORY: 0.281
+
+VICTORY: 0.602
+
+VICTORY: 0.008
+
+VICTORY: 0.896
+
+Loss: -2.930502
+
+Loss: -2.964637
+
+VICTORY: 0.266
+
+Loss: -7.756757
+
+VICTORY: 0.84
+
+VICTORY: 0.757
+
+VICTORY: 0.993
+
+VICTORY: 0.5
+
+VICTORY: 0.154
+
+Loss: -2.273885
+
+VICTORY: 0.23
+
+Loss: -7.896552
+
+VICTORY: 0.744
+
+VICTORY: 0.622
+
+VICTORY: 0.033
+
+VICTORY: 0.873
+
+VICTORY: 0.83
+
+Loss: -2.869159
+
+VICTORY: 0.889
+
+VICTORY: 0.992
+
+VICTORY: 0.743
+
+VICTORY: 0.796
+
+VICTORY: 0.758
+
+Loss: -2.30039
+
+Loss: -5.926108
+
+Loss: -10.90099
+
+Loss: -3.475248
+
+Loss: -4.355705
+
+VICTORY: 0.337
+
+Loss: -3.557545
+
+VICTORY: 0.368
+
+Loss: -2.538461
+
+VICTORY: 0.563
+
+VICTORY: 0.389
+
+VICTORY: 0.946
+
+VICTORY: 0.825
+
+VICTORY: 0.541
+
+Loss: -5.032258
+
+Loss: -8.194244
+
+Loss: -7.289308
+
+VICTORY: 0.979
+
+VICTORY: 0.983
+
+VICTORY: 0.462
+
+VICTORY: 0.21
+
+Loss: -5.545455
+
+Loss: -4.225806
+
+VICTORY: 0.737
+
+Loss: -2.845018
+
+VICTORY: 0.459
+
+Loss: -3.35849
+
+VICTORY: 0.058
+
+VICTORY: 0.846
+
+Loss: -4.164557
+
+VICTORY: 0.964
+
+VICTORY: 0.178
+
+VICTORY: 0.682
+
+VICTORY: 0.016
+
+VICTORY: 0.888
+
+VICTORY: 0.273
+
+Loss: -2.908397
+
+VICTORY: 0.035
+
+VICTORY: 0.731
+
+Loss: -2.312336
+
+VICTORY: 0.83
+
+Loss: -3.150538
+
+VICTORY: 0.001
+
+VICTORY: 0.132
+
+VICTORY: 0.952
+
+Loss: -2.219512
+
+VICTORY: 0.411
+
+Loss: -5.132231
+
+VICTORY: 0.594
+
+VICTORY: 0.629
+
+Loss: -3.145923
+
+Loss: -4.355705
+
+VICTORY: 0.592
+
+VICTORY: 0.51
+
+Loss: -2.74216
+
+VICTORY: 0.645
+
+VICTORY: 0.783
+
+Loss: -11.41667
+
+VICTORY: 0.835
+
+VICTORY: 0.236
+
+Loss: -2.795332
+
+VICTORY: 0.539
+
+Loss: -2.904762
+
+VICTORY: 0.959
+
+VICTORY: 0.817
+
+Loss: -3.212389
+
+Loss: -6.988024
+
+VICTORY: 0.866
+
+Loss: -2.133787
+
+VICTORY: 0.83
+
+VICTORY: 0.754
+
+VICTORY: 0.357
+
+VICTORY: 0.876
+
+VICTORY: 0.527
+
+VICTORY: 0.586
+
+Loss: -2.069519
+
+VICTORY: 0.31
+
+VICTORY: 0.004
+
+Loss: -3.331002
+
+Loss: -3.114165
+
+VICTORY: 0.975
+
+Loss: -6.405406
+
+Loss: -13.04819
+
+Loss: -2.046025
+
+VICTORY: 0.893
+
+VICTORY: 0.28
+
+Loss: -2.049318
+
+VICTORY: 0.846
+
+VICTORY: 0.143
+
+Loss: -2.574803
+
+VICTORY: 0.412
+
+VICTORY: 0.281
+
+Loss: -2.240695
+
+Loss: -2.360544
+
+VICTORY: 0.263
+
+VICTORY: 0.793
+
+VICTORY: 0.257
+
+VICTORY: 0.384
+
+VICTORY: 0.484
+
+VICTORY: 0.121
+
+VICTORY: 0.27
+
+VICTORY: 0.189
+
+Loss: -5.854369
+
+Loss: -9.474576
+
+VICTORY: 0.204
+
+Loss: -6.747127
+
+VICTORY: 0.002
+
+VICTORY: 0.426
+
+VICTORY: 0.834
+
+VICTORY: 0.559
+
+VICTORY: 0.472
+
+VICTORY: 0.07
+
+VICTORY: 0.12
+
+VICTORY: 0.776
+
+VICTORY: 0.73
+
+VICTORY: 0.935
+
+VICTORY: 0.805
+
+Loss: -7.024096
+
+Loss: -5
+
+VICTORY: 0.554
+
+VICTORY: 0.238
+
+VICTORY: 0.8
+
+VICTORY: 0.165
+
+Loss: -7.944445
+
+VICTORY: 0.377
+
+VICTORY: 0.594
+
+Loss: -4.267974
+
+VICTORY: 0.407
+
+VICTORY: 0.093
+
+VICTORY: 0.227
+
+VICTORY: 0.644
+
+Loss: -4.610108
+
+Loss: -4.787879
+
+VICTORY: 0.879
+
+VICTORY: 0.169
+
+VICTORY: 0.08
+
+VICTORY: 0.052
+
+VICTORY: 0.829
+
+VICTORY: 0.717
+
+VICTORY: 0.602
+
+VICTORY: 0.012
+
+Loss: -5.098361
+
+Loss: -2.127396
+
+VICTORY: 0.115
+
+VICTORY: 0.298
+
+VICTORY: 0.521
+
+VICTORY: 0.708
+
+VICTORY: 0.702
+
+VICTORY: 0.508
+
+VICTORY: 0.696
+
+Loss: -3.55102
+
+Loss: -9.695652
+
+VICTORY: 0.132
+
+Loss: -5.830918
+
+VICTORY: 0.793
+
+VICTORY: 0.993
+
+VICTORY: 0.557
+
+Loss: -2.567398
+
+VICTORY: 0.458
+
+VICTORY: 0.034
+
+VICTORY: 0.888
+
+VICTORY: 0.655
+
+VICTORY: 0.787
+
+VICTORY: 0.185
+
+Loss: -4.412969
+
+VICTORY: 0.539
+
+Loss: -2.727116
+
+VICTORY: 0.343
+
+VICTORY: 0.105
+
+VICTORY: 0.201
+
+VICTORY: 0.983
+
+VICTORY: 0.179
+
+VICTORY: 0.269
+
+VICTORY: 0.744
+
+VICTORY: 0.796
+
+VICTORY: 0.918
+
+VICTORY: 0.667
+
+VICTORY: 0.666
+
+Loss: -5.950495
+
+VICTORY: 0.797
+
+VICTORY: 0.046
+
+VICTORY: 0.765
+
+VICTORY: 0.568
+
+VICTORY: 0.78
+
+VICTORY: 0.679
+
+VICTORY: 0.388
+
+VICTORY: 0.733
+
+VICTORY: 0.746
+
+VICTORY: 0.957
+
+VICTORY: 0.097
+
+Loss: -7.535948
+
+Loss: -3.293578
+
+VICTORY: 0.781
+
+VICTORY: 0.904
+
+VICTORY: 0.894
+
+Loss: -11.41667
+
+Loss: -7.21118
+
+VICTORY: 0.474
+
+VICTORY: 0.268
+
+VICTORY: 0.773
+
+VICTORY: 0.787
+
+VICTORY: 0.759
+
+VICTORY: 0.716
+
+VICTORY: 0.961
+
+Loss: -2.633987
+
+VICTORY: 0.188
+
+VICTORY: 0.347
+
+VICTORY: 0.22
+
+VICTORY: 0.093
+
+Loss: -5.854369
+
+VICTORY: 0.093
+
+VICTORY: 0.551
+
+VICTORY: 0.097
+
+Loss: -4.012048
+
+VICTORY: 0.984
+
+VICTORY: 0.532
+
+VICTORY: 0.086
+
+VICTORY: 0.972
+
+VICTORY: 0.109
+
+VICTORY: 0.063
+
+VICTORY: 0.382
+
+VICTORY: 0.642
+
+VICTORY: 0.349
+
+VICTORY: 0.032
+
+VICTORY: 0.521
+
+VICTORY: 0.915
+
+Loss: -7.896552
+
+VICTORY: 0.963
+
+VICTORY: 0.154
+
+VICTORY: 0.151
+
+Loss: -4.003003
+
+VICTORY: 0.056
+
+VICTORY: 0.886
+
+VICTORY: 0.643
+
+VICTORY: 0.242
+
+VICTORY: 0.199
+
+VICTORY: 0.56
+
+Loss: -3.808989
+
+Loss: -5.255319
+
+Loss: -7.25
+
+Loss: -18.54386
+
+Loss: -13.98701
+
+VICTORY: 0.65
+
+VICTORY: 0.947
+
+Loss: -2.322751
+
+VICTORY: 0.077
+
+VICTORY: 0.339
+
+Loss: -3.597403
+
+VICTORY: 0.99
+
+Loss: -10.00901
+
+VICTORY: 0.908
+
+VICTORY: 0.426
+
+VICTORY: 0.693
+
+Loss: -2.176471
+
+Loss: -2.577287
+
+Loss: -8.352942
+
+Loss: -4.205128
+
+VICTORY: 0.424
+
+VICTORY: 0.252
+
+VICTORY: 0.313
+
+VICTORY: 0.403
+
+Loss: -2.782531
+
+VICTORY: 0.478
+
+Loss: -5.901961
+
+VICTORY: 0.409
+
+VICTORY: 0.802
+
+VICTORY: 0.976
+
+VICTORY: 0.194
+
+VICTORY: 0.947
+
+VICTORY: 0.869
+
+VICTORY: 0.065
+
+VICTORY: 0.421
+
+VICTORY: 0.279
+
+Loss: -2.246883
+
+VICTORY: 0.665
+
+VICTORY: 0.886
+
+VICTORY: 0.466
+
+VICTORY: 0.289
+
+VICTORY: 0.135
+
+VICTORY: 0.351
+
+VICTORY: 0.711
+
+VICTORY: 0.793
+
+VICTORY: 0.197
+
+VICTORY: 0.968
+
+Loss: -7.578948
+
+VICTORY: 0.541
+
+Loss: -3.202643
+
+Loss: -2.098901
+
+VICTORY: 0.846
+
+VICTORY: 0.181
+
+VICTORY: 0.991
+
+VICTORY: 0.374
+
+VICTORY: 0.886
+
+VICTORY: 0.579
+
+VICTORY: 0.013
+
+VICTORY: 0.791
+
+VICTORY: 0.378
+
+VICTORY: 0.575
+
+VICTORY: 0.775
+
+VICTORY: 0.608
+
+Loss: -3.386635
+
+Loss: -5.739336
+
+Loss: -11.10101
+
+VICTORY: 0.474
+
+VICTORY: 0.675
+
+VICTORY: 0.086
+
+VICTORY: 0.553
+
+VICTORY: 0.497
+
+Loss: -4.012048
+
+VICTORY: 0.979
+
+Loss: -4.378378
+
+Loss: -9.474576
+
+VICTORY: 0.412
+
+VICTORY: 0.593
+
+VICTORY: 0.457
+
+VICTORY: 0.462
+
+VICTORY: 0.868
+
+VICTORY: 0.21
+
+VICTORY: 0.74
+
+VICTORY: 0.473
+
+VICTORY: 0.373
+
+VICTORY: 0.769
+
+Loss: -4.663003
+
+VICTORY: 0.915
+
+VICTORY: 0.233
+
+VICTORY: 0.154
+
+Loss: -9
+
+VICTORY: 0.923
+
+VICTORY: 0.561
+
+VICTORY: 0.212
+
+VICTORY: 0.738
+
+Loss: -2.449275
+
+VICTORY: 0.03
+
+Loss: -5.405286
+
+VICTORY: 0.962
+
+Loss: -2.091703
+
+VICTORY: 0.661
+
+VICTORY: 0.894
+
+VICTORY: 0.611
+
+VICTORY: 0.441
+
+VICTORY: 0.654
+
+Loss: -3.463054
+
+VICTORY: 0.43
+
+VICTORY: 0.407
+
+VICTORY: 0.491
+
+Loss: -14.33333
+
+Loss: -2.490313
+
+VICTORY: 0.133
+
+VICTORY: 0.085
+
+VICTORY: 0.377
+
+VICTORY: 0.215
+
+VICTORY: 0.872
+
+VICTORY: 0.675
+
+VICTORY: 0.809
+
+VICTORY: 0.751
+
+VICTORY: 0.796
+
+VICTORY: 0.981
+
+VICTORY: 0.99
+
+Loss: -5.524887
+
+VICTORY: 0.864
+
+VICTORY: 0.804
+
+VICTORY: 0.847
+
+VICTORY: 0.323
+
+Loss: -2.533742
+
+VICTORY: 0.279
+
+Loss: -9.547009
+
+VICTORY: 0.674
+
+VICTORY: 0.85
+
+VICTORY: 0.616
+
+VICTORY: 0.823
+
+Loss: -3.994012
+
+VICTORY: 0.257
+
+VICTORY: 0.173
+
+Loss: -5.132231
+
+VICTORY: 0.024
+
+VICTORY: 0.155
+
+VICTORY: 0.759
+
+VICTORY: 0.666
+
+VICTORY: 0.297
+
+Loss: -4.344481
+
+VICTORY: 0.869
+
+VICTORY: 0.922
+
+Loss: -10.00901
+
+VICTORY: 0.652
+
+VICTORY: 0.811
+
+VICTORY: 0.186
+
+VICTORY: 0.498
+
+VICTORY: 0.09
+
+VICTORY: 0.998
+
+VICTORY: 0.699
+
+VICTORY: 0.204
+
+Loss: -11.98901
+
+Loss: -3.304147
+
+Loss: -5.201681
+
+VICTORY: 0.087
+
+Loss: -3.493766
+
+VICTORY: 0.889
+
+VICTORY: 0.988
+
+VICTORY: 0.174
+
+VICTORY: 0.718
+
+VICTORY: 0.993
+
+VICTORY: 0.978
+
+VICTORY: 0.685
+
+VICTORY: 0.51
+
+VICTORY: 0.603
+
+Loss: -11.98901
+
+Loss: -4.533569
+
+VICTORY: 0.862
+
+VICTORY: 0.261
+
+Loss: -2.992032
+
+VICTORY: 0.427
+
+VICTORY: 0.771
+
+VICTORY: 0.287
+
+VICTORY: 0.986
+
+VICTORY: 0.761
+
+VICTORY: 0.526
+
+VICTORY: 0.739
+
+VICTORY: 0.527
+
+VICTORY: 0.397
+
+VICTORY: 0.223
+
+VICTORY: 0.758
+
+VICTORY: 0.209
+
+VICTORY: 0.964
+
+VICTORY: 0.521
+
+VICTORY: 0.936
+
+Loss: -3.04918
+
+VICTORY: 0.318
+
+Loss: -2.28041
+
+VICTORY: 0.339
+
+VICTORY: 0.176
+
+VICTORY: 0.549
+
+Loss: -3.754821
+
+Loss: -3.43309
+
+VICTORY: 0.852
+
+VICTORY: 0.869
+
+VICTORY: 0.255
+
+Loss: -7.944445
+
+Loss: -4.333333
+
+VICTORY: 0.529
+
+VICTORY: 0.444
+
+VICTORY: 0.115
+
+Loss: -9.620689
+
+VICTORY: 0.498
+
+VICTORY: 0.579
+
+VICTORY: 0.191
+
+VICTORY: 0.356
+
+VICTORY: 0.213
+
+VICTORY: 0.423
+
+VICTORY: 0.426
+
+VICTORY: 0.951
+
+VICTORY: 0.075
+
+VICTORY: 0.397
+
+VICTORY: 0.651
+
+VICTORY: 0.78
+
+Loss: -3.525253
+
+VICTORY: 0.77
+
+VICTORY: 0.836
+
+VICTORY: 0.343
+
+VICTORY: 0.687
+
+VICTORY: 0.976
+
+VICTORY: 0.658
+
+VICTORY: 0.567
+
+Loss: -2.013171
+
+Loss: -10.61539
+
+VICTORY: 0.668
+
+VICTORY: 0.231
+
+Loss: -3.43309
+
+VICTORY: 0.794
+
+VICTORY: 0.541
+
+Loss: -10.70874
+
+Loss: -7.944445
+
+VICTORY: 0.831
+
+VICTORY: 0.536
+
+VICTORY: 0.451
+
+Loss: -3.369668
+
+VICTORY: 0.057
+
+Loss: -2.769912
+
+VICTORY: 0.714
+
+VICTORY: 0.057
+
+VICTORY: 0.228
+
+VICTORY: 0.981
+
+VICTORY: 0.779
+
+Loss: -2.127396
+
+VICTORY: 0.677
+
+VICTORY: 0.013
+
+VICTORY: 0.885
+
+VICTORY: 0.075
+
+Loss: -4.401361
+
+Loss: -12.62791
+
+VICTORY: 0.24
+
+VICTORY: 0.762
+
+VICTORY: 0.318
+
+VICTORY: 0.303
+
+VICTORY: 0.78
+
+VICTORY: 0.96
+
+VICTORY: 0.445
+
+VICTORY: 0.797
+
+VICTORY: 0.856
+
+VICTORY: 0.972
+
+VICTORY: 0.713
+
+Loss: -2.367989
+
+VICTORY: 0.991
+
+VICTORY: 0.768
+
+VICTORY: 0.891
+
+VICTORY: 0.991
+
+VICTORY: 0.522
+
+Loss: -11.6383
+
+Loss: -3.816901
+
+VICTORY: 0.942
+
+Loss: -4.571429
+
+VICTORY: 0.369
+
+Loss: -3.493766
+
+Loss: -3.525253
+
+VICTORY: 0.813
+
+Loss: -2.138952
+
+Loss: -4.636364
+
+Loss: -4.067485
+
+Loss: -3.439024
+
+VICTORY: 0.778
+
+Loss: -3.336449
+
+Loss: -2.137656
+
+Loss: -2.092896
+
+VICTORY: 0.718
+
+Loss: -2.118568
+
+VICTORY: 0.526
+
+VICTORY: 0.536
+
+VICTORY: 0.654
+
+VICTORY: 0.106
+
+VICTORY: 0.359
+
+VICTORY: 0.636
+
+Loss: -3.985075
+
+VICTORY: 0.943
+
+Loss: -4.787879
+
+VICTORY: 0.853
+
+VICTORY: 0.403
+
+VICTORY: 0.118
+
+VICTORY: 0.85
+
+Loss: -3.702703
+
+Loss: -11.20408
+
+VICTORY: 0.67
+
+VICTORY: 0.057
+
+Loss: -2.858736
+
+VICTORY: 0.955
+
+VICTORY: 0.59
+
+Loss: -2.18624
+
+VICTORY: 0.388
+
+VICTORY: 0.822
+
+VICTORY: 0.065
+
+VICTORY: 0.48
+
+VICTORY: 0.244
+
+VICTORY: 0.762
+
+VICTORY: 0.091
+
+VICTORY: 0.547
+
+VICTORY: 0.814
+
+VICTORY: 0.537
+
+VICTORY: 0.579
+
+VICTORY: 0.154
+
+VICTORY: 0.789
+
+Loss: -2.569859
+
+VICTORY: 0.452
+
+VICTORY: 0.606
+
+Loss: -7.369427
+
+VICTORY: 0.418
+
+VICTORY: 0.509
+
+VICTORY: 0.806
+
+VICTORY: 0.073
+
+VICTORY: 0.954
+
+VICTORY: 0.452
+
+VICTORY: 0.196
+
+VICTORY: 0.387
+
+VICTORY: 0.791
+
+VICTORY: 0.973
+
+Loss: -5.081633
+
+VICTORY: 0.746
+
+VICTORY: 0.41
+
+VICTORY: 0.501
+
+Loss: -3.12766
+
+VICTORY: 0.482
+
+VICTORY: 0.157
+
+VICTORY: 0.283
+
+VICTORY: 0.429
+
+VICTORY: 0.787
+
+Loss: -2.026694
+
+VICTORY: 0.729
+
+VICTORY: 0.366
+
+VICTORY: 0.509
+
+Loss: -9.403361
+
+Loss: -14.88889
+
+VICTORY: 0.853
+
+VICTORY: 0.365
+
+VICTORY: 0.497
+
+VICTORY: 0.567
+
+VICTORY: 0.363
+
+Loss: -2.694915
+
+Loss: -3.570694
+
+Loss: -6.076142
+
+VICTORY: 0.299
+
+VICTORY: 0.755
+
+VICTORY: 0.849
+
+VICTORY: 0.784
+
+VICTORY: 0.764
+
+VICTORY: 0.7
+
+VICTORY: 0.83
+
+VICTORY: 0.44
+
+VICTORY: 0.71
+
+Loss: -5.739336
+
+VICTORY: 0.991
+
+VICTORY: 0.259
+
+VICTORY: 0.637
+
+Loss: -3.793296
+
+VICTORY: 0.669
+
+VICTORY: 0.649
+
+Loss: -3.770083
+
+VICTORY: 0.813
+
+Loss: -7.71141
+
+VICTORY: 0.765
+
+VICTORY: 0.667
+
+Loss: -2.197605
+
+VICTORY: 0.001
+
+Loss: -3.242152
+
+VICTORY: 0.689
+
+VICTORY: 0.063
+
+VICTORY: 0.941
+
+VICTORY: 0.105
+
+VICTORY: 0.444
+
+VICTORY: 0.068
+
+VICTORY: 0.923
+
+Loss: -2.169591
+
+VICTORY: 0.205
+
+VICTORY: 0.352
+
+Loss: -10.17431
+
+Loss: -6.747127
+
+Loss: -23.22222
+
+VICTORY: 0.955
+
+Loss: -12.36364
+
+VICTORY: 0.325
+
+VICTORY: 0.175
+
+VICTORY: 0.205
+
+VICTORY: 0.84
+
+VICTORY: 0.865
+
+VICTORY: 0.89
+
+VICTORY: 0.372
+
+VICTORY: 0.393
+
+VICTORY: 0.485
+
+VICTORY: 0.438
+
+VICTORY: 0.713
+
+VICTORY: 0.98
+
+Loss: -5.56621
+
+VICTORY: 0.993
+
+VICTORY: 0.302
+
+VICTORY: 0.7
+
+VICTORY: 0.435
+
+VICTORY: 0.775
+
+VICTORY: 0.04
+
+VICTORY: 0.529
+
+VICTORY: 0.338
+
+Loss: -14.1579
+
+VICTORY: 0.092
+
+VICTORY: 0.619
+
+VICTORY: 0.449
+
+Loss: -10.00901
+
+VICTORY: 0.541
+
+VICTORY: 0.246
+
+VICTORY: 0.382
+
+VICTORY: 0.132
+
+Loss: -7.451613
+
+Loss: -4.154574
+
+VICTORY: 0.301
+
+VICTORY: 0.883
+
+VICTORY: 0.887
+
+VICTORY: 0.42
+
+Loss: -5.56621
+
+VICTORY: 0.267
+
+VICTORY: 0.027
+
+VICTORY: 0.837
+
+VICTORY: 0.973
+
+VICTORY: 0.736
+
+VICTORY: 0.416
+
+Loss: -4.968254
+
+Loss: -2.904762
+
+VICTORY: 0.069
+
+Loss: -13.04819
+
+Loss: -5.098361
+
+Loss: -2.893939
+
+Loss: -7.896552
+
+VICTORY: 0.194
+
+VICTORY: 0.317
+
+VICTORY: 0.486
+
+VICTORY: 0.932
+
+VICTORY: 0.362
+
+Loss: -6.050505
+
+Loss: -6.102041
+
+VICTORY: 0.011
+
+VICTORY: 0.589
+
+VICTORY: 0.58
+
+VICTORY: 0.086
+
+Loss: -7.493506
+
+VICTORY: 0.835
+
+Loss: -7.329114
+
+VICTORY: 0.198
+
+Loss: -4.610108
+
+VICTORY: 0.577
+
+Loss: -6.91716
+
+Loss: -9.474576
+
+VICTORY: 0.113
+
+Loss: -3.518892
+
+VICTORY: 0.579
+
+VICTORY: 0.821
+
+Loss: -4.289474
+
+VICTORY: 0.277
+
+VICTORY: 0.972
+
+VICTORY: 0.622
+
+Loss: -2.231527
+
+Loss: -4.003003
+
+VICTORY: 0.211
+
+VICTORY: 0.566
+
+VICTORY: 0.489
+
+VICTORY: 0.819
+
+VICTORY: 0.524
+
+Loss: -3.457002
+
+VICTORY: 0.182
+
+VICTORY: 0.791
+
+VICTORY: 0.924
+
+VICTORY: 0.965
+
+VICTORY: 0.602
+
+VICTORY: 0.776
+
+VICTORY: 0.289
+
+VICTORY: 0.987
+
+VICTORY: 0.933
+
+VICTORY: 0.072
+
+VICTORY: 0.861
+
+VICTORY: 0.687
+
+VICTORY: 0.125
+
+Loss: -11.30928
+
+VICTORY: 0.848
+
+VICTORY: 0.315
+
+Loss: -22.73913
+
+VICTORY: 0.62
+
+VICTORY: 0.544
+
+VICTORY: 0.322
+
+VICTORY: 0.549
+
+Loss: -3.932551
+
+VICTORY: 0.549
+
+Loss: -2.390821
+
+Loss: -8.092198
+
+Loss: -4.875969
+
+VICTORY: 0.124
+
+VICTORY: 0.331
+
+VICTORY: 0.728
+
+VICTORY: 0.793
+
+Loss: -3.793296
+
+VICTORY: 0.942
+
+VICTORY: 0.583
+
+Loss: -5.878049
+
+VICTORY: 0.473
+
+VICTORY: 0.358
+
+VICTORY: 0.286
+
+VICTORY: 0.136
+
+VICTORY: 0.915
+
+VICTORY: 0.263
+
+VICTORY: 0.381
+
+VICTORY: 0.409
+
+Loss: -7.622517
+
+VICTORY: 0.826
+
+VICTORY: 0.863
+
+VICTORY: 0.906
+
+VICTORY: 0.456
+
+VICTORY: 0.383
+
+VICTORY: 0.628
+
+VICTORY: 0.192
+
+VICTORY: 0.984
+
+VICTORY: 0.288
+
+VICTORY: 0.548
+
+Loss: -2.295337
+
+VICTORY: 0.022
+
+VICTORY: 0.024
+
+VICTORY: 0.568
+
+Loss: -7.097561
+
+VICTORY: 0.369
+
+VICTORY: 0.044
+
+VICTORY: 0.36
+
+Loss: -4.521127
+
+Loss: -4.367003
+
+Loss: -3.631579
+
+VICTORY: 0.695
+
+Loss: -6.263158
+
+Loss: -9.547009
+
+VICTORY: 0.107
+
+VICTORY: 0.261
+
+VICTORY: 0.377
+
+Loss: -7.329114
+
+VICTORY: 0.058
+
+VICTORY: 0.976
+
+VICTORY: 0.006
+
+VICTORY: 0.223
+
+VICTORY: 0.152
+
+VICTORY: 0.943
+
+Loss: -7.21118
+
+VICTORY: 0.837
+
+VICTORY: 0.148
+
+VICTORY: 0.353
+
+VICTORY: 0.539
+
+VICTORY: 0.858
+
+VICTORY: 0.793
+
+VICTORY: 0.615
+
+VICTORY: 0.381
+
+VICTORY: 0.298
+
+VICTORY: 0.47
+
+Loss: -3.212389
+
+VICTORY: 0.466
+
+VICTORY: 0.675
+
+Loss: -2.267427
+
+VICTORY: 0.977
+
+VICTORY: 0.563
+
+VICTORY: 0.48
+
+VICTORY: 0.761
+
+Loss: -3.808989
+
+VICTORY: 0.106
+
+VICTORY: 0.762
+
+Loss: -3.710027
+
+VICTORY: 0.336
+
+Loss: -2.278772
+
+VICTORY: 0.325
+
+VICTORY: 0.233
+
+VICTORY: 0.772
+
+VICTORY: 0.701
+
+VICTORY: 0.223
+
+VICTORY: 0.212
+
+VICTORY: 0.687
+
+VICTORY: 0.638
+
+VICTORY: 0.834
+
+Loss: -4.571429
+
+Loss: -3.09205
+
+VICTORY: 0.129
+
+Loss: -2.468429
+
+VICTORY: 0.817
+
+VICTORY: 0.035
+
+VICTORY: 0.955
+
+Loss: -2.703578
+
+VICTORY: 0.967
+
+VICTORY: 0.37
+
+VICTORY: 0.815
+
+Loss: -3.061856
+
+VICTORY: 0.353
+
+VICTORY: 0.536
+
+VICTORY: 0.154
+
+Loss: -15.49275
+
+VICTORY: 0.14
+
+VICTORY: 0.266
+
+VICTORY: 0.887
+
+VICTORY: 0.619
+
+VICTORY: 0.779
+
+Loss: -2.158749
+
+VICTORY: 0.68
+
+VICTORY: 0.802
+
+VICTORY: 0.911
+
+VICTORY: 0.567
+
+VICTORY: 0.326
+
+Loss: -2.666667
+
+VICTORY: 0.961
+
+VICTORY: 0.777
+
+Loss: -8.874016
+
+VICTORY: 0.396
+
+Loss: -5.716981
+
+VICTORY: 0.81
+
+VICTORY: 0.996
+
+VICTORY: 0.287
+
+Loss: -5.56621
+
+VICTORY: 0.188
+
+VICTORY: 0.144
+
+VICTORY: 0.761
+
+VICTORY: 0.108
+
+VICTORY: 0.004
+
+VICTORY: 0.28
+
+Loss: -16.87302
+
+VICTORY: 0.025
+
+VICTORY: 0.959
+
+Loss: -9.064516
+
+VICTORY: 0.492
+
+VICTORY: 0.971
+
+Loss: -2.956947
+
+VICTORY: 0.965
+
+Loss: -2.303781
+
+Loss: -12.90476
+
+VICTORY: 0.817
+
+Loss: -3.994012
+
+VICTORY: 0.034
+
+VICTORY: 0.447
+
+VICTORY: 0.319
+
+Loss: -2.168224
+
+VICTORY: 0.707
+
+VICTORY: 0.282
+
+Loss: -5.016064
+
+VICTORY: 0.316
+
+VICTORY: 0.806
+
+VICTORY: 0.745
+
+VICTORY: 0.758
+
+VICTORY: 0.95
+
+VICTORY: 0.32
+
+VICTORY: 0.2
+
+Loss: -2.47929
+
+Loss: -3.386635
+
+VICTORY: 0.941
+
+Loss: -6.154639
+
+Loss: -8.407408
+
+Loss: -7.289308
+
+VICTORY: 0.676
+
+VICTORY: 0.401
+
+VICTORY: 0.705
+
+VICTORY: 0.588
+
+Loss: -3.747253
+
+VICTORY: 0.765
+
+Loss: -18.24138
+
+Loss: -2.5625
+
+VICTORY: 0.21
+
+VICTORY: 0.855
+
+VICTORY: 0.82
+
+Loss: -6
+
+VICTORY: 0.958
+
+Loss: -2.006036
+
+VICTORY: 0.176
+
+VICTORY: 0.834
+
+VICTORY: 0.229
+
+Loss: -2.474926
+
+VICTORY: 0.483
+
+Loss: -2.390821
+
+VICTORY: 0.316
+
+VICTORY: 0.38
+
+VICTORY: 0.509
+
+VICTORY: 0.304
+
+VICTORY: 0.951
+
+Loss: -16.625
+
+VICTORY: 0.647
+
+Loss: -7.21118
+
+Loss: -2.663893
+
+VICTORY: 0.864
+
+Loss: -3.985075
+
+Loss: -2.915709
+
+Loss: -8.042253
+
+VICTORY: 0.089
+
+VICTORY: 0.184
+
+VICTORY: 0.629
+
+VICTORY: 0.959
+
+VICTORY: 0.699
+
+GRPC Exception: Status(StatusCode=Unknown, Detail="Stream removed"). Disconnecting from trainer.
+
+Unable to save timers to file C:/Users/potpa/OneDrive/Documents/GitHub/Unity-AI/completed_build/Spacy_Data\ML-Agents\Timers\spacy_timers.json
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2bfc -> priority: 1 
+  Thread -> id: 2a24 -> priority: 1 
+  Thread -> id: 5e0 -> priority: 1 
+  Thread -> id: 1784 -> priority: 1 

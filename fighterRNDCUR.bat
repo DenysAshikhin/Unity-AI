@@ -1,0 +1,1 @@
+mlagents-learn ml_agents\config\fighterRNDCUR.yaml --run-id=Curi_RND15e3G3 --env=completed_build\Spacy.exe --force --num-env=6 --no-graphics --time-scale=15
