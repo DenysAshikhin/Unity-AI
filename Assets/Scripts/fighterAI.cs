@@ -205,11 +205,10 @@ public class fighterAI : Agent
 
     public void killed()
     {
-
         if (lastStep == 0)
             lastStep = StepCount;
-        Debug.Log("Added Score: " + (1f - ((float)lastStep / (float)MaxStep)).ToString());
-        AddReward(1f - (((float)lastStep / (float)MaxStep)));
+        // Debug.Log("Added Score: " + (1f - ((float)lastStep / (float)MaxStep)).ToString());
+        AddReward(1f);
         Debug.Log("Cumulative Score: " + (GetCumulativeReward()).ToString());
         lastStep = (float)StepCount;
         randomSpawns();
@@ -217,7 +216,6 @@ public class fighterAI : Agent
 
     void onTriggerEnter2D(Collider2D col)
     {
-
         Debug.Log("Entered FIGHTER!");
     }
 }
