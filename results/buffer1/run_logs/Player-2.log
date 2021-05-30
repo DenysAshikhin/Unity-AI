@@ -1,51 +1,366 @@
-Mono path[0] = 'C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Managed'
-Mono config path = 'C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/MonoBleedingEdge/etc'
+Mono path[0] = 'C:/Users/denys/Spacy/completed_build/Spacy_Data/Managed'
+Mono config path = 'C:/Users/denys/Spacy/completed_build/MonoBleedingEdge/etc'
 Initialize engine version: 2020.3.9f1 (108be757e447)
-[Subsystems] Discovering subsystems at path C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/UnitySubsystems
-Forcing GfxDevice: Null
-GfxDevice: creating device client; threaded=0
-NullGfxDevice:
-    Version:  NULL 1.0 [1.0]
-    Renderer: Null Device
-    Vendor:   Unity Technologies
+[Subsystems] Discovering subsystems at path C:/Users/denys/Spacy/completed_build/Spacy_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.14501.18003
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.757 seconds
-ERROR: Shader Sprites/Default shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported.
-ERROR: Shader Sprites/Mask shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-ERROR: Shader Legacy Shaders/Particles/Additive shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-ERROR: Shader Legacy Shaders/Particles/Alpha Blended Premultiply shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-ERROR: Shader Legacy Shaders/Particles/Alpha Blended shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-UnloadTime: 1.060800 ms
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libcoreclr.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so.dll
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libdl.so
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
-Fallback handler could not load library C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data/Mono/libSystem.dylib
+- Completed reload, in  0.202 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.030700 ms
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
 failed to get 100ns ticks
 Loss: -1
 
+VICTORY: 0.22
+
+Loss: -1
+
 Loss: -1
 
 Loss: -1
 
 Loss: -1
+
+Loss: -1
+
+VICTORY: 0.082
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.979
+
+Loss: -1
+
+VICTORY: 0.569
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.113
+
+VICTORY: 0.179
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.097
+
+Loss: -1
+
+VICTORY: 0.258
+
+VICTORY: 0.327
+
+Loss: -1
+
+VICTORY: 0.433
+
+Loss: -1
+
+VICTORY: 0.184
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.543
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.375
+
+Loss: -1
+
+VICTORY: 0.359
+
+Loss: -1
+
+VICTORY: 0.092
+
+Loss: -1
+
+VICTORY: 0.174
+
+VICTORY: 0.373
+
+VICTORY: 0.774
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.129
+
+Loss: -1
+
+VICTORY: 0.271
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.137
+
+VICTORY: 0.227
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.153
+
+VICTORY: 0.298
+
+Loss: -1
+
+VICTORY: 0.42
+
+Loss: -1
+
+VICTORY: 0.154
+
+Loss: -1
+
+VICTORY: 0.455
+
+VICTORY: 0.157
+
+VICTORY: 0.132
+
+VICTORY: 0.702
+
+VICTORY: 0.667
+
+Loss: -1
+
+VICTORY: 0.486
+
+VICTORY: 0.099
+
+VICTORY: 0.218
+
+Loss: -1
+
+VICTORY: 0.507
+
+VICTORY: 0.546
+
+VICTORY: 0.363
+
+VICTORY: 0.587
+
+VICTORY: 0.996
+
+VICTORY: 0.174
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.17
+
+Loss: -1
+
+VICTORY: 0.527
+
+Loss: -1
+
+VICTORY: 0.154
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.41
+
+VICTORY: 0.123
+
+Loss: -1
+
+VICTORY: 0.161
+
+VICTORY: 0.221
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.171
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.11
+
+VICTORY: 0.291
+
+VICTORY: 0.312
+
+VICTORY: 0.143
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.807
+
+Loss: -1
+
+VICTORY: 0.19
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.259
+
+VICTORY: 0.219
+
+VICTORY: 0.246
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.184
+
+VICTORY: 0.16
+
+VICTORY: 0.187
+
+Loss: -1
+
+VICTORY: 0.288
+
+Loss: -1
+
+VICTORY: 0.264
 
 VICTORY: 0.122
 
+VICTORY: 0.244
+
+VICTORY: 0.138
+
+VICTORY: 0.119
+
+VICTORY: 0.374
+
+Loss: -1
+
+VICTORY: 0.515
+
+VICTORY: 0.537
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.244
+
+VICTORY: 0.399
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.32
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.225
+
 Loss: -1
 
 Loss: -1
@@ -58,13 +373,90 @@ Loss: -1
 
 Loss: -1
 
-VICTORY: 0.168
+Loss: -1
+
+Loss: -1
 
 Loss: -1
 
 Loss: -1
 
-Unable to save timers to file C:/Users/ashyk/Documents/GitHub/Unity-AI/completed_build/Spacy_Data\ML-Agents\Timers\spacy_timers.json
+Loss: -1
 
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2048 -> priority: 1 
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.543
+
+Loss: -1
+
+VICTORY: 0.147
+
+Loss: -1
+
+VICTORY: 0.169
+
+VICTORY: 0.565
+
+VICTORY: 0.149
+
+VICTORY: 0.231
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.73
+
+Loss: -1
+
+VICTORY: 0.739
+
+VICTORY: 0.501
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 5530 -> priority: 1 
+  Thread -> id: 45a0 -> priority: 1 
+  Thread -> id: 49a4 -> priority: 1 
+  Thread -> id: 60d0 -> priority: 1 
