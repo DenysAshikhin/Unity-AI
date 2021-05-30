@@ -1,0 +1,1886 @@
+Mono path[0] = 'C:/Users/denys/Spacy/completed_build/Spacy_Data/Managed'
+Mono config path = 'C:/Users/denys/Spacy/completed_build/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.9f1 (108be757e447)
+[Subsystems] Discovering subsystems at path C:/Users/denys/Spacy/completed_build/Spacy_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 480 Graphics (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.14501.18003
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.156 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.923100 ms
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/denys/Spacy/completed_build/Spacy_Data/Mono/libSystem.dylib
+failed to get 100ns ticks
+WARNING: The communication API versions between Unity and python differ at the minor version level. Python API: 1.5.0, Unity API: 1.0.0 Python Library Version: 0.26.0 .
+This means that some features may not work unless you upgrade the package with the lower version.Please find the versions that work best together from our release page.
+https://github.com/Unity-Technologies/ml-agents/releases
+
+Python package version (0.26.0) is out of the supported range or not from an official release. It is strongly recommended that you use a Python package between 0.16.1 and 0.20.0. Training will proceed, but the output format may be different.
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.118
+
+Loss: -1
+
+VICTORY: 0.456
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.323
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.798
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.551
+
+Loss: -1
+
+VICTORY: 0.401
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.71
+
+VICTORY: 0.151
+
+Loss: -1
+
+VICTORY: 0.096
+
+Loss: -1
+
+VICTORY: 0.644
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.108
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.405
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.24
+
+Loss: -1
+
+VICTORY: 0.591
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.699
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.179
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.523
+
+VICTORY: 0.798
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.173
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.218
+
+VICTORY: 0.112
+
+Loss: -1
+
+VICTORY: 0.629
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.647
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.734
+
+Loss: -1
+
+VICTORY: 0.265
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.727
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.538
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.355
+
+VICTORY: 0.158
+
+VICTORY: 0.91
+
+Loss: -1
+
+VICTORY: 0.708
+
+Loss: -1
+
+VICTORY: 0.466
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.169
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.119
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.796
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.718
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.3
+
+Loss: -1
+
+VICTORY: 0.984
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.638
+
+VICTORY: 0.656
+
+Loss: -1
+
+VICTORY: 0.437
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.211
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.315
+
+VICTORY: 0.671
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.307
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.528
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.306
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.851
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.437
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.199
+
+VICTORY: 0.811
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.265
+
+VICTORY: 0.629
+
+Loss: -1
+
+VICTORY: 0.419
+
+Loss: -1
+
+VICTORY: 0.926
+
+VICTORY: 0.986
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.607
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.994
+
+VICTORY: 0.778
+
+Loss: -1
+
+VICTORY: 0.723
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.648
+
+VICTORY: 0.232
+
+VICTORY: 0.207
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.288
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.313
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.476
+
+VICTORY: 0.932
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.862
+
+Loss: -1
+
+VICTORY: 0.689
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.328
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.232
+
+Loss: -1
+
+VICTORY: 0.194
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.165
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.384
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.299
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.118
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.184
+
+VICTORY: 0.386
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.335
+
+Loss: -1
+
+VICTORY: 0.789
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.391
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.82
+
+Loss: -1
+
+VICTORY: 0.407
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.716
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.343
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.33
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.162
+
+Loss: -1
+
+VICTORY: 0.307
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.539
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.465
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.488
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.697
+
+VICTORY: 0.559
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.419
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.87
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.287
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.837
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.767
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.69
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.44
+
+VICTORY: 0.719
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.73
+
+VICTORY: 0.415
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.413
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.273
+
+VICTORY: 0.605
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.656
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.36
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.867
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.869
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.261
+
+VICTORY: 0.226
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.877
+
+Loss: -1
+
+VICTORY: 0.368
+
+VICTORY: 0.434
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.429
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.717
+
+VICTORY: 0.48
+
+Loss: -1
+
+VICTORY: 0.513
+
+VICTORY: 0.259
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.735
+
+VICTORY: 0.975
+
+VICTORY: 0.959
+
+VICTORY: 0.839
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.639
+
+Loss: -1
+
+VICTORY: 0.541
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.949
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.878
+
+VICTORY: 0.418
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.509
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.415
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.706
+
+VICTORY: 0.226
+
+VICTORY: 0.333
+
+VICTORY: 0.36
+
+Loss: -1
+
+VICTORY: 0.716
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.963
+
+Loss: -1
+
+VICTORY: 0.311
+
+Loss: -1
+
+VICTORY: 0.732
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.544
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.833
+
+VICTORY: 0.385
+
+Loss: -1
+
+VICTORY: 0.41
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.991
+
+VICTORY: 0.968
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.417
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.939
+
+Loss: -1
+
+VICTORY: 0.54
+
+VICTORY: 0.776
+
+VICTORY: 0.663
+
+Loss: -1
+
+VICTORY: 0.945
+
+VICTORY: 0.651
+
+Loss: -1
+
+VICTORY: 0.35
+
+VICTORY: 0.252
+
+VICTORY: 0.893
+
+VICTORY: 0.486
+
+VICTORY: 0.646
+
+VICTORY: 0.799
+
+VICTORY: 0.375
+
+VICTORY: 0.492
+
+Loss: -1
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.662
+
+VICTORY: 0.82
+
+VICTORY: 0.524
+
+VICTORY: 0.722
+
+VICTORY: 0.302
+
+Loss: -1
+
+Loss: -1
+
+VICTORY: 0.748
+
+VICTORY: 0.901
+
+VICTORY: 0.736
+
+VICTORY: 0.835
+
+VICTORY: 0.987
+
+VICTORY: 0.294
+
+VICTORY: 0.53
+
+VICTORY: 0.209
+
+VICTORY: 0.312
+
+VICTORY: 0.392
+
+VICTORY: 0.269
+
+VICTORY: 0.288
+
+VICTORY: 0.814
+
+Loss: -1
+
+VICTORY: 0.288
+
+VICTORY: 0.267
+
+VICTORY: 0.224
+
+VICTORY: 0.288
+
+VICTORY: 0.318
+
+VICTORY: 0.616
+
+Loss: -1
+
+VICTORY: 0.947
+
+VICTORY: 0.506
+
+VICTORY: 0.403
+
+VICTORY: 0.92
+
+VICTORY: 0.413
+
+VICTORY: 0.599
+
+VICTORY: 0.598
+
+VICTORY: 0.257
+
+VICTORY: 0.342
+
+VICTORY: 0.371
+
+VICTORY: 0.532
+
+VICTORY: 0.267
+
+VICTORY: 0.656
+
+VICTORY: 0.228
+
+VICTORY: 0.253
+
+Loss: -1
+
+VICTORY: 0.318
+
+VICTORY: 0.366
+
+VICTORY: 0.508
+
+Unable to save timers to file C:/Users/denys/Spacy/completed_build/Spacy_Data\ML-Agents\Timers\tester_timers.json
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 14f8 -> priority: 1 
+  Thread -> id: 1d8c -> priority: 1 
+  Thread -> id: 364c -> priority: 1 
+  Thread -> id: 2f28 -> priority: 1 
+Fewer observations (0) made than vector observation size (10). The observations will be padded.
+

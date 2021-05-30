@@ -22,7 +22,7 @@ public class ExampleShipControl : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        startingVector = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z);
+        startingVector = new Vector3(gameObject.transform.localPosition.x, gameObject.transform.localPosition.y, gameObject.transform.localPosition.z);
         startingRotate = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y, gameObject.transform.eulerAngles.z);
         // GetComponent<Rigidbody2D>().isKinematic = true;
     }
@@ -88,7 +88,7 @@ public class ExampleShipControl : MonoBehaviour
 
             if (Input.GetKey(KeyCode.H))
             {
-                transform.position = new Vector3(0, 0, 0);
+                transform.localPosition = new Vector3(0, 0, 0);
             }
 
 

@@ -48,12 +48,12 @@ public class Projectile : MonoBehaviour
             // Destroy(gameObject);
             resetBullet();
         }
-    }
 
-    public void resetBullet()
-    {
-        gameObject.GetComponent<TrailRenderer>().Clear();
-        gameObject.SetActive(false);
+        else if (col.tag == "FighterRadar")
+        {
+            // Debug.Log("Entered");
+            col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.addBullet(gameObject);
+        }
     }
 
     void OnTriggerExit2D(Collider2D col)
@@ -63,6 +63,12 @@ public class Projectile : MonoBehaviour
         {
             resetBullet();
         }
+        // else if (col.tag == "FighterRadar")
+        // {
+            // Debug.Log("Left");
+        //     // col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.addBullet(gameObject);
+
+        // }
         // else
         // {
         //     Destroy(gameObject);
@@ -72,4 +78,9 @@ public class Projectile : MonoBehaviour
 
 
 
+    public void resetBullet()
+    {
+        gameObject.GetComponent<TrailRenderer>().Clear();
+        gameObject.SetActive(false);
+    }
 }
