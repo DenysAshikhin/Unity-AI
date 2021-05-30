@@ -11,7 +11,7 @@ Logs/
 Logs*
 *.meta
 *.log
-*.cs.meta
+
 
 
 # Visual Studio cache directory
