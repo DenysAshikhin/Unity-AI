@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulletRadar : MonoBehaviour
+public class bulletRadar
 {
     public List<GameObject> bullets = new List<GameObject>();
 
@@ -21,6 +21,12 @@ public class bulletRadar : MonoBehaviour
 
     public void resetAll()
     {
+        for (int i = 0; i < bullets.Count; i++)
+        {
+            if (bullets[i].activeInHierarchy)
+                bullets[i].GetComponent<Projectile>().resetBullet();
+        }
+
         bullets.Clear();
     }
 
@@ -28,14 +34,8 @@ public class bulletRadar : MonoBehaviour
     {
         for (int i = 0; i < bullets.Count; i++)
         {
-            if (!bullets[i].activeSelf)
+            if (!bullets[i].activeInHierarchy)
                 bullets.RemoveAt(i);
         }
     }
-
-    void onUpdate()
-    {
-        Debug.Log("BulletRadar onUpdate");
-    }
-
 }
