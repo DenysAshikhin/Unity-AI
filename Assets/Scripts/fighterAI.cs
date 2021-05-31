@@ -94,7 +94,6 @@ public class fighterAI : Agent
         float xlen = xLength - 0.5f;
         float ylen = yLength - 0.5f;
 
-
         float tempX = Random.Range(-xlen, xlen);
         float tempY = Random.Range(-ylen, ylen);
 
@@ -116,8 +115,7 @@ public class fighterAI : Agent
         gameObject.GetComponent<Rigidbody2D>().angularVelocity = 0;
     }
 
-    public override void Heuristic(in ActionBuffers actionsOut)
-    {
+    public override void Heuristic(in ActionBuffers actionsOut)    {
 
     }
 
