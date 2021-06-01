@@ -35,18 +35,18 @@ public class Projectile : MonoBehaviour
         //Don't want to collide with the ship that's shooting this thing, nor another projectile.
         if (col.gameObject != firing_ship && col.gameObject.tag == "Ship")
         {
-            Instantiate(hit_effect, transform.position, Quaternion.identity);
+            // Instantiate(hit_effect, transform.position, Quaternion.identity);
 
-            col.gameObject.GetComponent<ExampleShipControl>().health -= damage;
+            // col.gameObject.GetComponent<ExampleShipControl>().health -= damage;
 
 
-            if (col.gameObject.GetComponent<ExampleShipControl>().health <= 0)
-            {
-                firing_ship.GetComponent<fighterAI>().killed();
-            }
+            // if (col.gameObject.GetComponent<ExampleShipControl>().health <= 0)
+            // {
+            //     firing_ship.GetComponent<fighterAI>().killed();
+            // }
 
-            // Destroy(gameObject);
-            resetBullet();
+            // // Destroy(gameObject);
+            // resetBullet();
         }
 
         else if (col.tag == "FighterRadar")
