@@ -40,14 +40,7 @@ public class fighterAI : Agent
         rigidBody = gameObject.GetComponent<Rigidbody2D>();
         bufferSensor = gameObject.GetComponent<BufferSensorComponent>();
         Debug.Log("Started");
-        float xlen = xLength - 0.5f;
-        float ylen = yLength - 0.5f;
-        gameObject.transform.localPosition = new Vector3(Random.Range(-xlen, xlen), Random.Range(-ylen, ylen), 0);
-        target.GetComponent<Transform>().localPosition = new Vector3(Random.Range(-xlen, xlen), Random.Range(-ylen, ylen), 0);
-
-
-        gameObject.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-        gameObject.GetComponent<Rigidbody2D>().angularVelocity = 0;
+        randomSpawns();
     }
     public override void CollectObservations(VectorSensor sensor)
     {
@@ -113,9 +106,13 @@ public class fighterAI : Agent
 
         gameObject.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
         gameObject.GetComponent<Rigidbody2D>().angularVelocity = 0;
+
+        target.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        target.GetComponent<Rigidbody2D>().angularVelocity = 0;
     }
 
-    public override void Heuristic(in ActionBuffers actionsOut)    {
+    public override void Heuristic(in ActionBuffers actionsOut)
+    {
 
     }
 
@@ -212,8 +209,27 @@ public class fighterAI : Agent
         randomSpawns();
     }
 
-    void onTriggerEnter2D(Collider2D col)
+
+    // void OnTriggerEnter2D(Collider2D col)
+    // {
+    //     if (col.gameObject.tag == "Ship" && col.gameObject.tag != "FighterRadar")
+    //     {
+    //         killed();
+    //     }
+    // }
+
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Entered FIGHTER!");
+        if (collision.gameObject.tag == "Wall")
+        {
+            gameObject.GetComponent<fighterAI>().died();
+            Instantiate(explosion, transform.position, Quaternion.identity);
+            // Destroy(gameObject);
+        }
+        else if (collision.gameObject.tag == "Ship")
+        {
+            killed();
+        }
     }
 }

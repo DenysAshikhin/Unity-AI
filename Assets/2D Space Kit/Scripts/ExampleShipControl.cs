@@ -119,14 +119,5 @@ public class ExampleShipControl : MonoBehaviour
     }
 
 
-    void OnCollisionEnter2D(Collision2D collision)
-    {
 
-        if (collision.gameObject.tag == "Wall")
-        {
-            gameObject.GetComponent<fighterAI>().died();
-            Instantiate(explosion, transform.position, Quaternion.identity);
-            // Destroy(gameObject);
-        }
-    }
 }
