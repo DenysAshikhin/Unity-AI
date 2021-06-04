@@ -186,7 +186,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 1000
   acceleration_amount: 100
-  rotation_speed: 1
+  rotation_speed: 3
   turret: {fileID: 0}
   turret_rotation_speed: 3
   explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
@@ -199,6 +199,7 @@ MonoBehaviour:
   yLength: 5
   maxVel: 5
   maxAngleVel: 1000
+  hits: 0
   target: {fileID: 0}
 --- !u!114 &2852531996764856013
 MonoBehaviour:
@@ -231,12 +232,12 @@ MonoBehaviour:
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 0
-      BranchSizes: 02000000020000000200000002000000020000000200000002000000
-    VectorActionSize: 02000000020000000200000002000000020000000200000002000000
+      BranchSizes: 03000000030000000300000002000000
+    VectorActionSize: 03000000030000000300000002000000
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: ff8ec0258ed01704c9e097845444f1f1, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 2
   m_BehaviorType: 0
   m_BehaviorName: fighterBrain
@@ -305,4 +306,4 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 3
+  m_Radius: 4

@@ -35,23 +35,20 @@ public class Projectile : MonoBehaviour
         //Don't want to collide with the ship that's shooting this thing, nor another projectile.
         if (col.gameObject != firing_ship && col.gameObject.tag == "Ship")
         {
-            // Instantiate(hit_effect, transform.position, Quaternion.identity);
-
-            // col.gameObject.GetComponent<ExampleShipControl>().health -= damage;
-
-
+            Instantiate(hit_effect, transform.position, Quaternion.identity);
+            col.gameObject.GetComponent<fighterAI>().health -= damage;
+            firing_ship.GetComponent<fighterAI>().hits += 1;
             // if (col.gameObject.GetComponent<ExampleShipControl>().health <= 0)
             // {
             //     firing_ship.GetComponent<fighterAI>().killed();
             // }
 
-            // // Destroy(gameObject);
-            // resetBullet();
+            // Destroy(gameObject);
+            resetBullet();
         }
 
         else if (col.tag == "FighterRadar")
         {
-            // Debug.Log("Entered");
             col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.addBullet(gameObject);
         }
     }
@@ -65,7 +62,7 @@ public class Projectile : MonoBehaviour
         }
         // else if (col.tag == "FighterRadar")
         // {
-            // Debug.Log("Left");
+        // Debug.Log("Left");
         //     // col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.addBullet(gameObject);
 
         // }

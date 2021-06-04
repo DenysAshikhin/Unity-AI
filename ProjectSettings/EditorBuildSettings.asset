@@ -20,7 +20,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ridic.unity
     guid: 33d99adc8c6291f41ae14caa1d3a7d05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/16ArenaMoveShoot.unity
     guid: 0cad36e4889c8f1478026954594bb003
+  - enabled: 1
+    path: Assets/Scenes/1v1_8.unity
+    guid: 5ee672bb2aa85a041830ca16e79a3c6d
   m_configObjects: {}
