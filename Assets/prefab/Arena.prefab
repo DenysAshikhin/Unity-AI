@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1171663374040471761}
+  - component: {fileID: 7690705081433489659}
   m_Layer: 0
   m_Name: Arena
   m_TagString: Untagged
@@ -36,6 +37,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7690705081433489659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171663374040471760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cfd35a9f456426478d08fbff8026ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  team1:
+  - {fileID: 1476003479999757033}
+  team2:
+  - {fileID: 905864801232153319}
+  xLength: 10.035
+  yLength: 5
+  m_ResetTimer: 0
+  MaxEnvironmentSteps: 1000
 --- !u!1 &1171663374224163801
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,11 +916,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 130793140209868391, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.14032
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 130793140209868391, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.2300816
+      value: -1.22
       objectReference: {fileID: 0}
     - target: {fileID: 130793140209868391, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_LocalPosition.z

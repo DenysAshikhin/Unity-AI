@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour
     public GameObject hit_effect;
     public GameObject firing_ship;
     public float speed = 50;
-    public int damage = 100;
+    public int damage = 1000;
 
     public int team;
 
