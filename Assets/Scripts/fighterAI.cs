@@ -142,8 +142,6 @@ public class fighterAI : Agent
             {
                 timeToFire = Time.time + 1 / fireRate;
 
-
-
                 // Debug.Log(transform);
                 // GameObject newBullet = Instantiate(bullet, transform.locallocalPosition, transform.rotation);
                 // newBullet.firing_ship
@@ -168,7 +166,7 @@ public class fighterAI : Agent
                 // script.firing_ship = this.gameObject;
                 // newBullet.GetComponent<Rigidbody2D>().velocity = transform.up.normalized * 10;
             }
-            AddReward(-0.01f);
+            AddReward(-0.002f);
         }
 
         if (forBack == 1)
@@ -189,16 +187,17 @@ public class fighterAI : Agent
 
     public void died()
     {
-        if ((float)StepCount < 2)
-        {
-            AddReward(-1f - 1000f);
-            // EndEpisode();
-        }
-        else
-        {
-            AddReward(-1f - (((float)MaxStep / (float)StepCount)));
-            // EndEpisode();
-        }
+        // if ((float)StepCount < 2)
+        // {
+        //     AddReward(-1f - 1000f);
+        //     // EndEpisode();
+        // }
+        // else
+        // {
+        //     AddReward(-1f - (((float)MaxStep / (float)StepCount)));
+        //     // EndEpisode();
+        // }
+        SetReward(-1f);
     }
 
     public void killed()
