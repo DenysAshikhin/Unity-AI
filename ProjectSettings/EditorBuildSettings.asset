@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/16ArenaMoveShoot.unity
     guid: 0cad36e4889c8f1478026954594bb003
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/1v1_8.unity
     guid: 5ee672bb2aa85a041830ca16e79a3c6d
   - enabled: 0
@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/1v1_1.unity
     guid: 305171858bf9ecf44be47c368b7001a6
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/1v1_16.unity
     guid: 3548fc407b1863a4d8908af5f061ff5b
   m_configObjects: {}
