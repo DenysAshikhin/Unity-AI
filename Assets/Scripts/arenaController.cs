@@ -32,13 +32,13 @@ public class arenaController : MonoBehaviour
             if (team2[0].GetComponent<fighterAI>().hits >= 0)
             {//team1 died due to being shot
                 team2[0].GetComponent<fighterAI>().killed();
-                Debug.Log("team 2 score:");
+                Debug.Log("team 2 score KILLED:");
                 Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
                 team2[0].GetComponent<fighterAI>().EndEpisode();
             }
             else
             {
-                Debug.Log("team 2 score:");
+                Debug.Log("team 2 score ENEMY CRASH:");
                 Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
                 team2[0].GetComponent<fighterAI>().EpisodeInterrupted();//The other agent hit a wall, this agent had nothing to do with it?
                                                                         //NOTE possibly preventing tactic of running enemy into wall, look into changing this to end episode instead
@@ -55,13 +55,13 @@ public class arenaController : MonoBehaviour
             if (team1[0].GetComponent<fighterAI>().hits >= 0)
             {//team2 died due to being shot
                 team1[0].GetComponent<fighterAI>().killed();
-                Debug.Log("team 1 score:");
+                Debug.Log("team 1 score KILLED:");
                 Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
                 team1[0].GetComponent<fighterAI>().EndEpisode();
             }
             else
             {
-                Debug.Log("team 1 score:");
+                Debug.Log("team 1 score ENEMY CRASH:");
                 Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
                 team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
             }

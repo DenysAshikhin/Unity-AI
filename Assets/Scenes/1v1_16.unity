@@ -200,12 +200,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892241158693812792, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: DecisionPeriod
-      value: 20
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5230632963586541776, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 96cfccb1e62f1374e9e6b566289836c5, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 8fe3c14b924c1644083c8dc496e472d8, type: 3}
     - target: {fileID: 5336552805345134958, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: control
       value: 0
@@ -213,7 +213,7 @@ PrefabInstance:
     - target: {fileID: 5800467628004645086, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 96cfccb1e62f1374e9e6b566289836c5, type: 3}
+      objectReference: {fileID: 5022602860645237092, guid: 8fe3c14b924c1644083c8dc496e472d8, type: 3}
     - target: {fileID: 5800467628004645086, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_BehaviorType
       value: 0
@@ -221,6 +221,10 @@ PrefabInstance:
     - target: {fileID: 6562273331964285232, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: control
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6665487922446118294, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+      propertyPath: m_MaxNumObservables
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7195915934688176075, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: control
@@ -515,6 +519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arena (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1171663374040471760, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1171663374040471761, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -617,6 +625,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+--- !u!1 &454667149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1476003479999757033, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+  m_PrefabInstance: {fileID: 69935356}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &454667159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454667149}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Record: 0
+  NumStepsToRecord: 0
+  DemonstrationName: singleDogFight
+  DemonstrationDirectory: Demos
 --- !u!1001 &711428355
 PrefabInstance:
   m_ObjectHideFlags: 0

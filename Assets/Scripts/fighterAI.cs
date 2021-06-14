@@ -202,7 +202,7 @@ public class fighterAI : Agent
 
     public void killed()
     {
-        AddReward(1f);
+        AddReward(1f - ((float)StepCount / (float)MaxStep));
         // randomSpawns();
         // EndEpisode();
     }
