@@ -205,7 +205,11 @@ PrefabInstance:
     - target: {fileID: 5230632963586541776, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 8fe3c14b924c1644083c8dc496e472d8, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230632963586541776, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5336552805345134958, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: control
       value: 0
@@ -213,7 +217,7 @@ PrefabInstance:
     - target: {fileID: 5800467628004645086, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 8fe3c14b924c1644083c8dc496e472d8, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 5800467628004645086, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_BehaviorType
       value: 0
@@ -237,6 +241,14 @@ PrefabInstance:
     - target: {fileID: 7544515818771967525, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650014178069426075, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+      propertyPath: control
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269692183810899861, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+      propertyPath: control
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
@@ -637,12 +649,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454667149}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Record: 0
+  Record: 1
   NumStepsToRecord: 0
   DemonstrationName: singleDogFight
   DemonstrationDirectory: Demos
