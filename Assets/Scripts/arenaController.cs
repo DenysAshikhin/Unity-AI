@@ -25,17 +25,25 @@ public class arenaController : MonoBehaviour
             Debug.Log("team 2 won");
             team1[0].GetComponent<fighterAI>().died();//Team 1 died, either shot or collided wall
 
-            if (team2[0].GetComponent<fighterAI>().hits >= 0)//team1 died due to being shot
-                team2[0].GetComponent<fighterAI>().killed();
-            else
-                team2[0].GetComponent<fighterAI>().EpisodeInterrupted();//The other agent hit a wall, this agent had nothing to do with it?
-                                                                        //NOTE possibly preventing tactic of running enemy into wall, look into changing this to end episode instead
             Debug.Log("team 1 score:");
             Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
-            Debug.Log("team 2 score:");
-            Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
             team1[0].GetComponent<fighterAI>().EndEpisode();
-            team2[0].GetComponent<fighterAI>().EndEpisode(); 
+
+            if (team2[0].GetComponent<fighterAI>().hits >= 0)
+            {//team1 died due to being shot
+                team2[0].GetComponent<fighterAI>().killed();
+                Debug.Log("team 2 score:");
+                Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
+                team2[0].GetComponent<fighterAI>().EndEpisode();
+            }
+            else
+            {
+                Debug.Log("team 2 score:");
+                Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
+                team2[0].GetComponent<fighterAI>().EpisodeInterrupted();//The other agent hit a wall, this agent had nothing to do with it?
+                                                                        //NOTE possibly preventing tactic of running enemy into wall, look into changing this to end episode instead
+            }
+
             resetScene();
         }
         else if (team2[0].GetComponent<fighterAI>().health <= 0)
@@ -43,17 +51,23 @@ public class arenaController : MonoBehaviour
             Debug.Log("team 1 won");
             team2[0].GetComponent<fighterAI>().died();//Team 2 died, either shot or collided wall
 
-            if (team1[0].GetComponent<fighterAI>().hits >= 0)//team1 died due to being shot
+
+            if (team1[0].GetComponent<fighterAI>().hits >= 0)
+            {//team2 died due to being shot
                 team1[0].GetComponent<fighterAI>().killed();
+                Debug.Log("team 1 score:");
+                Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
+                team1[0].GetComponent<fighterAI>().EndEpisode();
+            }
             else
+            {
+                Debug.Log("team 1 score:");
+                Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
                 team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
+            }
 
-
-            Debug.Log("team 1 score:");
-            Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
             Debug.Log("team 2 score:");
             Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
-            team1[0].GetComponent<fighterAI>().EndEpisode();
             team2[0].GetComponent<fighterAI>().EndEpisode();
             resetScene();
         }
