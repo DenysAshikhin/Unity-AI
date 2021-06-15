@@ -1,0 +1,758 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
+extern void EmbeddedAttribute__ctor_mECAB93BFAD642BBA6FC2BC4D8670501BC795044B (void);
+// 0x00000002 System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
+extern void IsReadOnlyAttribute__ctor_mAD348FD9E4564AC891B840B33348B98E80983264 (void);
+// 0x00000003 System.String Unity.Serialization.FormerNameAttribute::get_OldName()
+extern void FormerNameAttribute_get_OldName_m89CC0CF11B00FA04B9544C063D619C1003587013 (void);
+// 0x00000004 System.Void Unity.Serialization.FormerNameAttribute::RegisterFormerlySerializedAsTypes()
+extern void FormerNameAttribute_RegisterFormerlySerializedAsTypes_m2904A9AA40585CF7D4464F344613ABC75CEFAE3C (void);
+// 0x00000005 System.Boolean Unity.Serialization.FormerNameAttribute::TryGetCurrentTypeName(System.String,System.String&)
+extern void FormerNameAttribute_TryGetCurrentTypeName_mBA82D7DAD646BE7316A687AA6112B5149BD739B6 (void);
+// 0x00000006 System.Void Unity.Serialization.FormerNameAttribute::.cctor()
+extern void FormerNameAttribute__cctor_m91E8BAFBF697764309A0AA0F8143A0F0ACADCE7E (void);
+// 0x00000007 System.Void Unity.Serialization.FormerNameAttribute/<>c::.cctor()
+extern void U3CU3Ec__cctor_m7E477D2970DED8345289DA33FC846133648168F4 (void);
+// 0x00000008 System.Void Unity.Serialization.FormerNameAttribute/<>c::.ctor()
+extern void U3CU3Ec__ctor_m647BAF96AA2BE8DD5DB5D2AED28A9FC39D3B2603 (void);
+// 0x00000009 System.Collections.Generic.IEnumerable`1<System.Type> Unity.Serialization.FormerNameAttribute/<>c::<RegisterFormerlySerializedAsTypes>b__6_0(System.Reflection.Assembly)
+extern void U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_0_mE70FD33A31CBDCC4888AE5634FDA8C4137A7E974 (void);
+// 0x0000000A System.Boolean Unity.Serialization.FormerNameAttribute/<>c::<RegisterFormerlySerializedAsTypes>b__6_1(System.Type)
+extern void U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_1_mFE6C4EF84695725604B2B3F57D1E6BC9F91D0566 (void);
+// 0x0000000B System.Void Unity.Serialization.SerializationException::.ctor(System.String)
+extern void SerializationException__ctor_m5412DEFC5478EE7F95341F0645D28F687908DA04 (void);
+// 0x0000000C System.Type Unity.Serialization.ISerializedTypeProvider::GetSerializedType()
+// 0x0000000D System.Int32 Unity.Serialization.ISerializedTypeProvider::GetArrayLength()
+// 0x0000000E System.Object Unity.Serialization.ISerializedTypeProvider::GetDefaultObject()
+// 0x0000000F System.Void Unity.Serialization.DefaultTypeConstruction::Construct(TValue&,Unity.Serialization.ISerializedTypeProvider)
+// 0x00000010 System.Void Unity.Serialization.DefaultTypeConstruction::ConstructFromSerializedType(TValue&,System.Type,Unity.Serialization.ISerializedTypeProvider)
+// 0x00000011 System.Void Unity.Serialization.DefaultTypeConstruction::ConstructFromDeclaredType(TValue&,Unity.Serialization.ISerializedTypeProvider)
+// 0x00000012 System.String Unity.Serialization.PropertyChecks::GetReadOnlyValueTypeErrorMessage(System.Type,System.String)
+extern void PropertyChecks_GetReadOnlyValueTypeErrorMessage_m697DB10A6076626E3ADF9C1FF71BD85D00795DFE (void);
+// 0x00000013 System.String Unity.Serialization.PropertyChecks::GetReadOnlyReferenceTypeErrorMessage(System.Type,System.String)
+extern void PropertyChecks_GetReadOnlyReferenceTypeErrorMessage_mA54205C9FFC2B35E7EC9671E36563E3911FDC61F (void);
+// 0x00000014 System.String Unity.Serialization.PropertyChecks::GetReadOnlyReferenceTypeWithInvalidTypeErrorMessage(System.Type,System.String)
+extern void PropertyChecks_GetReadOnlyReferenceTypeWithInvalidTypeErrorMessage_m4DB1A791352EADF882E56F2CC381B080DAE82781 (void);
+// 0x00000015 System.Boolean Unity.Serialization.PropertyChecks::CheckReadOnlyPropertyForDeserialization(Unity.Properties.Property`2<TContainer,TValue>,TContainer&,TValue&,System.String&)
+// 0x00000016 System.Int32 Unity.Serialization.SerializedReferences::AddSerializedReference(System.Object)
+extern void SerializedReferences_AddSerializedReference_m51FDFB27BE5DE289D2E6CC57B2D91CBCDCBCF0B9 (void);
+// 0x00000017 System.Void Unity.Serialization.SerializedReferences::AddDeserializedReference(T)
+// 0x00000018 System.Object Unity.Serialization.SerializedReferences::GetDeserializedReference(System.Int32)
+extern void SerializedReferences_GetDeserializedReference_mAB1E940157DA5C4BC7C12B59477D446F3E872396 (void);
+// 0x00000019 System.Boolean Unity.Serialization.SerializedReferences::SetSerialized(System.Object)
+extern void SerializedReferences_SetSerialized_mDCD8C65DC761AEDB62200342F1C73CBCFD32A892 (void);
+// 0x0000001A System.Void Unity.Serialization.SerializedReferences::Clear()
+extern void SerializedReferences_Clear_m7CE5ED0E64FAE4237ACC56CE17B64E256EED310F (void);
+// 0x0000001B System.Void Unity.Serialization.SerializedReferences::.ctor()
+extern void SerializedReferences__ctor_mDA53914E5467F602879A518535AABA32B2E551B7 (void);
+// 0x0000001C System.String Unity.Serialization.DirectoryInfoExtensions::GetRelativePath(System.IO.DirectoryInfo)
+extern void DirectoryInfoExtensions_GetRelativePath_mDEFA897B3D39C1D3E90AD3571C81E5F67D77AE1C (void);
+// 0x0000001D System.String Unity.Serialization.FileInfoExtensions::GetRelativePath(System.IO.FileInfo)
+extern void FileInfoExtensions_GetRelativePath_m764494E308ED67DB35371419AF0714E9217A2264 (void);
+// 0x0000001E System.String Unity.Serialization.StringExtensions::ToForwardSlash(System.String)
+extern void StringExtensions_ToForwardSlash_m4DFB717FDFD969F80DEBEB0F89830E4C94E6620F (void);
+// 0x0000001F T Unity.Serialization.Binary.BinarySerialization::FromBinary(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,Unity.Serialization.Binary.BinarySerializationParameters)
+// 0x00000020 System.Void Unity.Serialization.Binary.BinarySerialization::ToBinary(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,T,Unity.Serialization.Binary.BinarySerializationParameters)
+// 0x00000021 Unity.Serialization.Binary.BinarySerializationContext Unity.Serialization.Binary.BinarySerialization::GetSharedContext()
+extern void BinarySerialization_GetSharedContext_mBC3F436273250032FB293C07F6C91A8787E741DF (void);
+// 0x00000022 System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter> Unity.Serialization.Binary.BinarySerialization::GetGlobalAdapters()
+extern void BinarySerialization_GetGlobalAdapters_m7C431D52949F03CCA87D1465BCD8173FF53867BD (void);
+// 0x00000023 System.Void Unity.Serialization.Binary.BinarySerialization::WritePrimitiveUnsafe(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue&,System.Type)
+// 0x00000024 System.Void Unity.Serialization.Binary.BinarySerialization::WritePrimitiveBoxed(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Object,System.Type)
+extern void BinarySerialization_WritePrimitiveBoxed_m27F0EAD257E6B03E3D3E852B11DF84FA38AA436E (void);
+// 0x00000025 System.Void Unity.Serialization.Binary.BinarySerialization::ReadPrimitiveUnsafe(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&,System.Type)
+// 0x00000026 System.Void Unity.Serialization.Binary.BinarySerialization::ReadPrimitiveBoxed(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&,System.Type)
+// 0x00000027 System.Void Unity.Serialization.Binary.BinarySerialization::.cctor()
+extern void BinarySerialization__cctor_m91CEF94C525D352D3E20DF0A8531CC4F9D6497DC (void);
+// 0x00000028 Unity.Serialization.Binary.BinaryPropertyWriter Unity.Serialization.Binary.BinarySerializationContext::GetBinaryPropertyWriter()
+extern void BinarySerializationContext_GetBinaryPropertyWriter_mADA1972379C09C0F05F9EAD3C5E51546ADCA3977 (void);
+// 0x00000029 Unity.Serialization.Binary.BinaryPropertyReader Unity.Serialization.Binary.BinarySerializationContext::GetBinaryPropertyReader()
+extern void BinarySerializationContext_GetBinaryPropertyReader_mAC413229F5C0BC6AA2779A9C9C8541AE884F10AE (void);
+// 0x0000002A Unity.Serialization.SerializedReferences Unity.Serialization.Binary.BinarySerializationContext::GetSerializedReferences()
+extern void BinarySerializationContext_GetSerializedReferences_m2C707797A11394061B44DA9AC0EFCE6D3A35EDEA (void);
+// 0x0000002B System.Void Unity.Serialization.Binary.BinarySerializationContext::ClearSerializedReferences()
+extern void BinarySerializationContext_ClearSerializedReferences_m4CCC76DCD5E6E401195062324267B1E64EB7D431 (void);
+// 0x0000002C System.Void Unity.Serialization.Binary.BinarySerializationContext::.ctor()
+extern void BinarySerializationContext__ctor_mBFBDCC3BACA08FF28F2E11CC93A8292B4B890EC0 (void);
+// 0x0000002D System.Type Unity.Serialization.Binary.BinarySerializationParameters::get_SerializedType()
+extern void BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC (void);
+// 0x0000002E System.Void Unity.Serialization.Binary.BinarySerializationParameters::set_SerializedType(System.Type)
+extern void BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5 (void);
+// 0x0000002F System.Boolean Unity.Serialization.Binary.BinarySerializationParameters::get_DisableRootAdapters()
+extern void BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501 (void);
+// 0x00000030 System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter> Unity.Serialization.Binary.BinarySerializationParameters::get_UserDefinedAdapters()
+extern void BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294 (void);
+// 0x00000031 System.Void Unity.Serialization.Binary.BinarySerializationParameters::set_UserDefinedAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9 (void);
+// 0x00000032 System.Boolean Unity.Serialization.Binary.BinarySerializationParameters::get_RequiresThreadSafety()
+extern void BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463 (void);
+// 0x00000033 System.Boolean Unity.Serialization.Binary.BinarySerializationParameters::get_DisableSerializedReferences()
+extern void BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1 (void);
+// 0x00000034 Unity.Serialization.Binary.BinarySerializationContext Unity.Serialization.Binary.BinarySerializationParameters::get_Context()
+extern void BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C (void);
+// 0x00000035 System.Void Unity.Serialization.Binary.BinarySerializationParameters::set_Context(Unity.Serialization.Binary.BinarySerializationContext)
+extern void BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698 (void);
+// 0x00000036 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetStream(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryPropertyReader_SetStream_m89F4CC9334CBC7EC7A28BC9D21B5A923B7BA7EA7 (void);
+// 0x00000037 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetSerializedType(System.Type)
+extern void BinaryPropertyReader_SetSerializedType_m4DEF8A86F09D61A1589FF5DEA79E0381BF85041D (void);
+// 0x00000038 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetDisableRootAdapters(System.Boolean)
+extern void BinaryPropertyReader_SetDisableRootAdapters_mA5AC46AE51C525FCE66FA3E70C8272769A7027D2 (void);
+// 0x00000039 System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetGlobalAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyReader_SetGlobalAdapters_m0B58C8731B00380476EE914C5C34585EB01DAA0E (void);
+// 0x0000003A System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetUserDefinedAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyReader_SetUserDefinedAdapters_mB8C765A532456FE8BE274282A008A65651D041D9 (void);
+// 0x0000003B System.Void Unity.Serialization.Binary.BinaryPropertyReader::SetSerializedReferences(Unity.Serialization.SerializedReferences)
+extern void BinaryPropertyReader_SetSerializedReferences_mB72E0A2D0053369960E576E9A9FD4C5BE3B5EBBF (void);
+// 0x0000003C System.Void Unity.Serialization.Binary.BinaryPropertyReader::.ctor()
+extern void BinaryPropertyReader__ctor_mAA89B988046725713680523E4B4352A39EB841FC (void);
+// 0x0000003D System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IPropertyBagVisitor.Visit(Unity.Properties.Internal.IPropertyBag`1<TContainer>,TContainer&)
+// 0x0000003E System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IListPropertyBagVisitor.Visit(Unity.Properties.Internal.IListPropertyBag`2<TList,TElement>,TList&)
+// 0x0000003F System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.ISetPropertyBagVisitor.Visit(Unity.Properties.Internal.ISetPropertyBag`2<TSet,TValue>,TSet&)
+// 0x00000040 System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IDictionaryPropertyBagVisitor.Visit(Unity.Properties.Internal.IDictionaryPropertyBag`3<TDictionary,TKey,TValue>,TDictionary&)
+// 0x00000041 System.Void Unity.Serialization.Binary.BinaryPropertyReader::Unity.Properties.Internal.IPropertyVisitor.Visit(Unity.Properties.Property`2<TContainer,TValue>,TContainer&)
+// 0x00000042 TValue Unity.Serialization.Binary.BinaryPropertyReader::ReadValue()
+// 0x00000043 System.Void Unity.Serialization.Binary.BinaryPropertyReader::ReadValue(TValue&,System.Boolean)
+// 0x00000044 System.Type Unity.Serialization.Binary.BinaryPropertyReader::Unity.Serialization.ISerializedTypeProvider.GetSerializedType()
+extern void BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetSerializedType_m9C24255CFB3B146F5595CFB813BAF1A13EBB3C54 (void);
+// 0x00000045 System.Int32 Unity.Serialization.Binary.BinaryPropertyReader::Unity.Serialization.ISerializedTypeProvider.GetArrayLength()
+extern void BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetArrayLength_m0540240D9BA5EFBD6B81D14236D7F5557988FCC2 (void);
+// 0x00000046 System.Object Unity.Serialization.Binary.BinaryPropertyReader::Unity.Serialization.ISerializedTypeProvider.GetDefaultObject()
+extern void BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetDefaultObject_mD8F3768D1D04958737B4414D3AEDBEFCF36CC3E6 (void);
+// 0x00000047 System.Void Unity.Serialization.Binary.BinaryPropertyVisitor::set_IsLocked(System.Boolean)
+extern void BinaryPropertyVisitor_set_IsLocked_m8336B30AA30FB5B6036C819ED3CDDAC0853CAF24 (void);
+// 0x00000048 Unity.Serialization.Binary.BinaryPropertyVisitor/LockScope Unity.Serialization.Binary.BinaryPropertyVisitor::Lock()
+extern void BinaryPropertyVisitor_Lock_mB2E934C9811022116122890478AEDCAE809B6291 (void);
+// 0x00000049 System.Void Unity.Serialization.Binary.BinaryPropertyVisitor::.ctor()
+extern void BinaryPropertyVisitor__ctor_m5AE5DC2ADC710AE13ED2AD9B02529698993BEF0B (void);
+// 0x0000004A System.Void Unity.Serialization.Binary.BinaryPropertyVisitor/LockScope::.ctor(Unity.Serialization.Binary.BinaryPropertyVisitor)
+extern void LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55 (void);
+// 0x0000004B System.Void Unity.Serialization.Binary.BinaryPropertyVisitor/LockScope::Dispose()
+extern void LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095 (void);
+// 0x0000004C System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetStream(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*)
+extern void BinaryPropertyWriter_SetStream_m51FFCCCE783CBF4A9825D10FF494CB493BB61323 (void);
+// 0x0000004D System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetSerializedType(System.Type)
+extern void BinaryPropertyWriter_SetSerializedType_m4E9BD0185117ADC030ECF014D260B65BCE2A658D (void);
+// 0x0000004E System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetDisableRootAdapters(System.Boolean)
+extern void BinaryPropertyWriter_SetDisableRootAdapters_m30350548C768C5B54E9CE94805157598D80417CC (void);
+// 0x0000004F System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetGlobalAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyWriter_SetGlobalAdapters_m901222D702DD2312DA47A4CBCFCEA4FDD8A0F0AB (void);
+// 0x00000050 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetUserDefinedAdapters(System.Collections.Generic.List`1<Unity.Serialization.Binary.Adapters.IBinaryAdapter>)
+extern void BinaryPropertyWriter_SetUserDefinedAdapters_m83487692F67928FBCCE042FF975A945118E7ACAD (void);
+// 0x00000051 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::SetSerializedReferences(Unity.Serialization.SerializedReferences)
+extern void BinaryPropertyWriter_SetSerializedReferences_mC2179F726FE7EC4D777D11D5D2C12141EF0D9176 (void);
+// 0x00000052 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::.ctor()
+extern void BinaryPropertyWriter__ctor_mE4BD400969B3CE6CAF443F8E468E6E7722A7E3DF (void);
+// 0x00000053 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IPropertyBagVisitor.Visit(Unity.Properties.Internal.IPropertyBag`1<TContainer>,TContainer&)
+// 0x00000054 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IListPropertyBagVisitor.Visit(Unity.Properties.Internal.IListPropertyBag`2<TList,TElement>,TList&)
+// 0x00000055 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.ISetPropertyBagVisitor.Visit(Unity.Properties.Internal.ISetPropertyBag`2<TSet,TValue>,TSet&)
+// 0x00000056 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IDictionaryPropertyBagVisitor.Visit(Unity.Properties.Internal.IDictionaryPropertyBag`3<TDictionary,TKey,TValue>,TDictionary&)
+// 0x00000057 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::Unity.Properties.Internal.IPropertyVisitor.Visit(Unity.Properties.Property`2<TContainer,TValue>,TContainer&)
+// 0x00000058 System.Void Unity.Serialization.Binary.BinaryPropertyWriter::WriteValue(TValue,System.Boolean)
+// 0x00000059 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.SByte>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.SByte)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Serialize_m33EEED235463AE197021D9E1A4C4AC266CB21029 (void);
+// 0x0000005A System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int16>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Int16)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Serialize_m3FF13086977CA45992FCC49C68F8A0F74772DFA9 (void);
+// 0x0000005B System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int32>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Int32)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Serialize_mDAB3BC7AFE2B1D01BBA2D4BC62EACD1F800D7E2C (void);
+// 0x0000005C System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int64>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Int64)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Serialize_m0E9BE02C34DF9754D968F7C3106F478E93A24110 (void);
+// 0x0000005D System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Byte>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Byte)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Serialize_m12AACE3F7F5E4ADA49EA31CEF1F1F98F1B94BF6A (void);
+// 0x0000005E System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt16>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.UInt16)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Serialize_mF78705BA2BAF70C5A78AEA509A86DB3AD0D2ABFC (void);
+// 0x0000005F System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt32>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.UInt32)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Serialize_m494E4DC13AD2BA3764C7950F969987DB7E7B74DF (void);
+// 0x00000060 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt64>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.UInt64)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Serialize_mC24A2F18C91EF562F1DB65041FA60E3CEE77CD8B (void);
+// 0x00000061 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Single>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Single)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Serialize_m61BE383C43B925B9148C2F570985E38C0E31C0B5 (void);
+// 0x00000062 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Double>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Double)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Serialize_mEFEF9307EAED165C4400877B830162B79EAAE357 (void);
+// 0x00000063 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Boolean>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Boolean)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Serialize_mD2F7376584B252CF5432635CF6787F815FA6C296 (void);
+// 0x00000064 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Char>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Char)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Serialize_mA0D4F0670632D2667219236D26DB1BE20272435C (void);
+// 0x00000065 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.String>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.String)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Serialize_m75E9841F21A746232C3FA85FBA6584FD9D1E9102 (void);
+// 0x00000066 System.SByte Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.SByte>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Deserialize_m85DDC35A3DA9399363A02678B035731C525E3CAB (void);
+// 0x00000067 System.Int16 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int16>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Deserialize_mFBAD0BFE6AD59A426E6BA73E163C10C040295940 (void);
+// 0x00000068 System.Int32 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int32>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Deserialize_m37E8F76D3363447CCDEF7336BDBA070B075DB710 (void);
+// 0x00000069 System.Int64 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Int64>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Deserialize_m8530CDC51661A174BB5CB2AEDE3824472E1F2D48 (void);
+// 0x0000006A System.Byte Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Byte>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Deserialize_m4BB84296FF7D5C53B0BB6FD53309D52FE10CF472 (void);
+// 0x0000006B System.UInt16 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt16>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Deserialize_m8AA4BB35DBA420632634DB6FFAA1CF13F439AB4C (void);
+// 0x0000006C System.UInt32 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt32>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Deserialize_mFD7A6474B9D23EDBBBD6B2EE11AA7BAE22B5E976 (void);
+// 0x0000006D System.UInt64 Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.UInt64>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Deserialize_m5413EF49BDC24124DC5C2B9515736200754B4542 (void);
+// 0x0000006E System.Single Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Single>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Deserialize_m96888A6C0D172E130A8ADA410D3BD6AE5B8B6DC1 (void);
+// 0x0000006F System.Double Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Double>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Deserialize_m23EAE2F4E80645FC416184955F38035789A22A13 (void);
+// 0x00000070 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Boolean>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Deserialize_mDCE48263BD94672E6E8C014A192B067257CAF053 (void);
+// 0x00000071 System.Char Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Char>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Deserialize_m079AC7A7AD01137153A9C2146118607ADE40AF48 (void);
+// 0x00000072 System.String Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.String>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Deserialize_m71DD7E24DDA6C8D057972A0792F815216024FC01 (void);
+// 0x00000073 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.DirectoryInfo>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.IO.DirectoryInfo)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Serialize_m05B88C752155CAE731195507696F8B0B220DFBDD (void);
+// 0x00000074 System.IO.DirectoryInfo Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.DirectoryInfo>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Deserialize_mD4EB9094B0E99108D8AEA3238AB1EA5E3BEC2CE2 (void);
+// 0x00000075 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.FileInfo>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.IO.FileInfo)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Serialize_m3A1F5C11B0A43C43231E6CBF0D2FFAD741DD9DD2 (void);
+// 0x00000076 System.IO.FileInfo Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.IO.FileInfo>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Deserialize_mD059B1EA8BD006A6BD0C674B007F3BBD0D4A5C5F (void);
+// 0x00000077 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Guid>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Guid)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Serialize_mAD720BFB8924911E94D1CB7BABCB5B0234AAD57E (void);
+// 0x00000078 System.Guid Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Guid>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Deserialize_mFECBAA14784D866A25324205FAAE15B4568C0B8B (void);
+// 0x00000079 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.DateTime>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.DateTime)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Serialize_mDC91D9CA967DF602212FED3A5E60E393787AB48C (void);
+// 0x0000007A System.DateTime Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.DateTime>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Deserialize_mB62B47749E16EEE8B9142F5480A8128F8F5A1D50 (void);
+// 0x0000007B System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.TimeSpan>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.TimeSpan)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Serialize_mB817020C82B91A010758FC803C37DA975B3C16AC (void);
+// 0x0000007C System.TimeSpan Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.TimeSpan>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Deserialize_mE7233AB21950E8B54B0038D5DE142E09D9D3484F (void);
+// 0x0000007D System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Version>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,System.Version)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Serialize_mA1634BC3C43B1C3C6F788980E8C4A2A445F793EC (void);
+// 0x0000007E System.Version Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.IBinaryAdapter<System.Version>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Deserialize_m03454FCF5BF949763681B757CD2E2ED90DC9A1C6 (void);
+// 0x0000007F System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter<UnityEngine.Object>.Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,UnityEngine.Object)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Serialize_m10BDDB9276D28D53141B0E3B95997412108DB11D (void);
+// 0x00000080 System.Object Unity.Serialization.Binary.Adapters.BinaryAdapter::Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter<UnityEngine.Object>.Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+extern void BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Deserialize_m5ADC4AE8A2CA561E8DC8AC00ACC114F2955AB0E5 (void);
+// 0x00000081 System.Void Unity.Serialization.Binary.Adapters.BinaryAdapter::.ctor()
+extern void BinaryAdapter__ctor_m0F7C7DF7DE5593E85375826603BFD9DA514569F7 (void);
+// 0x00000082 System.Void Unity.Serialization.Binary.Adapters.IBinaryAdapter`1::Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue)
+// 0x00000083 TValue Unity.Serialization.Binary.Adapters.IBinaryAdapter`1::Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+// 0x00000084 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TrySerialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue&)
+// 0x00000085 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TrySerialize(Unity.Serialization.Binary.Adapters.IBinaryAdapter,Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue)
+// 0x00000086 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TryDeserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&)
+// 0x00000087 System.Boolean Unity.Serialization.Binary.Adapters.BinaryAdapterCollection::TryDeserialize(Unity.Serialization.Binary.Adapters.IBinaryAdapter,Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*,TValue&)
+// 0x00000088 System.Void Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter`1::Serialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer*,TValue)
+// 0x00000089 System.Object Unity.Serialization.Binary.Adapters.Contravariant.IBinaryAdapter`1::Deserialize(Unity.Collections.LowLevel.Unsafe.UnsafeAppendBuffer/Reader*)
+static Il2CppMethodPointer s_methodPointers[137] = 
+{
+	EmbeddedAttribute__ctor_mECAB93BFAD642BBA6FC2BC4D8670501BC795044B,
+	IsReadOnlyAttribute__ctor_mAD348FD9E4564AC891B840B33348B98E80983264,
+	FormerNameAttribute_get_OldName_m89CC0CF11B00FA04B9544C063D619C1003587013,
+	FormerNameAttribute_RegisterFormerlySerializedAsTypes_m2904A9AA40585CF7D4464F344613ABC75CEFAE3C,
+	FormerNameAttribute_TryGetCurrentTypeName_mBA82D7DAD646BE7316A687AA6112B5149BD739B6,
+	FormerNameAttribute__cctor_m91E8BAFBF697764309A0AA0F8143A0F0ACADCE7E,
+	U3CU3Ec__cctor_m7E477D2970DED8345289DA33FC846133648168F4,
+	U3CU3Ec__ctor_m647BAF96AA2BE8DD5DB5D2AED28A9FC39D3B2603,
+	U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_0_mE70FD33A31CBDCC4888AE5634FDA8C4137A7E974,
+	U3CU3Ec_U3CRegisterFormerlySerializedAsTypesU3Eb__6_1_mFE6C4EF84695725604B2B3F57D1E6BC9F91D0566,
+	SerializationException__ctor_m5412DEFC5478EE7F95341F0645D28F687908DA04,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	PropertyChecks_GetReadOnlyValueTypeErrorMessage_m697DB10A6076626E3ADF9C1FF71BD85D00795DFE,
+	PropertyChecks_GetReadOnlyReferenceTypeErrorMessage_mA54205C9FFC2B35E7EC9671E36563E3911FDC61F,
+	PropertyChecks_GetReadOnlyReferenceTypeWithInvalidTypeErrorMessage_m4DB1A791352EADF882E56F2CC381B080DAE82781,
+	NULL,
+	SerializedReferences_AddSerializedReference_m51FDFB27BE5DE289D2E6CC57B2D91CBCDCBCF0B9,
+	NULL,
+	SerializedReferences_GetDeserializedReference_mAB1E940157DA5C4BC7C12B59477D446F3E872396,
+	SerializedReferences_SetSerialized_mDCD8C65DC761AEDB62200342F1C73CBCFD32A892,
+	SerializedReferences_Clear_m7CE5ED0E64FAE4237ACC56CE17B64E256EED310F,
+	SerializedReferences__ctor_mDA53914E5467F602879A518535AABA32B2E551B7,
+	DirectoryInfoExtensions_GetRelativePath_mDEFA897B3D39C1D3E90AD3571C81E5F67D77AE1C,
+	FileInfoExtensions_GetRelativePath_m764494E308ED67DB35371419AF0714E9217A2264,
+	StringExtensions_ToForwardSlash_m4DFB717FDFD969F80DEBEB0F89830E4C94E6620F,
+	NULL,
+	NULL,
+	BinarySerialization_GetSharedContext_mBC3F436273250032FB293C07F6C91A8787E741DF,
+	BinarySerialization_GetGlobalAdapters_m7C431D52949F03CCA87D1465BCD8173FF53867BD,
+	NULL,
+	BinarySerialization_WritePrimitiveBoxed_m27F0EAD257E6B03E3D3E852B11DF84FA38AA436E,
+	NULL,
+	NULL,
+	BinarySerialization__cctor_m91CEF94C525D352D3E20DF0A8531CC4F9D6497DC,
+	BinarySerializationContext_GetBinaryPropertyWriter_mADA1972379C09C0F05F9EAD3C5E51546ADCA3977,
+	BinarySerializationContext_GetBinaryPropertyReader_mAC413229F5C0BC6AA2779A9C9C8541AE884F10AE,
+	BinarySerializationContext_GetSerializedReferences_m2C707797A11394061B44DA9AC0EFCE6D3A35EDEA,
+	BinarySerializationContext_ClearSerializedReferences_m4CCC76DCD5E6E401195062324267B1E64EB7D431,
+	BinarySerializationContext__ctor_mBFBDCC3BACA08FF28F2E11CC93A8292B4B890EC0,
+	BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC,
+	BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5,
+	BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501,
+	BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294,
+	BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9,
+	BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463,
+	BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1,
+	BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C,
+	BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698,
+	BinaryPropertyReader_SetStream_m89F4CC9334CBC7EC7A28BC9D21B5A923B7BA7EA7,
+	BinaryPropertyReader_SetSerializedType_m4DEF8A86F09D61A1589FF5DEA79E0381BF85041D,
+	BinaryPropertyReader_SetDisableRootAdapters_mA5AC46AE51C525FCE66FA3E70C8272769A7027D2,
+	BinaryPropertyReader_SetGlobalAdapters_m0B58C8731B00380476EE914C5C34585EB01DAA0E,
+	BinaryPropertyReader_SetUserDefinedAdapters_mB8C765A532456FE8BE274282A008A65651D041D9,
+	BinaryPropertyReader_SetSerializedReferences_mB72E0A2D0053369960E576E9A9FD4C5BE3B5EBBF,
+	BinaryPropertyReader__ctor_mAA89B988046725713680523E4B4352A39EB841FC,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetSerializedType_m9C24255CFB3B146F5595CFB813BAF1A13EBB3C54,
+	BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetArrayLength_m0540240D9BA5EFBD6B81D14236D7F5557988FCC2,
+	BinaryPropertyReader_Unity_Serialization_ISerializedTypeProvider_GetDefaultObject_mD8F3768D1D04958737B4414D3AEDBEFCF36CC3E6,
+	BinaryPropertyVisitor_set_IsLocked_m8336B30AA30FB5B6036C819ED3CDDAC0853CAF24,
+	BinaryPropertyVisitor_Lock_mB2E934C9811022116122890478AEDCAE809B6291,
+	BinaryPropertyVisitor__ctor_m5AE5DC2ADC710AE13ED2AD9B02529698993BEF0B,
+	LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55,
+	LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095,
+	BinaryPropertyWriter_SetStream_m51FFCCCE783CBF4A9825D10FF494CB493BB61323,
+	BinaryPropertyWriter_SetSerializedType_m4E9BD0185117ADC030ECF014D260B65BCE2A658D,
+	BinaryPropertyWriter_SetDisableRootAdapters_m30350548C768C5B54E9CE94805157598D80417CC,
+	BinaryPropertyWriter_SetGlobalAdapters_m901222D702DD2312DA47A4CBCFCEA4FDD8A0F0AB,
+	BinaryPropertyWriter_SetUserDefinedAdapters_m83487692F67928FBCCE042FF975A945118E7ACAD,
+	BinaryPropertyWriter_SetSerializedReferences_mC2179F726FE7EC4D777D11D5D2C12141EF0D9176,
+	BinaryPropertyWriter__ctor_mE4BD400969B3CE6CAF443F8E468E6E7722A7E3DF,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Serialize_m33EEED235463AE197021D9E1A4C4AC266CB21029,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Serialize_m3FF13086977CA45992FCC49C68F8A0F74772DFA9,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Serialize_mDAB3BC7AFE2B1D01BBA2D4BC62EACD1F800D7E2C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Serialize_m0E9BE02C34DF9754D968F7C3106F478E93A24110,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Serialize_m12AACE3F7F5E4ADA49EA31CEF1F1F98F1B94BF6A,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Serialize_mF78705BA2BAF70C5A78AEA509A86DB3AD0D2ABFC,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Serialize_m494E4DC13AD2BA3764C7950F969987DB7E7B74DF,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Serialize_mC24A2F18C91EF562F1DB65041FA60E3CEE77CD8B,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Serialize_m61BE383C43B925B9148C2F570985E38C0E31C0B5,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Serialize_mEFEF9307EAED165C4400877B830162B79EAAE357,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Serialize_mD2F7376584B252CF5432635CF6787F815FA6C296,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Serialize_mA0D4F0670632D2667219236D26DB1BE20272435C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Serialize_m75E9841F21A746232C3FA85FBA6584FD9D1E9102,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SByteU3E_Deserialize_m85DDC35A3DA9399363A02678B035731C525E3CAB,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int16U3E_Deserialize_mFBAD0BFE6AD59A426E6BA73E163C10C040295940,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int32U3E_Deserialize_m37E8F76D3363447CCDEF7336BDBA070B075DB710,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_Int64U3E_Deserialize_m8530CDC51661A174BB5CB2AEDE3824472E1F2D48,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_ByteU3E_Deserialize_m4BB84296FF7D5C53B0BB6FD53309D52FE10CF472,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt16U3E_Deserialize_m8AA4BB35DBA420632634DB6FFAA1CF13F439AB4C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt32U3E_Deserialize_mFD7A6474B9D23EDBBBD6B2EE11AA7BAE22B5E976,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_UInt64U3E_Deserialize_m5413EF49BDC24124DC5C2B9515736200754B4542,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_SingleU3E_Deserialize_m96888A6C0D172E130A8ADA410D3BD6AE5B8B6DC1,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DoubleU3E_Deserialize_m23EAE2F4E80645FC416184955F38035789A22A13,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_BooleanU3E_Deserialize_mDCE48263BD94672E6E8C014A192B067257CAF053,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_CharU3E_Deserialize_m079AC7A7AD01137153A9C2146118607ADE40AF48,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_StringU3E_Deserialize_m71DD7E24DDA6C8D057972A0792F815216024FC01,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Serialize_m05B88C752155CAE731195507696F8B0B220DFBDD,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_DirectoryInfoU3E_Deserialize_mD4EB9094B0E99108D8AEA3238AB1EA5E3BEC2CE2,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Serialize_m3A1F5C11B0A43C43231E6CBF0D2FFAD741DD9DD2,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_IO_FileInfoU3E_Deserialize_mD059B1EA8BD006A6BD0C674B007F3BBD0D4A5C5F,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Serialize_mAD720BFB8924911E94D1CB7BABCB5B0234AAD57E,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_GuidU3E_Deserialize_mFECBAA14784D866A25324205FAAE15B4568C0B8B,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Serialize_mDC91D9CA967DF602212FED3A5E60E393787AB48C,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_DateTimeU3E_Deserialize_mB62B47749E16EEE8B9142F5480A8128F8F5A1D50,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Serialize_mB817020C82B91A010758FC803C37DA975B3C16AC,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_TimeSpanU3E_Deserialize_mE7233AB21950E8B54B0038D5DE142E09D9D3484F,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Serialize_mA1634BC3C43B1C3C6F788980E8C4A2A445F793EC,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_IBinaryAdapterU3CSystem_VersionU3E_Deserialize_m03454FCF5BF949763681B757CD2E2ED90DC9A1C6,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Serialize_m10BDDB9276D28D53141B0E3B95997412108DB11D,
+	BinaryAdapter_Unity_Serialization_Binary_Adapters_Contravariant_IBinaryAdapterU3CUnityEngine_ObjectU3E_Deserialize_m5ADC4AE8A2CA561E8DC8AC00ACC114F2955AB0E5,
+	BinaryAdapter__ctor_m0F7C7DF7DE5593E85375826603BFD9DA514569F7,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
+extern void BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC_AdjustorThunk (void);
+extern void BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294_AdjustorThunk (void);
+extern void BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1_AdjustorThunk (void);
+extern void BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C_AdjustorThunk (void);
+extern void BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698_AdjustorThunk (void);
+extern void LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55_AdjustorThunk (void);
+extern void LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[11] = 
+{
+	{ 0x0600002D, BinarySerializationParameters_get_SerializedType_m321D5E570D6708B08D599A3F9A576D65FD0BC1FC_AdjustorThunk },
+	{ 0x0600002E, BinarySerializationParameters_set_SerializedType_m4F46B482A169EF167FF71C0407B67C5B0581C5E5_AdjustorThunk },
+	{ 0x0600002F, BinarySerializationParameters_get_DisableRootAdapters_mD06314C24BB6C05C2D827F194070431A7AB46501_AdjustorThunk },
+	{ 0x06000030, BinarySerializationParameters_get_UserDefinedAdapters_mAE240DEFA5996C143E0E60E3305916AB424D3294_AdjustorThunk },
+	{ 0x06000031, BinarySerializationParameters_set_UserDefinedAdapters_mB1041EA3EDF25578BD18C0ACF5239C0C39942FF9_AdjustorThunk },
+	{ 0x06000032, BinarySerializationParameters_get_RequiresThreadSafety_m729D0D17EB3CD689E818A5A207842469B9BEB463_AdjustorThunk },
+	{ 0x06000033, BinarySerializationParameters_get_DisableSerializedReferences_m1794D995A4F2261E55DF17AC9FD4DA7EF64E4DF1_AdjustorThunk },
+	{ 0x06000034, BinarySerializationParameters_get_Context_mB18293A6F24990A05DCC5352FE7324C968D5F82C_AdjustorThunk },
+	{ 0x06000035, BinarySerializationParameters_set_Context_m18D0AE517E5408EEB09933022484AA8FA69E3698_AdjustorThunk },
+	{ 0x0600004A, LockScope__ctor_m91BF1206F12D8BBFB1DF3DC11106AD45024E1D55_AdjustorThunk },
+	{ 0x0600004B, LockScope_Dispose_m5D88F632CC31A959A0D8A1BE5602A40E7A2F8095_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[137] = 
+{
+	7952,
+	7952,
+	7817,
+	13334,
+	11899,
+	13334,
+	13334,
+	7952,
+	4788,
+	5528,
+	6334,
+	7817,
+	7778,
+	7817,
+	-1,
+	-1,
+	-1,
+	11737,
+	11737,
+	11737,
+	-1,
+	4452,
+	-1,
+	4784,
+	5528,
+	7952,
+	7952,
+	12987,
+	12987,
+	12987,
+	-1,
+	-1,
+	13313,
+	13313,
+	-1,
+	11224,
+	-1,
+	-1,
+	13334,
+	7817,
+	7817,
+	7817,
+	7952,
+	7952,
+	7817,
+	6334,
+	7899,
+	7817,
+	6334,
+	7899,
+	7899,
+	7817,
+	6334,
+	6167,
+	6334,
+	6416,
+	6334,
+	6334,
+	6334,
+	7952,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	7817,
+	7778,
+	7817,
+	6416,
+	7981,
+	7952,
+	6334,
+	7952,
+	6167,
+	6334,
+	6416,
+	6334,
+	6334,
+	6334,
+	7952,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	2623,
+	2617,
+	2618,
+	2619,
+	2623,
+	2617,
+	2618,
+	2619,
+	2626,
+	2611,
+	2623,
+	2617,
+	2621,
+	5352,
+	4082,
+	4313,
+	4681,
+	5352,
+	4082,
+	4313,
+	4681,
+	5822,
+	4003,
+	5352,
+	4082,
+	4771,
+	2621,
+	4771,
+	2621,
+	4771,
+	2615,
+	4063,
+	2610,
+	3982,
+	2627,
+	5854,
+	2621,
+	4771,
+	2621,
+	4771,
+	7952,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[27] = 
+{
+	{ 0x0600000F, { 0, 5 } },
+	{ 0x06000010, { 5, 1 } },
+	{ 0x06000011, { 6, 3 } },
+	{ 0x06000015, { 9, 6 } },
+	{ 0x06000017, { 15, 2 } },
+	{ 0x0600001F, { 17, 2 } },
+	{ 0x06000020, { 19, 2 } },
+	{ 0x06000023, { 21, 13 } },
+	{ 0x06000025, { 34, 13 } },
+	{ 0x06000026, { 47, 1 } },
+	{ 0x0600003D, { 48, 10 } },
+	{ 0x0600003E, { 58, 9 } },
+	{ 0x0600003F, { 67, 7 } },
+	{ 0x06000040, { 74, 8 } },
+	{ 0x06000041, { 82, 5 } },
+	{ 0x06000042, { 87, 1 } },
+	{ 0x06000043, { 88, 8 } },
+	{ 0x06000053, { 96, 9 } },
+	{ 0x06000054, { 105, 6 } },
+	{ 0x06000055, { 111, 7 } },
+	{ 0x06000056, { 118, 10 } },
+	{ 0x06000057, { 128, 2 } },
+	{ 0x06000058, { 130, 6 } },
+	{ 0x06000084, { 136, 1 } },
+	{ 0x06000085, { 137, 2 } },
+	{ 0x06000086, { 139, 1 } },
+	{ 0x06000087, { 140, 3 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[143] = 
+{
+	{ (Il2CppRGCTXDataType)2, 10066 },
+	{ (Il2CppRGCTXDataType)1, 192 },
+	{ (Il2CppRGCTXDataType)3, 58049 },
+	{ (Il2CppRGCTXDataType)2, 192 },
+	{ (Il2CppRGCTXDataType)3, 58031 },
+	{ (Il2CppRGCTXDataType)2, 194 },
+	{ (Il2CppRGCTXDataType)1, 193 },
+	{ (Il2CppRGCTXDataType)2, 193 },
+	{ (Il2CppRGCTXDataType)3, 50526 },
+	{ (Il2CppRGCTXDataType)3, 41767 },
+	{ (Il2CppRGCTXDataType)1, 1850 },
+	{ (Il2CppRGCTXDataType)1, 855 },
+	{ (Il2CppRGCTXDataType)3, 41768 },
+	{ (Il2CppRGCTXDataType)3, 41766 },
+	{ (Il2CppRGCTXDataType)2, 1850 },
+	{ (Il2CppRGCTXDataType)2, 10072 },
+	{ (Il2CppRGCTXDataType)2, 608 },
+	{ (Il2CppRGCTXDataType)3, 41749 },
+	{ (Il2CppRGCTXDataType)3, 61751 },
+	{ (Il2CppRGCTXDataType)3, 41748 },
+	{ (Il2CppRGCTXDataType)3, 61750 },
+	{ (Il2CppRGCTXDataType)3, 65389 },
+	{ (Il2CppRGCTXDataType)3, 65386 },
+	{ (Il2CppRGCTXDataType)3, 65387 },
+	{ (Il2CppRGCTXDataType)3, 65388 },
+	{ (Il2CppRGCTXDataType)3, 65383 },
+	{ (Il2CppRGCTXDataType)3, 65391 },
+	{ (Il2CppRGCTXDataType)3, 65392 },
+	{ (Il2CppRGCTXDataType)3, 65393 },
+	{ (Il2CppRGCTXDataType)3, 65390 },
+	{ (Il2CppRGCTXDataType)3, 65385 },
+	{ (Il2CppRGCTXDataType)3, 65382 },
+	{ (Il2CppRGCTXDataType)3, 65384 },
+	{ (Il2CppRGCTXDataType)2, 99 },
+	{ (Il2CppRGCTXDataType)3, 65642 },
+	{ (Il2CppRGCTXDataType)3, 65544 },
+	{ (Il2CppRGCTXDataType)3, 65562 },
+	{ (Il2CppRGCTXDataType)3, 65599 },
+	{ (Il2CppRGCTXDataType)3, 65454 },
+	{ (Il2CppRGCTXDataType)3, 65697 },
+	{ (Il2CppRGCTXDataType)3, 65715 },
+	{ (Il2CppRGCTXDataType)3, 65740 },
+	{ (Il2CppRGCTXDataType)3, 65672 },
+	{ (Il2CppRGCTXDataType)3, 65490 },
+	{ (Il2CppRGCTXDataType)3, 65429 },
+	{ (Il2CppRGCTXDataType)3, 65472 },
+	{ (Il2CppRGCTXDataType)2, 97 },
+	{ (Il2CppRGCTXDataType)2, 96 },
+	{ (Il2CppRGCTXDataType)3, 62185 },
+	{ (Il2CppRGCTXDataType)2, 7600 },
+	{ (Il2CppRGCTXDataType)3, 26931 },
+	{ (Il2CppRGCTXDataType)3, 13531 },
+	{ (Il2CppRGCTXDataType)2, 7395 },
+	{ (Il2CppRGCTXDataType)3, 13530 },
+	{ (Il2CppRGCTXDataType)2, 4925 },
+	{ (Il2CppRGCTXDataType)2, 7543 },
+	{ (Il2CppRGCTXDataType)2, 6331 },
+	{ (Il2CppRGCTXDataType)2, 6556 },
+	{ (Il2CppRGCTXDataType)3, 62186 },
+	{ (Il2CppRGCTXDataType)1, 779 },
+	{ (Il2CppRGCTXDataType)3, 56490 },
+	{ (Il2CppRGCTXDataType)2, 779 },
+	{ (Il2CppRGCTXDataType)2, 7208 },
+	{ (Il2CppRGCTXDataType)3, 21382 },
+	{ (Il2CppRGCTXDataType)2, 5802 },
+	{ (Il2CppRGCTXDataType)3, 21235 },
+	{ (Il2CppRGCTXDataType)3, 21234 },
+	{ (Il2CppRGCTXDataType)3, 62187 },
+	{ (Il2CppRGCTXDataType)2, 781 },
+	{ (Il2CppRGCTXDataType)2, 5803 },
+	{ (Il2CppRGCTXDataType)3, 21236 },
+	{ (Il2CppRGCTXDataType)3, 56491 },
+	{ (Il2CppRGCTXDataType)2, 7822 },
+	{ (Il2CppRGCTXDataType)3, 21420 },
+	{ (Il2CppRGCTXDataType)3, 62188 },
+	{ (Il2CppRGCTXDataType)2, 890 },
+	{ (Il2CppRGCTXDataType)2, 5839 },
+	{ (Il2CppRGCTXDataType)3, 21247 },
+	{ (Il2CppRGCTXDataType)3, 56492 },
+	{ (Il2CppRGCTXDataType)3, 56493 },
+	{ (Il2CppRGCTXDataType)2, 6118 },
+	{ (Il2CppRGCTXDataType)3, 21275 },
+	{ (Il2CppRGCTXDataType)3, 41751 },
+	{ (Il2CppRGCTXDataType)3, 56497 },
+	{ (Il2CppRGCTXDataType)3, 41753 },
+	{ (Il2CppRGCTXDataType)3, 41752 },
+	{ (Il2CppRGCTXDataType)3, 61699 },
+	{ (Il2CppRGCTXDataType)3, 56496 },
+	{ (Il2CppRGCTXDataType)3, 56416 },
+	{ (Il2CppRGCTXDataType)2, 10064 },
+	{ (Il2CppRGCTXDataType)1, 90 },
+	{ (Il2CppRGCTXDataType)3, 56710 },
+	{ (Il2CppRGCTXDataType)2, 90 },
+	{ (Il2CppRGCTXDataType)3, 56692 },
+	{ (Il2CppRGCTXDataType)3, 58013 },
+	{ (Il2CppRGCTXDataType)3, 61741 },
+	{ (Il2CppRGCTXDataType)2, 7601 },
+	{ (Il2CppRGCTXDataType)3, 26932 },
+	{ (Il2CppRGCTXDataType)3, 13533 },
+	{ (Il2CppRGCTXDataType)2, 7396 },
+	{ (Il2CppRGCTXDataType)3, 13532 },
+	{ (Il2CppRGCTXDataType)2, 4926 },
+	{ (Il2CppRGCTXDataType)2, 7544 },
+	{ (Il2CppRGCTXDataType)2, 6332 },
+	{ (Il2CppRGCTXDataType)2, 6557 },
+	{ (Il2CppRGCTXDataType)2, 782 },
+	{ (Il2CppRGCTXDataType)2, 5804 },
+	{ (Il2CppRGCTXDataType)3, 21237 },
+	{ (Il2CppRGCTXDataType)2, 7209 },
+	{ (Il2CppRGCTXDataType)3, 21383 },
+	{ (Il2CppRGCTXDataType)3, 56665 },
+	{ (Il2CppRGCTXDataType)2, 784 },
+	{ (Il2CppRGCTXDataType)2, 5805 },
+	{ (Il2CppRGCTXDataType)3, 21238 },
+	{ (Il2CppRGCTXDataType)2, 6308 },
+	{ (Il2CppRGCTXDataType)3, 21291 },
+	{ (Il2CppRGCTXDataType)2, 6529 },
+	{ (Il2CppRGCTXDataType)3, 56667 },
+	{ (Il2CppRGCTXDataType)2, 891 },
+	{ (Il2CppRGCTXDataType)2, 5840 },
+	{ (Il2CppRGCTXDataType)3, 21248 },
+	{ (Il2CppRGCTXDataType)2, 6359 },
+	{ (Il2CppRGCTXDataType)3, 21297 },
+	{ (Il2CppRGCTXDataType)2, 6586 },
+	{ (Il2CppRGCTXDataType)3, 26170 },
+	{ (Il2CppRGCTXDataType)3, 56668 },
+	{ (Il2CppRGCTXDataType)3, 26171 },
+	{ (Il2CppRGCTXDataType)3, 56669 },
+	{ (Il2CppRGCTXDataType)3, 41754 },
+	{ (Il2CppRGCTXDataType)3, 56666 },
+	{ (Il2CppRGCTXDataType)3, 56453 },
+	{ (Il2CppRGCTXDataType)2, 10065 },
+	{ (Il2CppRGCTXDataType)1, 94 },
+	{ (Il2CppRGCTXDataType)3, 56729 },
+	{ (Il2CppRGCTXDataType)2, 94 },
+	{ (Il2CppRGCTXDataType)3, 61742 },
+	{ (Il2CppRGCTXDataType)3, 56472 },
+	{ (Il2CppRGCTXDataType)2, 5726 },
+	{ (Il2CppRGCTXDataType)2, 5749 },
+	{ (Il2CppRGCTXDataType)3, 56435 },
+	{ (Il2CppRGCTXDataType)2, 5725 },
+	{ (Il2CppRGCTXDataType)2, 5748 },
+	{ (Il2CppRGCTXDataType)2, 87 },
+};
+extern const CustomAttributesCacheGenerator g_Unity_Serialization_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Serialization_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Serialization_CodeGenModule = 
+{
+	"Unity.Serialization.dll",
+	137,
+	s_methodPointers,
+	11,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	27,
+	s_rgctxIndices,
+	143,
+	s_rgctxValues,
+	NULL,
+	g_Unity_Serialization_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

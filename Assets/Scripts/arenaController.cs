@@ -29,7 +29,7 @@ public class arenaController : MonoBehaviour
             Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
             team1[0].GetComponent<fighterAI>().EndEpisode();
 
-            if (team2[0].GetComponent<fighterAI>().hits >= 0)
+            if (team2[0].GetComponent<fighterAI>().hits > 0)
             {//team1 died due to being shot
                 team2[0].GetComponent<fighterAI>().killed();
                 Debug.Log("team 2 score KILLED:");
@@ -52,7 +52,7 @@ public class arenaController : MonoBehaviour
             team2[0].GetComponent<fighterAI>().died();//Team 2 died, either shot or collided wall
 
 
-            if (team1[0].GetComponent<fighterAI>().hits >= 0)
+            if (team1[0].GetComponent<fighterAI>().hits > 0)
             {//team2 died due to being shot
                 team1[0].GetComponent<fighterAI>().killed();
                 Debug.Log("team 1 score KILLED:");

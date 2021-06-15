@@ -1,0 +1,132 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Microsoft.CodeAnalysis.EmbeddedAttribute::.ctor()
+extern void EmbeddedAttribute__ctor_m2E8DAF49D672F380B09C1EB29FB120FDB8CC577A (void);
+// 0x00000002 System.Void System.Runtime.CompilerServices.IsReadOnlyAttribute::.ctor()
+extern void IsReadOnlyAttribute__ctor_m5087433D5C22B4181304BCDC4A10FB55338504F7 (void);
+// 0x00000003 System.Void Unity.U2D.Entities.SpriteAtlasBarrier::.ctor()
+extern void SpriteAtlasBarrier__ctor_m8A6272AF7584E9396D94707F781BC6F676657769 (void);
+// 0x00000004 System.Void Unity.U2D.Entities.SpriteAtlasBarrier::OnCreateForCompiler()
+extern void SpriteAtlasBarrier_OnCreateForCompiler_m1CDCADAA8FA9023BB15C018CEDD8700829FA71B4 (void);
+// 0x00000005 System.Void Unity.U2D.Entities.SpriteAtlasSystem::OnCreate()
+extern void SpriteAtlasSystem_OnCreate_m5509B01982919F2549A97A0350C5F1CF62C22E39 (void);
+// 0x00000006 System.Void Unity.U2D.Entities.SpriteAtlasSystem::OnUpdate()
+extern void SpriteAtlasSystem_OnUpdate_m22B1E5C5E2D84E9DA72FBBA46368D63F8D30BFB3 (void);
+// 0x00000007 System.Void Unity.U2D.Entities.SpriteAtlasSystem::.ctor()
+extern void SpriteAtlasSystem__ctor_mF67DF4B8F7723DB21604315D504960417EE28EB2 (void);
+// 0x00000008 System.Void Unity.U2D.Entities.SpriteAtlasSystem::OnCreateForCompiler()
+extern void SpriteAtlasSystem_OnCreateForCompiler_m02708B31075AF297F9986B73DBE1F1B31D1623CA (void);
+// 0x00000009 Unity.Entities.EntityQuery Unity.U2D.Entities.SpriteAtlasSystem::<>GetEntityQuery_ForAddSpriteRenderDataToAtlas_From(Unity.Entities.ComponentSystemBase)
+extern void SpriteAtlasSystem_U3CU3EGetEntityQuery_ForAddSpriteRenderDataToAtlas_From_mFB0CEFAF502DBF6DF39F6933FC50DFA1F417878C (void);
+// 0x0000000A System.Void Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas::OriginalLambdaBody(System.Int32,Unity.Entities.Entity&,Unity.U2D.Entities.Sprite&)
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_OriginalLambdaBody_mA2861997DB1A3F956FA855D8160265ACB3D34DF3 (void);
+// 0x0000000B System.Void Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas::ReadFromDisplayClass(Unity.U2D.Entities.SpriteAtlasSystem/<>c__DisplayClass2_0&)
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ReadFromDisplayClass_mE3BC0E40E126BA74970139C95133B7E73D21A380 (void);
+// 0x0000000C System.Void Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas::Execute(Unity.Entities.ArchetypeChunk,System.Int32,System.Int32)
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_Execute_mB0E332D42CC3D7EB4C68C7BC5EBC7B821B05E131 (void);
+// 0x0000000D System.Void Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas::IterateEntities(Unity.Entities.ArchetypeChunk&,Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas/LambdaParameterValueProviders/Runtimes&)
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_IterateEntities_m13577DC0BC88D5A82BD9563757640C7804F4875D (void);
+// 0x0000000E System.Void Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas::ScheduleTimeInitialize(Unity.U2D.Entities.SpriteAtlasSystem,Unity.U2D.Entities.SpriteAtlasSystem/<>c__DisplayClass2_0&)
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ScheduleTimeInitialize_mDA2B1E76FA7FAB142D6E4F26315EFE9267EFF1B1 (void);
+// 0x0000000F System.Void Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas/LambdaParameterValueProviders::ScheduleTimeInitialize(Unity.U2D.Entities.SpriteAtlasSystem)
+extern void LambdaParameterValueProviders_ScheduleTimeInitialize_m9D4E0594FB837F4DE030A4CD2F4EF72FF1DBF0D2 (void);
+// 0x00000010 Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas/LambdaParameterValueProviders/Runtimes Unity.U2D.Entities.SpriteAtlasSystem/Unity.U2D.Entities.<>c__DisplayClass_AddSpriteRenderDataToAtlas/LambdaParameterValueProviders::PrepareToExecuteOnEntitiesInMethod(Unity.Entities.ArchetypeChunk&,System.Int32,System.Int32)
+extern void LambdaParameterValueProviders_PrepareToExecuteOnEntitiesInMethod_m22A40E650771EF38B284819FF34743E5538F4167 (void);
+// 0x00000011 System.Void __JobReflectionRegistrationOutput__3574213116::CreateJobReflectionData()
+extern void __JobReflectionRegistrationOutput__3574213116_CreateJobReflectionData_mBB8C56CB491D77F25682FCCD66EF6A1AC51CBC03 (void);
+// 0x00000012 System.Void __JobReflectionRegistrationOutput__3574213116::EarlyInit()
+extern void __JobReflectionRegistrationOutput__3574213116_EarlyInit_m6FD09D3BDA690EC8D95B83E45791238CE21EC448 (void);
+static Il2CppMethodPointer s_methodPointers[18] = 
+{
+	EmbeddedAttribute__ctor_m2E8DAF49D672F380B09C1EB29FB120FDB8CC577A,
+	IsReadOnlyAttribute__ctor_m5087433D5C22B4181304BCDC4A10FB55338504F7,
+	SpriteAtlasBarrier__ctor_m8A6272AF7584E9396D94707F781BC6F676657769,
+	SpriteAtlasBarrier_OnCreateForCompiler_m1CDCADAA8FA9023BB15C018CEDD8700829FA71B4,
+	SpriteAtlasSystem_OnCreate_m5509B01982919F2549A97A0350C5F1CF62C22E39,
+	SpriteAtlasSystem_OnUpdate_m22B1E5C5E2D84E9DA72FBBA46368D63F8D30BFB3,
+	SpriteAtlasSystem__ctor_mF67DF4B8F7723DB21604315D504960417EE28EB2,
+	SpriteAtlasSystem_OnCreateForCompiler_m02708B31075AF297F9986B73DBE1F1B31D1623CA,
+	SpriteAtlasSystem_U3CU3EGetEntityQuery_ForAddSpriteRenderDataToAtlas_From_mFB0CEFAF502DBF6DF39F6933FC50DFA1F417878C,
+	U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_OriginalLambdaBody_mA2861997DB1A3F956FA855D8160265ACB3D34DF3,
+	U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ReadFromDisplayClass_mE3BC0E40E126BA74970139C95133B7E73D21A380,
+	U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_Execute_mB0E332D42CC3D7EB4C68C7BC5EBC7B821B05E131,
+	U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_IterateEntities_m13577DC0BC88D5A82BD9563757640C7804F4875D,
+	U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ScheduleTimeInitialize_mDA2B1E76FA7FAB142D6E4F26315EFE9267EFF1B1,
+	LambdaParameterValueProviders_ScheduleTimeInitialize_m9D4E0594FB837F4DE030A4CD2F4EF72FF1DBF0D2,
+	LambdaParameterValueProviders_PrepareToExecuteOnEntitiesInMethod_m22A40E650771EF38B284819FF34743E5538F4167,
+	__JobReflectionRegistrationOutput__3574213116_CreateJobReflectionData_mBB8C56CB491D77F25682FCCD66EF6A1AC51CBC03,
+	__JobReflectionRegistrationOutput__3574213116_EarlyInit_m6FD09D3BDA690EC8D95B83E45791238CE21EC448,
+};
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_OriginalLambdaBody_mA2861997DB1A3F956FA855D8160265ACB3D34DF3_AdjustorThunk (void);
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ReadFromDisplayClass_mE3BC0E40E126BA74970139C95133B7E73D21A380_AdjustorThunk (void);
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_Execute_mB0E332D42CC3D7EB4C68C7BC5EBC7B821B05E131_AdjustorThunk (void);
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_IterateEntities_m13577DC0BC88D5A82BD9563757640C7804F4875D_AdjustorThunk (void);
+extern void U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ScheduleTimeInitialize_mDA2B1E76FA7FAB142D6E4F26315EFE9267EFF1B1_AdjustorThunk (void);
+extern void LambdaParameterValueProviders_ScheduleTimeInitialize_m9D4E0594FB837F4DE030A4CD2F4EF72FF1DBF0D2_AdjustorThunk (void);
+extern void LambdaParameterValueProviders_PrepareToExecuteOnEntitiesInMethod_m22A40E650771EF38B284819FF34743E5538F4167_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[7] = 
+{
+	{ 0x0600000A, U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_OriginalLambdaBody_mA2861997DB1A3F956FA855D8160265ACB3D34DF3_AdjustorThunk },
+	{ 0x0600000B, U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ReadFromDisplayClass_mE3BC0E40E126BA74970139C95133B7E73D21A380_AdjustorThunk },
+	{ 0x0600000C, U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_Execute_mB0E332D42CC3D7EB4C68C7BC5EBC7B821B05E131_AdjustorThunk },
+	{ 0x0600000D, U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_IterateEntities_m13577DC0BC88D5A82BD9563757640C7804F4875D_AdjustorThunk },
+	{ 0x0600000E, U3CU3Ec__DisplayClass_AddSpriteRenderDataToAtlas_ScheduleTimeInitialize_mDA2B1E76FA7FAB142D6E4F26315EFE9267EFF1B1_AdjustorThunk },
+	{ 0x0600000F, LambdaParameterValueProviders_ScheduleTimeInitialize_m9D4E0594FB837F4DE030A4CD2F4EF72FF1DBF0D2_AdjustorThunk },
+	{ 0x06000010, LambdaParameterValueProviders_PrepareToExecuteOnEntitiesInMethod_m22A40E650771EF38B284819FF34743E5538F4167_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[18] = 
+{
+	7952,
+	7952,
+	7952,
+	7952,
+	7952,
+	7952,
+	7952,
+	7952,
+	12792,
+	1418,
+	6167,
+	1376,
+	2605,
+	3287,
+	6334,
+	1556,
+	13334,
+	13334,
+};
+extern const CustomAttributesCacheGenerator g_Unity_2D_Entities_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_2D_Entities_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_2D_Entities_CodeGenModule = 
+{
+	"Unity.2D.Entities.dll",
+	18,
+	s_methodPointers,
+	7,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_Unity_2D_Entities_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
