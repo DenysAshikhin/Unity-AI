@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BrainParameters:
     VectorObservationSize: 12
-    NumStackedVectorObservations: 1
+    NumStackedVectorObservations: 8
     m_ActionSpec:
       m_NumContinuousActions: 0
       BranchSizes: 03000000030000000300000002000000
@@ -237,7 +237,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 5022602860645237092, guid: 8fe3c14b924c1644083c8dc496e472d8, type: 3}
+  m_Model: {fileID: 0}
   m_InferenceDevice: 2
   m_BehaviorType: 0
   m_BehaviorName: fighterBrain
