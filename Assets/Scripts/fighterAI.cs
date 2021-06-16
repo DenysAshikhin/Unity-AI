@@ -126,7 +126,7 @@ public class fighterAI : Agent
         if (aimBot)
         {
             float offset = 90f;
-            Vector3 vectorToTarget = target.transform.position - transform.position;
+            Vector3 vectorToTarget = target.transform.localPosition - transform.localPosition;
             Quaternion rotation = Quaternion.LookRotation(vectorToTarget);
             float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - offset;
 
@@ -146,9 +146,19 @@ public class fighterAI : Agent
             else
                 vectorAction[2] = 0;
 
-            // float distance = Vector2.Distance (object1.transform.position, object2.transform.position);
+            float distance = Vector2.Distance(transform.localPosition, target.transform.localPosition);
+            // Debug.Log(distance);
+            if (distance >= 4)// too far away, get closer
+                vectorAction[0] = 1;
+            else if (distance <= 1) // too close, move away
+                vectorAction[0] = 2;
+            else
+                vectorAction[0] = 0;
 
-
+            if (distance < 5) // If close enough, shoot at the ship
+                vectorAction[3] = 1;
+            else
+                vectorAction[3] = 0;
         }
         else
         {
@@ -159,12 +169,14 @@ public class fighterAI : Agent
                 vectorAction[2] = 2;
             else
                 vectorAction[2] = 0;
+
+            if (Input.GetKey(KeyCode.Space))
+                vectorAction[3] = 1;
+            else
+                vectorAction[3] = 0;
         }
 
-        if (Input.GetKey(KeyCode.Space))
-            vectorAction[3] = 1;
-        else
-            vectorAction[3] = 0;
+
     }
 
     public override void OnActionReceived(ActionBuffers actions)

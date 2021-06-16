@@ -256,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8269692183810899861, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: aimBot
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8269692183810899861, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: control
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454667149}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f2902496c0120472b90269f94a0aec7e, type: 3}
   m_Name: 
