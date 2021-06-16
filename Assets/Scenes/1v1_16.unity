@@ -472,7 +472,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 905864801232153319, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1171663374040471760, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Name
@@ -528,11 +528,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1171663375187219759, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1171663375605795304, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1171663375605795307, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_TargetDisplay
@@ -540,15 +540,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1171663375698602055, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1476003479999757033, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2873133346181813748, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7859763679644722539, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_RootOrder
@@ -637,7 +637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3892241158693812792, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: DecisionPeriod
-      value: 20
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5230632963586541776, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Model
@@ -650,10 +650,14 @@ PrefabInstance:
     - target: {fileID: 5800467628004645086, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 96cfccb1e62f1374e9e6b566289836c5, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 5800467628004645086, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_BehaviorType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800467628004645086, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6562273331964285232, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: control

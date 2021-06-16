@@ -194,6 +194,9 @@ MonoBehaviour:
   fireRate: 5
   team: 0
   control: 1
+  aimBot: 0
+  aimBotThresh: 10
+  aimBotSpeed: 100
   health: 100
   xLength: 10.035
   yLength: 5
@@ -213,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecisionPeriod: 5
+  DecisionPeriod: 2
   TakeActionsBetweenDecisions: 1
 --- !u!114 &4750550599183711275
 MonoBehaviour:
@@ -229,7 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BrainParameters:
     VectorObservationSize: 12
-    NumStackedVectorObservations: 8
+    NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 0
       BranchSizes: 03000000030000000300000002000000
