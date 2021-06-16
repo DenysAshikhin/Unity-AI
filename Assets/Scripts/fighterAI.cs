@@ -16,6 +16,9 @@ public class fighterAI : Agent
     public float fireRate = 5;
     public int team = 0;
     public bool control = false;
+    public bool aimBot = false;
+    public float aimBotThresh = 10f;
+    public float aimBotSpeed = 100f;
     public int health = 100;
     private float timeToFire = 0;
     public float xLength = 20.07f / 2f;
@@ -47,13 +50,13 @@ public class fighterAI : Agent
     {
         sensor.AddObservation(new Vector2(transform.localPosition.x / xLength, transform.localPosition.y / yLength)); //Normalized x,y
         sensor.AddObservation(new Vector2(rigidBody.velocity.x / maxVel, rigidBody.velocity.y / maxVel)); // Normalized velocity x,y
-        sensor.AddObservation((transform.rotation.z % 360f) / 360f); // Normalized angle
+        sensor.AddObservation((transform.localEulerAngles.z % 360f) / 360f); // Normalized angle
         sensor.AddObservation(rigidBody.angularVelocity / maxAngleVel); // Normalized angular velocity
 
         Rigidbody2D targetRigid = target.GetComponent<Rigidbody2D>();
         sensor.AddObservation(new Vector2(target.transform.localPosition.x / xLength, target.transform.localPosition.y / yLength)); //Normalized x,y
         sensor.AddObservation(new Vector2(targetRigid.velocity.x / maxVel, targetRigid.velocity.y / maxVel)); // Normalized velocity x,y
-        sensor.AddObservation((target.transform.rotation.z % 360f) / 360f); // Normalized angle
+        sensor.AddObservation((target.transform.localEulerAngles.z % 360f) / 360f); // Normalized angle
         sensor.AddObservation(targetRigid.angularVelocity / maxAngleVel); // Normalized angular velocity
 
         bulletRadar.checkActiveBullets();
@@ -63,7 +66,7 @@ public class fighterAI : Agent
             Transform tempTran = bulletRadar.bullets[i].GetComponent<Transform>();
             Rigidbody2D tempRigid = bulletRadar.bullets[i].GetComponent<Rigidbody2D>();
             //normalized: x, y, velX, velY rotation around Z
-            float[] temp = { tempTran.localPosition.x / xLength, tempTran.localPosition.y / yLength, tempRigid.velocity.x / maxVel, tempRigid.velocity.y / maxVel, (transform.rotation.z % 360f) / 360f };
+            float[] temp = { tempTran.localPosition.x / xLength, tempTran.localPosition.y / yLength, tempRigid.velocity.x / maxVel, tempRigid.velocity.y / maxVel, (transform.localEulerAngles.z % 360f) / 360f };
             bufferSensor.AppendObservation(temp);
         }
     }
@@ -90,6 +93,13 @@ public class fighterAI : Agent
     {
         if (control != true)
             return;
+
+
+
+
+        // Quaternion q = Quaternion.AngleAxis(angle, transform.up);
+        // transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * rotation_speed);
+
         ActionSegment<int> vectorAction = actionsOut.DiscreteActions;
 
         int forBack = (int)vectorAction[0];
@@ -112,13 +122,44 @@ public class fighterAI : Agent
         else
             vectorAction[1] = 0;
 
-        if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftShift))
-            vectorAction[2] = 1;
-        else if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.LeftShift))
-            vectorAction[2] = 2;
-        else
-            vectorAction[2] = 0;
 
+        if (aimBot)
+        {
+            float offset = 90f;
+            Vector3 vectorToTarget = target.transform.position - transform.position;
+            Quaternion rotation = Quaternion.LookRotation(vectorToTarget);
+            float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - offset;
+
+            float diff = ((angle + 360) % 360) - ((transform.localEulerAngles.z + 360) % 360);
+            // Debug.Log(((transform.localEulerAngles.z+360)%360));
+            // Debug.Log(((angle+360)%360));
+            // Debug.Log(diff);
+            // Debug.Log("------------");
+            // diff = (diff + 360) % 360;
+            // Debug.Log(diff);
+            // Debug.Log("================");
+
+            if (diff >= aimBotThresh && rigidBody.angularVelocity <= aimBotSpeed) // rotate left (positive)
+                vectorAction[2] = 1;
+            else if (diff <= -aimBotThresh && -rigidBody.angularVelocity <= aimBotSpeed) // rotate right (negative)
+                vectorAction[2] = 2;
+            else
+                vectorAction[2] = 0;
+
+            // float distance = Vector2.Distance (object1.transform.position, object2.transform.position);
+
+
+        }
+        else
+        {
+
+            if (Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.LeftShift)) // rotate left (positive)
+                vectorAction[2] = 1;
+            else if (Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.LeftShift)) // rotate right (negative)
+                vectorAction[2] = 2;
+            else
+                vectorAction[2] = 0;
+        }
 
         if (Input.GetKey(KeyCode.Space))
             vectorAction[3] = 1;
