@@ -47,14 +47,15 @@ behaviors:
       curiosity:
         strength: 0.05
         gamma: 0.992
-        encoding_size: 256
         learning_rate: 5e-4
+        network_settings:
+            hidden_units: 512
+            num_layers: 4
       
       #RND Instric Reward
       #rnd:
       #  strength: 0.005
       #  gamma: 0.995
-      #  encoding_size: 256
       #  learning_rate: 4e-4
         
       #gail:
@@ -69,7 +70,6 @@ behaviors:
       #gail:
       #  strength: 0.01
       #  gamma: 0.99
-      #  encoding_size: 128
       #  #demo_path: Project/Assets/ML-Agents/Examples/Pyramids/Demos/ExpertPyramid.demo
       #  learning_rate: 3.0e-4
       #  use_actions: false

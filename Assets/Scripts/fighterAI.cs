@@ -50,13 +50,13 @@ public class fighterAI : Agent
     {
         sensor.AddObservation(new Vector2(transform.localPosition.x / xLength, transform.localPosition.y / yLength)); //Normalized x,y
         sensor.AddObservation(new Vector2(rigidBody.velocity.x / maxVel, rigidBody.velocity.y / maxVel)); // Normalized velocity x,y
-        sensor.AddObservation((transform.localEulerAngles.z % 360f) / 360f); // Normalized angle
+        sensor.AddObservation(((transform.localEulerAngles.z + 360) % 360) / 360f); // Normalized angle
         sensor.AddObservation(rigidBody.angularVelocity / maxAngleVel); // Normalized angular velocity
 
         Rigidbody2D targetRigid = target.GetComponent<Rigidbody2D>();
         sensor.AddObservation(new Vector2(target.transform.localPosition.x / xLength, target.transform.localPosition.y / yLength)); //Normalized x,y
         sensor.AddObservation(new Vector2(targetRigid.velocity.x / maxVel, targetRigid.velocity.y / maxVel)); // Normalized velocity x,y
-        sensor.AddObservation((target.transform.localEulerAngles.z % 360f) / 360f); // Normalized angle
+        sensor.AddObservation(((target.transform.localEulerAngles.z + 360) % 360f) / 360f); // Normalized angle
         sensor.AddObservation(targetRigid.angularVelocity / maxAngleVel); // Normalized angular velocity
 
         bulletRadar.checkActiveBullets();
@@ -66,7 +66,7 @@ public class fighterAI : Agent
             Transform tempTran = bulletRadar.bullets[i].GetComponent<Transform>();
             Rigidbody2D tempRigid = bulletRadar.bullets[i].GetComponent<Rigidbody2D>();
             //normalized: x, y, velX, velY rotation around Z
-            float[] temp = { tempTran.localPosition.x / xLength, tempTran.localPosition.y / yLength, tempRigid.velocity.x / maxVel, tempRigid.velocity.y / maxVel, (transform.localEulerAngles.z % 360f) / 360f };
+            float[] temp = { tempTran.localPosition.x / xLength, tempTran.localPosition.y / yLength, tempRigid.velocity.x / maxVel, tempRigid.velocity.y / maxVel, ((transform.localEulerAngles.z + 360) % 360f) / 360f };
             bufferSensor.AppendObservation(temp);
         }
     }

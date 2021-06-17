@@ -60,6 +60,9 @@ behaviors:
       gail:
         strength: 0.4
         demo_path: Demos/singleDogFight.demo
+        network_settings:
+            hidden_units: 512
+            num_layers: 4
         #use_actions: true
     
     #behavioral_cloning:
