@@ -8,6 +8,7 @@ public class arenaController : MonoBehaviour
     public GameObject[] team2 = new GameObject[1];
     public float xLength = 20.07f / 2f;
     public float yLength = 10f / 2f;
+    public bool heuristicTrain = false;
 
     public int m_ResetTimer = 0;
     public int MaxEnvironmentSteps = 1000;
@@ -20,66 +21,117 @@ public class arenaController : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (team1[0].GetComponent<fighterAI>().health <= 0)
-        {
-            Debug.Log("team 2 won");
-            team1[0].GetComponent<fighterAI>().died();//Team 1 died, either shot or collided wall
+        float teamOneHp = team1[0].GetComponent<fighterAI>().health;
+        float teamTwoHp = team2[0].GetComponent<fighterAI>().health;
 
-            Debug.Log("team 1 score:");
-            Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
-            team1[0].GetComponent<fighterAI>().EndEpisode();
-
-            if (team2[0].GetComponent<fighterAI>().hits > 0)
-            {//team1 died due to being shot
-                team2[0].GetComponent<fighterAI>().killed();
-                Debug.Log("team 2 score KILLED:");
-                Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
-                team2[0].GetComponent<fighterAI>().EndEpisode();
-            }
-            else
+        if (heuristicTrain)
+        { // Team 1 = actual agent, Team2 =heuristic
+            if (teamOneHp <= 0)
             {
-                Debug.Log("team 2 score ENEMY CRASH:");
-                Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
-                team2[0].GetComponent<fighterAI>().EpisodeInterrupted();//The other agent hit a wall, this agent had nothing to do with it?
-                                                                        //NOTE possibly preventing tactic of running enemy into wall, look into changing this to end episode instead
-            }
+                Debug.Log("team 2 won");
+                team1[0].GetComponent<fighterAI>().died();//Team 1 died, either shot or collided wall
 
-            resetScene();
-        }
-        else if (team2[0].GetComponent<fighterAI>().health <= 0)
-        {
-            Debug.Log("team 1 won");
-            team2[0].GetComponent<fighterAI>().died();//Team 2 died, either shot or collided wall
-
-
-            if (team1[0].GetComponent<fighterAI>().hits > 0)
-            {//team2 died due to being shot
-                team1[0].GetComponent<fighterAI>().killed();
-                Debug.Log("team 1 score KILLED:");
+                Debug.Log("team 1 score:");
                 Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
                 team1[0].GetComponent<fighterAI>().EndEpisode();
+
+                resetScene();
+            }
+            else if (teamTwoHp <= 0)
+            {
+                Debug.Log("team 1 won");
+
+                if (team1[0].GetComponent<fighterAI>().hits > 0)
+                {//team2 died due to being shot
+                    team1[0].GetComponent<fighterAI>().killed();
+                    Debug.Log("team 1 score KILLED:");
+                    Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
+                    team1[0].GetComponent<fighterAI>().EndEpisode();
+                }
+                else
+                {
+                    Debug.Log("team 1 score ENEMY CRASH:");
+                    Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
+                    team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
+                }
+
+                resetScene();
             }
             else
             {
-                Debug.Log("team 1 score ENEMY CRASH:");
-                Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
-                team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
-            }
 
-            Debug.Log("team 2 score:");
-            Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
-            team2[0].GetComponent<fighterAI>().EndEpisode();
-            resetScene();
+                m_ResetTimer += 1;
+                if (m_ResetTimer >= MaxEnvironmentSteps && MaxEnvironmentSteps > 0)
+                {
+                    team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
+                    team2[0].GetComponent<fighterAI>().EpisodeInterrupted();
+                    resetScene();
+                }
+            }
         }
         else
         {
-
-            m_ResetTimer += 1;
-            if (m_ResetTimer >= MaxEnvironmentSteps && MaxEnvironmentSteps > 0)
+            if (teamOneHp <= 0)
             {
-                team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
-                team2[0].GetComponent<fighterAI>().EpisodeInterrupted();
+                Debug.Log("team 2 won");
+                team1[0].GetComponent<fighterAI>().died();//Team 1 died, either shot or collided wall
+
+                Debug.Log("team 1 score:");
+                Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
+                team1[0].GetComponent<fighterAI>().EndEpisode();
+
+                if (team2[0].GetComponent<fighterAI>().hits > 0)
+                {//team1 died due to being shot
+                    team2[0].GetComponent<fighterAI>().killed();
+                    Debug.Log("team 2 score KILLED:");
+                    Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
+                    team2[0].GetComponent<fighterAI>().EndEpisode();
+                }
+                else
+                {
+                    Debug.Log("team 2 score ENEMY CRASH:");
+                    Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
+                    team2[0].GetComponent<fighterAI>().EpisodeInterrupted();//The other agent hit a wall, this agent had nothing to do with it?
+                                                                            //NOTE possibly preventing tactic of running enemy into wall, look into changing this to end episode instead
+                }
+
                 resetScene();
+            }
+            else if (teamTwoHp <= 0)
+            {
+                Debug.Log("team 1 won");
+                team2[0].GetComponent<fighterAI>().died();//Team 2 died, either shot or collided wall
+
+
+                if (team1[0].GetComponent<fighterAI>().hits > 0)
+                {//team2 died due to being shot
+                    team1[0].GetComponent<fighterAI>().killed();
+                    Debug.Log("team 1 score KILLED:");
+                    Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
+                    team1[0].GetComponent<fighterAI>().EndEpisode();
+                }
+                else
+                {
+                    Debug.Log("team 1 score ENEMY CRASH:");
+                    Debug.Log(team1[0].GetComponent<fighterAI>().GetCumulativeReward());
+                    team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
+                }
+
+                Debug.Log("team 2 score:");
+                Debug.Log(team2[0].GetComponent<fighterAI>().GetCumulativeReward());
+                team2[0].GetComponent<fighterAI>().EndEpisode();
+                resetScene();
+            }
+            else
+            {
+
+                m_ResetTimer += 1;
+                if (m_ResetTimer >= MaxEnvironmentSteps && MaxEnvironmentSteps > 0)
+                {
+                    team1[0].GetComponent<fighterAI>().EpisodeInterrupted();
+                    team2[0].GetComponent<fighterAI>().EpisodeInterrupted();
+                    resetScene();
+                }
             }
         }
     }

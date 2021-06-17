@@ -42,6 +42,9 @@ behaviors:
       extrinsic:
         strength: 1.0
         gamma: 0.992
+        network_settings:
+            hidden_units: 512
+            num_layers: 4
         
       # curiosity module
       curiosity:
