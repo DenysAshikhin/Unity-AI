@@ -962,9 +962,17 @@ PrefabInstance:
       propertyPath: TeamId
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6195609060307753325, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_MaxNumObservables
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156755489573624672, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
+      propertyPath: aimBot
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7156755489573624672, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: target
