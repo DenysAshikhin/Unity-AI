@@ -971,6 +971,10 @@ PrefabInstance:
       propertyPath: m_BehaviorType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6195609060307753325, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_MaxNumObservables
       value: 12
@@ -1056,6 +1060,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2852531996764856013, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: DecisionPeriod
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6195609060307753325, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}

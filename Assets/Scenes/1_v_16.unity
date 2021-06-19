@@ -396,6 +396,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5230632963586541776, guid: cfcd2f8f874e087418bc2e68b51e1b94, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800467628004645086, guid: cfcd2f8f874e087418bc2e68b51e1b94, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfcd2f8f874e087418bc2e68b51e1b94, type: 3}
 --- !u!1001 &417118922
