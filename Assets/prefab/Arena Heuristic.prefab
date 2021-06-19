@@ -959,6 +959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2852531996764856013, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
+      propertyPath: DecisionPeriod
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: TeamId
       value: 1
@@ -1049,6 +1053,10 @@ PrefabInstance:
     - target: {fileID: 426134778134371868, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_Name
       value: Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852531996764856013, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
+      propertyPath: DecisionPeriod
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6195609060307753325, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_MaxNumObservables

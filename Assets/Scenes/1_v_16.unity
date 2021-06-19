@@ -198,9 +198,13 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3381520329343085110, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
+      propertyPath: DecisionPeriod
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3892241158693812792, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: DecisionPeriod
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5230632963586541776, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: m_Model
