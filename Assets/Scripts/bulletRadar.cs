@@ -19,6 +19,19 @@ public class bulletRadar
         bullets.Add(bullet);
     }
 
+    public void removeBullet(GameObject bullet)
+    {
+
+        for (int i = 0; bullets.Count > 0; i++)
+        {
+            if (bullets[i] == bullet)
+            {
+                bullets.RemoveAt(i);
+                return;
+            }
+        }
+    }
+
     public void resetAll()
     {
         for (int i = 0; i < bullets.Count; i++)

@@ -60,12 +60,11 @@ public class Projectile : MonoBehaviour
         {
             resetBullet();
         }
-        // else if (col.tag == "FighterRadar")
-        // {
-        // Debug.Log("Left");
-        //     // col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.addBullet(gameObject);
-
-        // }
+        else if (col.tag == "FighterRadar")
+        {
+            // col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.addBullet(gameObject);
+            col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.removeBullet(gameObject);
+        }
         // else
         // {
         //     Destroy(gameObject);

@@ -64,9 +64,10 @@ public class fighterAI : Agent
         {
 
             Transform tempTran = bulletRadar.bullets[i].GetComponent<Transform>();
+            // Debug.Log(tempTran.localPosition);
             Rigidbody2D tempRigid = bulletRadar.bullets[i].GetComponent<Rigidbody2D>();
             //normalized: x, y, velX, velY rotation around Z
-            float[] temp = { tempTran.localPosition.x / xLength, tempTran.localPosition.y / yLength, tempRigid.velocity.x / maxVel, tempRigid.velocity.y / maxVel, ((transform.localEulerAngles.z + 360) % 360f) / 360f };
+            float[] temp = { tempTran.localPosition.x / xLength, tempTran.localPosition.y / yLength, tempRigid.velocity.x / maxVel, tempRigid.velocity.y / maxVel, ((tempTran.localEulerAngles.z + 360) % 360f) / 360f };
             bufferSensor.AppendObservation(temp);
         }
     }
@@ -93,12 +94,6 @@ public class fighterAI : Agent
     {
         if (control != true)
             return;
-
-
-
-
-        // Quaternion q = Quaternion.AngleAxis(angle, transform.up);
-        // transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * rotation_speed);
 
         ActionSegment<int> vectorAction = actionsOut.DiscreteActions;
 
@@ -127,7 +122,6 @@ public class fighterAI : Agent
         {
             float offset = 90f;
             Vector3 vectorToTarget = target.transform.localPosition - transform.localPosition;
-            Quaternion rotation = Quaternion.LookRotation(vectorToTarget);
             float angle = (Mathf.Atan2(vectorToTarget.y, vectorToTarget.x) * Mathf.Rad2Deg) - offset;
 
             float diff = ((angle + 360) % 360) - ((transform.localEulerAngles.z + 360) % 360);
@@ -175,12 +169,10 @@ public class fighterAI : Agent
             else
                 vectorAction[3] = 0;
         }
-
-
     }
 
     public override void OnActionReceived(ActionBuffers actions)
-    { 
+    {
         AddReward((-1f / (float)MaxStep)); // Slowly punishing longer fighting times
 
         ActionSegment<int> vectorAction = actions.DiscreteActions;
@@ -260,8 +252,6 @@ public class fighterAI : Agent
         // randomSpawns();
         // EndEpisode();
     }
-
-
 
     void OnCollisionEnter2D(Collision2D collision)
     {
