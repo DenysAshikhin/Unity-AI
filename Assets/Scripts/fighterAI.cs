@@ -76,7 +76,8 @@ public class fighterAI : Agent
     public override void OnEpisodeBegin()
     {
 
-        bulletRadar.resetAll();
+        if (bulletRadar != null)
+            bulletRadar.resetAll();
         health = 100;
         hits = 0;
 

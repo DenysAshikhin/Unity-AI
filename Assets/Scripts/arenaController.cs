@@ -9,6 +9,7 @@ public class arenaController : MonoBehaviour
     public float xLength = 20.07f / 2f;
     public float yLength = 10f / 2f;
     public bool heuristicTrain = false;
+    public bool team2Reset = true;
 
     public int m_ResetTimer = 0;
     public int MaxEnvironmentSteps = 1000;
@@ -142,7 +143,9 @@ public class arenaController : MonoBehaviour
         randomSpawns();
         m_ResetTimer = 0;
         team1[0].GetComponent<fighterAI>().health = 100;
-        team2[0].GetComponent<fighterAI>().health = 100;
+
+        if (team2Reset)
+            team2[0].GetComponent<fighterAI>().health = 100;
         BulletPool.SharedInstance.resetAll();
     }
 
