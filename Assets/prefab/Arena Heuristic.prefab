@@ -536,7 +536,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 1
+  m_TargetDisplay: 0
   m_TargetEye: 0
   m_HDR: 1
   m_AllowMSAA: 0
@@ -970,11 +970,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2852531996764856013, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: DecisionPeriod
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_Model
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
+      propertyPath: m_BehaviorType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_BrainParameters.NumStackedVectorObservations
@@ -1069,7 +1073,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2852531996764856013, guid: 1f74a3789065d834e812750187a86ca0, type: 3}
       propertyPath: DecisionPeriod
-      value: 1
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4750550599183711275, guid: 1f74a3789065d834e812750187a86ca0, type: 3}
       propertyPath: m_BehaviorType

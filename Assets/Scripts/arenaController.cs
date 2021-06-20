@@ -41,7 +41,9 @@ public class arenaController : MonoBehaviour
             else if (teamTwoHp <= 0)
             {
                 Debug.Log("team 1 won");
+                fighterAI temp = team1[0].GetComponent<fighterAI>();
 
+                Debug.Log(temp.hits);
                 if (team1[0].GetComponent<fighterAI>().hits > 0)
                 {//team2 died due to being shot
                     team1[0].GetComponent<fighterAI>().killed();
@@ -144,8 +146,8 @@ public class arenaController : MonoBehaviour
         m_ResetTimer = 0;
         team1[0].GetComponent<fighterAI>().health = 100;
 
-        if (team2Reset)
-            team2[0].GetComponent<fighterAI>().health = 100;
+        // if (team2Reset)
+        team2[0].GetComponent<fighterAI>().health = 100;
         BulletPool.SharedInstance.resetAll();
     }
 
