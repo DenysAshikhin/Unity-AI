@@ -143,6 +143,7 @@ public class arenaController : MonoBehaviour
         m_ResetTimer = 0;
         team1[0].GetComponent<fighterAI>().health = 100;
         team2[0].GetComponent<fighterAI>().health = 100;
+        BulletPool.SharedInstance.resetAll();
     }
 
     private void randomSpawns()

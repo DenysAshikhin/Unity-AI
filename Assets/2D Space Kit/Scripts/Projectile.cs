@@ -62,6 +62,7 @@ public class Projectile : MonoBehaviour
         }
         else if (col.tag == "FighterRadar")
         {
+
             // col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.addBullet(gameObject);
             col.gameObject.GetComponentInParent<fighterAI>().bulletRadar.removeBullet(gameObject);
         }
