@@ -511,6 +511,14 @@ PrefabInstance:
       propertyPath: m_BehaviorType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5800467628004645086, guid: cfcd2f8f874e087418bc2e68b51e1b94, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7242658458568369770, guid: cfcd2f8f874e087418bc2e68b51e1b94, type: 3}
+      propertyPath: m_BrainParameters.NumStackedVectorObservations
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7650014178069426075, guid: cfcd2f8f874e087418bc2e68b51e1b94, type: 3}
       propertyPath: aimBot
       value: 0

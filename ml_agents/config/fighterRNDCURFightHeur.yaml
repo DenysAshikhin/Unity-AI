@@ -22,11 +22,11 @@ behaviors:
       normalize: false
       hidden_units: 1024
       num_layers: 4
-      #use_recurrent: true
+      use_recurrent: true
       # memory
-      #memory:
-       # sequence_length: 8
-        #memory_size: 512
+      memory:
+        sequence_length: 8
+        memory_size: 512
 
     # Trainer configurations common to all trainers
     max_steps: 500000000

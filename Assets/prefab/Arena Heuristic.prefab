@@ -978,7 +978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4750550599183711275, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_BrainParameters.NumStackedVectorObservations
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6195609060307753325, guid: 8d23cb09279f78c40a223968af6fb6fb, type: 3}
       propertyPath: m_MaxNumObservables
@@ -1077,7 +1077,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4750550599183711275, guid: 1f74a3789065d834e812750187a86ca0, type: 3}
       propertyPath: m_BrainParameters.NumStackedVectorObservations
-      value: 8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7156755489573624672, guid: 1f74a3789065d834e812750187a86ca0, type: 3}
       propertyPath: target
@@ -1093,7 +1093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7156755489573624672, guid: 1f74a3789065d834e812750187a86ca0, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8236865328587129662, guid: 1f74a3789065d834e812750187a86ca0, type: 3}
       propertyPath: m_Enabled
