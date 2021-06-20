@@ -181,7 +181,7 @@ public class fighterAI : Agent
 
     public override void OnActionReceived(ActionBuffers actions)
     { 
-        AddReward((1f / (float)MaxStep)); // Slowly punishing longer fighting times
+        AddReward((-1f / (float)MaxStep)); // Slowly punishing longer fighting times
 
         ActionSegment<int> vectorAction = actions.DiscreteActions;
 

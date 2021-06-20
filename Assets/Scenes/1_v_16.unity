@@ -260,7 +260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7650014178069426075, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: control
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7690705081433489659, guid: 50f4bc847d6aaab4983e6f1e00a01df7, type: 3}
       propertyPath: heuristicTrain
